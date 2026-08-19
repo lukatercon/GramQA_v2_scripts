@@ -1,0 +1,100 @@
+{
+    "item_id": "L4",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 7964,
+    "table": [
+        {
+            "key": "se",
+            "count": 4048,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "jaz",
+            "count": 784,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "on",
+            "count": 2656,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "vame",
+            "count": 30,
+            "example_sent_id": "ssj3.9.36"
+        },
+        {
+            "key": "ti",
+            "count": 292,
+            "example_sent_id": "ssj3.9.38"
+        },
+        {
+            "key": "zame",
+            "count": 70,
+            "example_sent_id": "ssj5.27.86"
+        },
+        {
+            "key": "name",
+            "count": 37,
+            "example_sent_id": "ssj6.35.157"
+        },
+        {
+            "key": "vase",
+            "count": 2,
+            "example_sent_id": "ssj6.35.160"
+        },
+        {
+            "key": "nase",
+            "count": 9,
+            "example_sent_id": "ssj30.182.730"
+        },
+        {
+            "key": "zase",
+            "count": 20,
+            "example_sent_id": "ssj35.206.823"
+        },
+        {
+            "key": "jest",
+            "count": 6,
+            "example_sent_id": "ssj75.471.1766"
+        },
+        {
+            "key": "skozme",
+            "count": 2,
+            "example_sent_id": "ssj201.1354.4886"
+        },
+        {
+            "key": "\u010dezme",
+            "count": 2,
+            "example_sent_id": "ssj206.1389.5040"
+        },
+        {
+            "key": "pome",
+            "count": 2,
+            "example_sent_id": "ssj230.1529.5536"
+        },
+        {
+            "key": "medse",
+            "count": 1,
+            "example_sent_id": "ssj292.1778.6314"
+        },
+        {
+            "key": "teu",
+            "count": 1,
+            "example_sent_id": "ssj370.2122.7550"
+        },
+        {
+            "key": "nadme",
+            "count": 1,
+            "example_sent_id": "ssj413.2300.8112"
+        },
+        {
+            "key": "obme",
+            "count": 1,
+            "example_sent_id": "ssj437.2404.8442"
+        }
+    ]
+}

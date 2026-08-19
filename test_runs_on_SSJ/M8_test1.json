@@ -1,0 +1,25 @@
+{
+    "item_id": "M8",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 25359,
+    "table": [
+        {
+            "key": "1",
+            "count": 3004,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "3",
+            "count": 21212,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "2",
+            "count": 1143,
+            "example_sent_id": "ssj3.9.34"
+        }
+    ]
+}

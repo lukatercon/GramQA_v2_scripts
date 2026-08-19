@@ -1,0 +1,635 @@
+{
+    "item_id": "L9",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 1119,
+    "table": [
+        {
+            "key": "tako da",
+            "count": 118,
+            "example_sent_id": "ssj3.8.28"
+        },
+        {
+            "key": "zato ker",
+            "count": 46,
+            "example_sent_id": "ssj5.27.85"
+        },
+        {
+            "key": "takrat ko",
+            "count": 11,
+            "example_sent_id": "ssj6.33.126"
+        },
+        {
+            "key": "ne da",
+            "count": 32,
+            "example_sent_id": "ssj6.35.154"
+        },
+        {
+            "key": "kot da",
+            "count": 32,
+            "example_sent_id": "ssj6.35.162"
+        },
+        {
+            "key": "medtem ko",
+            "count": 47,
+            "example_sent_id": "ssj9.40.191"
+        },
+        {
+            "key": "P. P. S.",
+            "count": 1,
+            "example_sent_id": "ssj10.41.192"
+        },
+        {
+            "key": "O. K.",
+            "count": 2,
+            "example_sent_id": "ssj10.41.193"
+        },
+        {
+            "key": "ve\u010d kot",
+            "count": 100,
+            "example_sent_id": "ssj12.44.196"
+        },
+        {
+            "key": "\u0161e posebno",
+            "count": 14,
+            "example_sent_id": "ssj15.67.274"
+        },
+        {
+            "key": "pa\u010d pa",
+            "count": 8,
+            "example_sent_id": "ssj18.77.303"
+        },
+        {
+            "key": "potem ko",
+            "count": 40,
+            "example_sent_id": "ssj18.80.309"
+        },
+        {
+            "key": "\u0161e posebej",
+            "count": 31,
+            "example_sent_id": "ssj18.81.311"
+        },
+        {
+            "key": "zato da",
+            "count": 19,
+            "example_sent_id": "ssj18.85.325"
+        },
+        {
+            "key": "t. i.",
+            "count": 17,
+            "example_sent_id": "ssj18.86.331"
+        },
+        {
+            "key": "kdove kak\u0161en",
+            "count": 1,
+            "example_sent_id": "ssj20.89.362"
+        },
+        {
+            "key": "sedaj ko",
+            "count": 2,
+            "example_sent_id": "ssj20.91.380"
+        },
+        {
+            "key": "pa vendar",
+            "count": 10,
+            "example_sent_id": "ssj21.107.457"
+        },
+        {
+            "key": "kakor da",
+            "count": 16,
+            "example_sent_id": "ssj21.107.460"
+        },
+        {
+            "key": "ne le",
+            "count": 21,
+            "example_sent_id": "ssj24.115.484"
+        },
+        {
+            "key": "ampak tudi",
+            "count": 13,
+            "example_sent_id": "ssj24.115.484"
+        },
+        {
+            "key": "namesto da",
+            "count": 6,
+            "example_sent_id": "ssj24.115.489"
+        },
+        {
+            "key": "na primer",
+            "count": 77,
+            "example_sent_id": "ssj24.120.505"
+        },
+        {
+            "key": "ta biti",
+            "count": 4,
+            "example_sent_id": "ssj27.161.656"
+        },
+        {
+            "key": "kot pa da",
+            "count": 2,
+            "example_sent_id": "ssj29.173.703"
+        },
+        {
+            "key": "ne pa",
+            "count": 23,
+            "example_sent_id": "ssj29.178.720"
+        },
+        {
+            "key": "ne samo",
+            "count": 14,
+            "example_sent_id": "ssj30.184.740"
+        },
+        {
+            "key": "zdaj ko",
+            "count": 8,
+            "example_sent_id": "ssj30.186.750"
+        },
+        {
+            "key": "in sicer",
+            "count": 35,
+            "example_sent_id": "ssj34.200.806"
+        },
+        {
+            "key": "in ta",
+            "count": 16,
+            "example_sent_id": "ssj35.206.819"
+        },
+        {
+            "key": "in tako dalje",
+            "count": 4,
+            "example_sent_id": "ssj35.209.850"
+        },
+        {
+            "key": "samo da",
+            "count": 2,
+            "example_sent_id": "ssj36.213.871"
+        },
+        {
+            "key": "kaj \u0161ele",
+            "count": 7,
+            "example_sent_id": "ssj36.214.883"
+        },
+        {
+            "key": "ali ne",
+            "count": 1,
+            "example_sent_id": "ssj36.215.890"
+        },
+        {
+            "key": "glede na",
+            "count": 37,
+            "example_sent_id": "ssj40.241.964"
+        },
+        {
+            "key": "d. o. o.",
+            "count": 7,
+            "example_sent_id": "ssj40.242.968"
+        },
+        {
+            "key": "\u0161ele ko",
+            "count": 5,
+            "example_sent_id": "ssj42.247.987"
+        },
+        {
+            "key": "kateri koli",
+            "count": 7,
+            "example_sent_id": "ssj42.257.1024"
+        },
+        {
+            "key": "se praviti",
+            "count": 7,
+            "example_sent_id": "ssj43.260.1037"
+        },
+        {
+            "key": "tako kot",
+            "count": 16,
+            "example_sent_id": "ssj44.262.1042"
+        },
+        {
+            "key": "\u010de ne",
+            "count": 2,
+            "example_sent_id": "ssj45.271.1086"
+        },
+        {
+            "key": "le da",
+            "count": 12,
+            "example_sent_id": "ssj45.275.1105"
+        },
+        {
+            "key": "predvsem pa",
+            "count": 1,
+            "example_sent_id": "ssj46.285.1144"
+        },
+        {
+            "key": "temve\u010d tudi",
+            "count": 13,
+            "example_sent_id": "ssj46.286.1149"
+        },
+        {
+            "key": "kot pa",
+            "count": 1,
+            "example_sent_id": "ssj46.293.1183"
+        },
+        {
+            "key": "\u0161e preden",
+            "count": 16,
+            "example_sent_id": "ssj47.317.1298"
+        },
+        {
+            "key": "kakr\u0161en koli",
+            "count": 4,
+            "example_sent_id": "ssj53.327.1334"
+        },
+        {
+            "key": "tako imenovan",
+            "count": 23,
+            "example_sent_id": "ssj53.330.1342"
+        },
+        {
+            "key": "kot npr.",
+            "count": 2,
+            "example_sent_id": "ssj58.356.1431"
+        },
+        {
+            "key": "in vendar",
+            "count": 2,
+            "example_sent_id": "ssj59.361.1461"
+        },
+        {
+            "key": "v naprej",
+            "count": 1,
+            "example_sent_id": "ssj65.410.1582"
+        },
+        {
+            "key": "s. p.",
+            "count": 1,
+            "example_sent_id": "ssj66.415.1597"
+        },
+        {
+            "key": "v. d.",
+            "count": 2,
+            "example_sent_id": "ssj69.435.1659"
+        },
+        {
+            "key": "ne glede na",
+            "count": 19,
+            "example_sent_id": "ssj72.454.1715"
+        },
+        {
+            "key": "kljub ta da",
+            "count": 8,
+            "example_sent_id": "ssj73.461.1735"
+        },
+        {
+            "key": "v kolikor",
+            "count": 1,
+            "example_sent_id": "ssj76.495.1852"
+        },
+        {
+            "key": "komaj da",
+            "count": 2,
+            "example_sent_id": "ssj76.495.1855"
+        },
+        {
+            "key": "takoj ko",
+            "count": 2,
+            "example_sent_id": "ssj77.507.1915"
+        },
+        {
+            "key": "marve\u010d tudi",
+            "count": 2,
+            "example_sent_id": "ssj79.516.1950"
+        },
+        {
+            "key": "kdo vedeti kje",
+            "count": 1,
+            "example_sent_id": "ssj80.525.1981"
+        },
+        {
+            "key": "kdo vedeti",
+            "count": 1,
+            "example_sent_id": "ssj80.525.1981"
+        },
+        {
+            "key": "kadar koli",
+            "count": 5,
+            "example_sent_id": "ssj81.532.2021"
+        },
+        {
+            "key": "d. d.",
+            "count": 2,
+            "example_sent_id": "ssj82.540.2062"
+        },
+        {
+            "key": "\u010de\u0161 da",
+            "count": 10,
+            "example_sent_id": "ssj82.541.2063"
+        },
+        {
+            "key": "tako reko\u010d",
+            "count": 9,
+            "example_sent_id": "ssj84.555.2116"
+        },
+        {
+            "key": "hoteti hoteti",
+            "count": 3,
+            "example_sent_id": "ssj91.608.2288"
+        },
+        {
+            "key": "ve\u010d kakor",
+            "count": 2,
+            "example_sent_id": "ssj93.612.2319"
+        },
+        {
+            "key": "kot \u010de",
+            "count": 9,
+            "example_sent_id": "ssj102.660.2530"
+        },
+        {
+            "key": "t. j.",
+            "count": 1,
+            "example_sent_id": "ssj130.820.3079"
+        },
+        {
+            "key": "re\u010di in pisati",
+            "count": 1,
+            "example_sent_id": "ssj133.858.3291"
+        },
+        {
+            "key": "op. p.",
+            "count": 2,
+            "example_sent_id": "ssj133.862.3303"
+        },
+        {
+            "key": "in tako naprej",
+            "count": 5,
+            "example_sent_id": "ssj133.867.3323"
+        },
+        {
+            "key": "na glas",
+            "count": 3,
+            "example_sent_id": "ssj134.878.3368"
+        },
+        {
+            "key": "kakor koli \u017ee",
+            "count": 1,
+            "example_sent_id": "ssj138.884.3394"
+        },
+        {
+            "key": "z ta da",
+            "count": 4,
+            "example_sent_id": "ssj142.925.3533"
+        },
+        {
+            "key": "za ta ker",
+            "count": 1,
+            "example_sent_id": "ssj142.956.3652"
+        },
+        {
+            "key": "l. r.",
+            "count": 2,
+            "example_sent_id": "ssj143.963.3672"
+        },
+        {
+            "key": "po navada",
+            "count": 9,
+            "example_sent_id": "ssj144.968.3688"
+        },
+        {
+            "key": "ne nazadnje",
+            "count": 2,
+            "example_sent_id": "ssj144.1003.3784"
+        },
+        {
+            "key": "manj kot",
+            "count": 6,
+            "example_sent_id": "ssj148.1020.3827"
+        },
+        {
+            "key": "a priori",
+            "count": 1,
+            "example_sent_id": "ssj156.1059.3952"
+        },
+        {
+            "key": "L. R.",
+            "count": 1,
+            "example_sent_id": "ssj170.1158.4237"
+        },
+        {
+            "key": "ne dolgo",
+            "count": 1,
+            "example_sent_id": "ssj172.1180.4306"
+        },
+        {
+            "key": "bog vedeti kako",
+            "count": 1,
+            "example_sent_id": "ssj173.1184.4324"
+        },
+        {
+            "key": "redko kateri",
+            "count": 1,
+            "example_sent_id": "ssj177.1196.4350"
+        },
+        {
+            "key": "kateri se biti",
+            "count": 1,
+            "example_sent_id": "ssj181.1214.4427"
+        },
+        {
+            "key": "kjer koli",
+            "count": 1,
+            "example_sent_id": "ssj193.1277.4618"
+        },
+        {
+            "key": "mar ne",
+            "count": 1,
+            "example_sent_id": "ssj193.1290.4663"
+        },
+        {
+            "key": "kdor koli",
+            "count": 2,
+            "example_sent_id": "ssj193.1295.4681"
+        },
+        {
+            "key": "kdo vedeti kako",
+            "count": 1,
+            "example_sent_id": "ssj194.1311.4731"
+        },
+        {
+            "key": "ad hoc",
+            "count": 1,
+            "example_sent_id": "ssj201.1350.4875"
+        },
+        {
+            "key": "tako kot da",
+            "count": 1,
+            "example_sent_id": "ssj201.1350.4875"
+        },
+        {
+            "key": "ve\u010d ko",
+            "count": 1,
+            "example_sent_id": "ssj201.1354.4890"
+        },
+        {
+            "key": "med drug",
+            "count": 1,
+            "example_sent_id": "ssj212.1401.5089"
+        },
+        {
+            "key": "k. g.",
+            "count": 4,
+            "example_sent_id": "ssj214.1418.5159"
+        },
+        {
+            "key": "et al.",
+            "count": 1,
+            "example_sent_id": "ssj215.1433.5189"
+        },
+        {
+            "key": "t. m.",
+            "count": 1,
+            "example_sent_id": "ssj232.1538.5565"
+        },
+        {
+            "key": "+ -",
+            "count": 1,
+            "example_sent_id": "ssj252.1621.5856"
+        },
+        {
+            "key": "\u010dim dalje",
+            "count": 1,
+            "example_sent_id": "ssj294.1790.6349"
+        },
+        {
+            "key": "z. o. o.",
+            "count": 1,
+            "example_sent_id": "ssj300.1819.6442"
+        },
+        {
+            "key": "redko kdo",
+            "count": 1,
+            "example_sent_id": "ssj315.1884.6706"
+        },
+        {
+            "key": "ne vedeti kak\u0161en",
+            "count": 1,
+            "example_sent_id": "ssj325.1949.6932"
+        },
+        {
+            "key": "na pr.",
+            "count": 1,
+            "example_sent_id": "ssj353.2054.7263"
+        },
+        {
+            "key": "res da",
+            "count": 1,
+            "example_sent_id": "ssj367.2100.7460"
+        },
+        {
+            "key": "a vendar",
+            "count": 2,
+            "example_sent_id": "ssj367.2100.7460"
+        },
+        {
+            "key": "O ti bog",
+            "count": 1,
+            "example_sent_id": "ssj369.2111.7495"
+        },
+        {
+            "key": "ko dab",
+            "count": 1,
+            "example_sent_id": "ssj370.2113.7509"
+        },
+        {
+            "key": "z ta ko",
+            "count": 2,
+            "example_sent_id": "ssj374.2151.7641"
+        },
+        {
+            "key": "ne vedeti kako",
+            "count": 1,
+            "example_sent_id": "ssj392.2226.7874"
+        },
+        {
+            "key": "sicer pa",
+            "count": 1,
+            "example_sent_id": "ssj422.2346.8256"
+        },
+        {
+            "key": "kakor koli",
+            "count": 1,
+            "example_sent_id": "ssj424.2353.8281"
+        },
+        {
+            "key": "kamor koli",
+            "count": 1,
+            "example_sent_id": "ssj430.2379.8363"
+        },
+        {
+            "key": "pr. n. \u0161.",
+            "count": 8,
+            "example_sent_id": "ssj445.2429.8516"
+        },
+        {
+            "key": "pr. n. \u0161t.",
+            "count": 5,
+            "example_sent_id": "ssj446.2439.8566"
+        },
+        {
+            "key": "\u017ee ko",
+            "count": 2,
+            "example_sent_id": "ssj451.2475.8675"
+        },
+        {
+            "key": "per se",
+            "count": 2,
+            "example_sent_id": "ssj453.2494.8768"
+        },
+        {
+            "key": "kar se dati",
+            "count": 2,
+            "example_sent_id": "ssj456.2508.8862"
+        },
+        {
+            "key": "P. S.",
+            "count": 2,
+            "example_sent_id": "ssj465.2533.9000"
+        },
+        {
+            "key": "manj kakor",
+            "count": 1,
+            "example_sent_id": "ssj476.2575.9175"
+        },
+        {
+            "key": "razen da",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.309.sl.131125"
+        },
+        {
+            "key": "de facto",
+            "count": 2,
+            "example_sent_id": "elexiswsd1.712.sl.131530"
+        },
+        {
+            "key": "D. O. O.",
+            "count": 1,
+            "example_sent_id": "ssj488.2618.9327"
+        },
+        {
+            "key": "kdove katerikrat",
+            "count": 1,
+            "example_sent_id": "ssj584.3003.10641"
+        },
+        {
+            "key": "ali pa",
+            "count": 1,
+            "example_sent_id": "ssj598.3081.10914"
+        },
+        {
+            "key": "\u010dim dolgo",
+            "count": 1,
+            "example_sent_id": "ssj607.3146.11189"
+        }
+    ]
+}

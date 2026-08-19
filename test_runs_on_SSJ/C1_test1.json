@@ -1,0 +1,40 @@
+{
+    "item_id": "C1",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 3908,
+    "table": [
+        {
+            "key": "OSV",
+            "count": 333,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "SVO",
+            "count": 2131,
+            "example_sent_id": "ssj3.4.14"
+        },
+        {
+            "key": "OVS",
+            "count": 826,
+            "example_sent_id": "ssj3.7.20"
+        },
+        {
+            "key": "SOV",
+            "count": 427,
+            "example_sent_id": "ssj3.8.27"
+        },
+        {
+            "key": "VSO",
+            "count": 108,
+            "example_sent_id": "ssj3.11.42"
+        },
+        {
+            "key": "VOS",
+            "count": 83,
+            "example_sent_id": "ssj5.23.77"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "item_id": "S7",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 13433,
+    "table": [
+        {
+            "key": "obl",
+            "count": 2334,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "root",
+            "count": 1869,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "nsubj",
+            "count": 4360,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "obj",
+            "count": 668,
+            "example_sent_id": "ssj1.1.5"
+        },
+        {
+            "key": "ccomp",
+            "count": 144,
+            "example_sent_id": "ssj1.1.6"
+        },
+        {
+            "key": "parataxis",
+            "count": 256,
+            "example_sent_id": "ssj2.3.12"
+        },
+        {
+            "key": "cc",
+            "count": 439,
+            "example_sent_id": "ssj2.3.13"
+        },
+        {
+            "key": "advmod",
+            "count": 1474,
+            "example_sent_id": "ssj3.4.15"
+        },
+        {
+            "key": "csubj",
+            "count": 160,
+            "example_sent_id": "ssj3.4.16"
+        },
+        {
+            "key": "advcl",
+            "count": 605,
+            "example_sent_id": "ssj3.9.36"
+        },
+        {
+            "key": "orphan",
+            "count": 48,
+            "example_sent_id": "ssj5.18.63"
+        },
+        {
+            "key": "xcomp",
+            "count": 311,
+            "example_sent_id": "ssj5.28.87"
+        },
+        {
+            "key": "aux",
+            "count": 56,
+            "example_sent_id": "ssj5.30.97"
+        },
+        {
+            "key": "discourse",
+            "count": 102,
+            "example_sent_id": "ssj6.32.105"
+        },
+        {
+            "key": "cop",
+            "count": 120,
+            "example_sent_id": "ssj6.32.109"
+        },
+        {
+            "key": "amod",
+            "count": 133,
+            "example_sent_id": "ssj6.34.135"
+        },
+        {
+            "key": "mark",
+            "count": 75,
+            "example_sent_id": "ssj6.35.173"
+        },
+        {
+            "key": "iobj",
+            "count": 70,
+            "example_sent_id": "ssj12.46.207"
+        },
+        {
+            "key": "nmod",
+            "count": 8,
+            "example_sent_id": "ssj13.53.239"
+        },
+        {
+            "key": "case",
+            "count": 53,
+            "example_sent_id": "ssj21.100.425"
+        },
+        {
+            "key": "nummod",
+            "count": 32,
+            "example_sent_id": "ssj21.104.443"
+        },
+        {
+            "key": "dislocated",
+            "count": 4,
+            "example_sent_id": "ssj21.107.457"
+        },
+        {
+            "key": "vocative",
+            "count": 17,
+            "example_sent_id": "ssj22.110.469"
+        },
+        {
+            "key": "dep",
+            "count": 40,
+            "example_sent_id": "ssj25.121.511"
+        },
+        {
+            "key": "det",
+            "count": 35,
+            "example_sent_id": "ssj29.178.722"
+        },
+        {
+            "key": "expl",
+            "count": 20,
+            "example_sent_id": "ssj42.254.1014"
+        }
+    ]
+}

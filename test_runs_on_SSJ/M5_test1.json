@@ -1,0 +1,35 @@
+{
+    "item_id": "M5",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 45605,
+    "table": [
+        {
+            "key": "Fin",
+            "count": 26807,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Part",
+            "count": 16509,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Inf",
+            "count": 2224,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "Sup",
+            "count": 24,
+            "example_sent_id": "ssj6.34.145"
+        },
+        {
+            "key": "Conv",
+            "count": 41,
+            "example_sent_id": "ssj38.222.903"
+        }
+    ]
+}

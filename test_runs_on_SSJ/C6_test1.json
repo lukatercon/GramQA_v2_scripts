@@ -1,0 +1,575 @@
+{
+    "item_id": "C6",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 24592,
+    "table": [
+        {
+            "key": "VERB",
+            "count": 4576,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "VERB--ccomp",
+            "count": 1013,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "obj--nsubj--VERB",
+            "count": 303,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "nsubj--VERB--xcomp",
+            "count": 511,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "obj--VERB",
+            "count": 2318,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "VERB--obj",
+            "count": 4259,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "nsubj--VERB",
+            "count": 2554,
+            "example_sent_id": "ssj1.1.6"
+        },
+        {
+            "key": "ccomp--VERB",
+            "count": 49,
+            "example_sent_id": "ssj1.1.6"
+        },
+        {
+            "key": "ccomp--VERB--nsubj",
+            "count": 91,
+            "example_sent_id": "ssj1.1.6"
+        },
+        {
+            "key": "nsubj--VERB--ccomp",
+            "count": 499,
+            "example_sent_id": "ssj1.1.7"
+        },
+        {
+            "key": "obj--VERB--xcomp",
+            "count": 57,
+            "example_sent_id": "ssj1.1.8"
+        },
+        {
+            "key": "VERB--iobj",
+            "count": 130,
+            "example_sent_id": "ssj1.1.8"
+        },
+        {
+            "key": "iobj--nsubj--VERB",
+            "count": 45,
+            "example_sent_id": "ssj2.3.12"
+        },
+        {
+            "key": "nsubj--VERB--obj",
+            "count": 1942,
+            "example_sent_id": "ssj3.4.14"
+        },
+        {
+            "key": "VERB--csubj",
+            "count": 321,
+            "example_sent_id": "ssj3.4.16"
+        },
+        {
+            "key": "obj--VERB--nsubj",
+            "count": 783,
+            "example_sent_id": "ssj3.7.20"
+        },
+        {
+            "key": "nsubj--iobj--VERB--obj",
+            "count": 86,
+            "example_sent_id": "ssj3.7.25"
+        },
+        {
+            "key": "nsubj--obj--VERB",
+            "count": 376,
+            "example_sent_id": "ssj3.8.27"
+        },
+        {
+            "key": "VERB--xcomp",
+            "count": 1022,
+            "example_sent_id": "ssj3.9.31"
+        },
+        {
+            "key": "csubj--VERB",
+            "count": 20,
+            "example_sent_id": "ssj3.9.34"
+        },
+        {
+            "key": "VERB--nsubj",
+            "count": 1732,
+            "example_sent_id": "ssj3.10.39"
+        },
+        {
+            "key": "VERB--nsubj--obj",
+            "count": 106,
+            "example_sent_id": "ssj3.11.42"
+        },
+        {
+            "key": "iobj--VERB",
+            "count": 152,
+            "example_sent_id": "ssj4.15.54"
+        },
+        {
+            "key": "nsubj--iobj--VERB--ccomp",
+            "count": 48,
+            "example_sent_id": "ssj5.17.59"
+        },
+        {
+            "key": "VERB--iobj--obj",
+            "count": 44,
+            "example_sent_id": "ssj5.20.68"
+        },
+        {
+            "key": "obj--iobj--VERB",
+            "count": 28,
+            "example_sent_id": "ssj5.20.68"
+        },
+        {
+            "key": "VERB--obj--xcomp",
+            "count": 11,
+            "example_sent_id": "ssj5.20.68"
+        },
+        {
+            "key": "iobj--VERB--ccomp",
+            "count": 112,
+            "example_sent_id": "ssj5.22.75"
+        },
+        {
+            "key": "obj--VERB--nsubj--xcomp",
+            "count": 6,
+            "example_sent_id": "ssj5.22.75"
+        },
+        {
+            "key": "VERB--obj--nsubj",
+            "count": 77,
+            "example_sent_id": "ssj5.23.77"
+        },
+        {
+            "key": "xcomp--VERB--obj",
+            "count": 7,
+            "example_sent_id": "ssj5.25.81"
+        },
+        {
+            "key": "VERB--obj--iobj",
+            "count": 26,
+            "example_sent_id": "ssj5.29.91"
+        },
+        {
+            "key": "iobj--obj--VERB",
+            "count": 50,
+            "example_sent_id": "ssj5.30.95"
+        },
+        {
+            "key": "VERB--nsubj--xcomp",
+            "count": 106,
+            "example_sent_id": "ssj5.30.97"
+        },
+        {
+            "key": "nsubj--VERB--iobj",
+            "count": 43,
+            "example_sent_id": "ssj6.32.114"
+        },
+        {
+            "key": "nsubj--iobj--obj--VERB",
+            "count": 7,
+            "example_sent_id": "ssj6.32.114"
+        },
+        {
+            "key": "VERB--obj--csubj",
+            "count": 17,
+            "example_sent_id": "ssj6.35.159"
+        },
+        {
+            "key": "iobj--VERB--obj",
+            "count": 298,
+            "example_sent_id": "ssj7.37.180"
+        },
+        {
+            "key": "iobj--VERB--nsubj",
+            "count": 72,
+            "example_sent_id": "ssj11.42.194"
+        },
+        {
+            "key": "iobj--VERB--csubj",
+            "count": 9,
+            "example_sent_id": "ssj12.51.233"
+        },
+        {
+            "key": "csubj--iobj--VERB",
+            "count": 2,
+            "example_sent_id": "ssj12.51.234"
+        },
+        {
+            "key": "xcomp--VERB--nsubj",
+            "count": 13,
+            "example_sent_id": "ssj13.55.243"
+        },
+        {
+            "key": "nsubj--iobj--VERB",
+            "count": 59,
+            "example_sent_id": "ssj13.59.249"
+        },
+        {
+            "key": "xcomp--VERB",
+            "count": 41,
+            "example_sent_id": "ssj15.65.267"
+        },
+        {
+            "key": "iobj--nsubj--VERB--obj",
+            "count": 55,
+            "example_sent_id": "ssj15.66.269"
+        },
+        {
+            "key": "obj--VERB--csubj",
+            "count": 37,
+            "example_sent_id": "ssj15.67.272"
+        },
+        {
+            "key": "nsubj--VERB--obj--iobj",
+            "count": 22,
+            "example_sent_id": "ssj18.80.310"
+        },
+        {
+            "key": "ccomp--VERB--obj",
+            "count": 2,
+            "example_sent_id": "ssj18.81.314"
+        },
+        {
+            "key": "obj--nsubj--VERB--xcomp",
+            "count": 9,
+            "example_sent_id": "ssj18.86.331"
+        },
+        {
+            "key": "VERB--nsubj--xcomp--obj",
+            "count": 2,
+            "example_sent_id": "ssj18.86.336"
+        },
+        {
+            "key": "iobj--obj--VERB--nsubj",
+            "count": 12,
+            "example_sent_id": "ssj20.88.349"
+        },
+        {
+            "key": "iobj--nsubj--VERB--ccomp",
+            "count": 24,
+            "example_sent_id": "ssj20.89.363"
+        },
+        {
+            "key": "xcomp--obj--VERB",
+            "count": 1,
+            "example_sent_id": "ssj21.99.422"
+        },
+        {
+            "key": "VERB--iobj--ccomp",
+            "count": 61,
+            "example_sent_id": "ssj22.110.469"
+        },
+        {
+            "key": "nsubj--VERB--iobj--obj",
+            "count": 15,
+            "example_sent_id": "ssj26.127.522"
+        },
+        {
+            "key": "obj--VERB--iobj",
+            "count": 71,
+            "example_sent_id": "ssj29.175.706"
+        },
+        {
+            "key": "iobj--nsubj--VERB--xcomp",
+            "count": 2,
+            "example_sent_id": "ssj29.178.716"
+        },
+        {
+            "key": "obj--iobj--VERB--nsubj",
+            "count": 17,
+            "example_sent_id": "ssj30.182.732"
+        },
+        {
+            "key": "iobj--nsubj--obj--VERB",
+            "count": 6,
+            "example_sent_id": "ssj30.184.740"
+        },
+        {
+            "key": "nsubj--VERB--iobj--ccomp",
+            "count": 30,
+            "example_sent_id": "ssj30.185.747"
+        },
+        {
+            "key": "VERB--iobj--nsubj",
+            "count": 5,
+            "example_sent_id": "ssj31.187.757"
+        },
+        {
+            "key": "obj--VERB--iobj--nsubj",
+            "count": 1,
+            "example_sent_id": "ssj35.206.819"
+        },
+        {
+            "key": "ccomp--iobj--VERB",
+            "count": 4,
+            "example_sent_id": "ssj38.220.899"
+        },
+        {
+            "key": "ccomp--iobj--VERB--nsubj",
+            "count": 4,
+            "example_sent_id": "ssj38.230.927"
+        },
+        {
+            "key": "VERB--xcomp--obj",
+            "count": 7,
+            "example_sent_id": "ssj42.249.995"
+        },
+        {
+            "key": "VERB--ccomp--ccomp",
+            "count": 1,
+            "example_sent_id": "ssj42.252.1011"
+        },
+        {
+            "key": "xcomp--obj--VERB--nsubj",
+            "count": 2,
+            "example_sent_id": "ssj45.274.1096"
+        },
+        {
+            "key": "iobj--VERB--xcomp",
+            "count": 12,
+            "example_sent_id": "ssj45.275.1109"
+        },
+        {
+            "key": "VERB--xcomp--csubj",
+            "count": 5,
+            "example_sent_id": "ssj46.287.1155"
+        },
+        {
+            "key": "iobj--obj--VERB--xcomp",
+            "count": 2,
+            "example_sent_id": "ssj46.298.1205"
+        },
+        {
+            "key": "csubj--VERB--ccomp",
+            "count": 1,
+            "example_sent_id": "ssj53.331.1360"
+        },
+        {
+            "key": "nsubj--obj--VERB--iobj",
+            "count": 11,
+            "example_sent_id": "ssj54.350.1411"
+        },
+        {
+            "key": "obj--nsubj--VERB--iobj",
+            "count": 11,
+            "example_sent_id": "ssj59.358.1445"
+        },
+        {
+            "key": "nsubj--xcomp--VERB--obj",
+            "count": 4,
+            "example_sent_id": "ssj70.440.1683"
+        },
+        {
+            "key": "iobj--VERB--obj--nsubj",
+            "count": 6,
+            "example_sent_id": "ssj75.480.1803"
+        },
+        {
+            "key": "nsubj--VERB--obj--xcomp",
+            "count": 5,
+            "example_sent_id": "ssj76.490.1838"
+        },
+        {
+            "key": "iobj--xcomp--VERB--obj",
+            "count": 1,
+            "example_sent_id": "ssj76.494.1849"
+        },
+        {
+            "key": "obj--xcomp--VERB--nsubj",
+            "count": 2,
+            "example_sent_id": "ssj77.504.1888"
+        },
+        {
+            "key": "obj--VERB--xcomp--csubj",
+            "count": 5,
+            "example_sent_id": "ssj88.588.2213"
+        },
+        {
+            "key": "xcomp--VERB--xcomp",
+            "count": 2,
+            "example_sent_id": "ssj94.620.2364"
+        },
+        {
+            "key": "csubj--obj--VERB--xcomp",
+            "count": 2,
+            "example_sent_id": "ssj95.625.2395"
+        },
+        {
+            "key": "csubj--VERB--obj",
+            "count": 8,
+            "example_sent_id": "ssj95.625.2398"
+        },
+        {
+            "key": "nsubj--obj--VERB--xcomp",
+            "count": 26,
+            "example_sent_id": "ssj98.629.2426"
+        },
+        {
+            "key": "nsubj--xcomp--VERB",
+            "count": 1,
+            "example_sent_id": "ssj114.713.2674"
+        },
+        {
+            "key": "iobj--obj--nsubj--VERB",
+            "count": 3,
+            "example_sent_id": "ssj116.739.2786"
+        },
+        {
+            "key": "VERB--nsubj--ccomp",
+            "count": 4,
+            "example_sent_id": "ssj123.784.2973"
+        },
+        {
+            "key": "ccomp--VERB--iobj",
+            "count": 5,
+            "example_sent_id": "ssj131.837.3201"
+        },
+        {
+            "key": "nsubj--iobj--VERB--xcomp",
+            "count": 5,
+            "example_sent_id": "ssj133.868.3327"
+        },
+        {
+            "key": "VERB--nsubj--iobj",
+            "count": 5,
+            "example_sent_id": "ssj138.884.3394"
+        },
+        {
+            "key": "iobj--VERB--xcomp--csubj",
+            "count": 2,
+            "example_sent_id": "ssj141.906.3473"
+        },
+        {
+            "key": "obj--VERB--xcomp--nsubj",
+            "count": 2,
+            "example_sent_id": "ssj142.929.3556"
+        },
+        {
+            "key": "VERB--xcomp--nsubj",
+            "count": 20,
+            "example_sent_id": "ssj161.1092.4063"
+        },
+        {
+            "key": "iobj--VERB--xcomp--nsubj",
+            "count": 1,
+            "example_sent_id": "ssj164.1130.4160"
+        },
+        {
+            "key": "obj--iobj--nsubj--VERB",
+            "count": 6,
+            "example_sent_id": "ssj168.1144.4216"
+        },
+        {
+            "key": "VERB--iobj--xcomp",
+            "count": 3,
+            "example_sent_id": "ssj203.1361.4929"
+        },
+        {
+            "key": "nsubj--VERB--iobj--xcomp",
+            "count": 1,
+            "example_sent_id": "ssj206.1388.5037"
+        },
+        {
+            "key": "VERB--obj--ccomp",
+            "count": 1,
+            "example_sent_id": "ssj226.1472.5361"
+        },
+        {
+            "key": "obj--VERB--obj",
+            "count": 2,
+            "example_sent_id": "ssj234.1550.5607"
+        },
+        {
+            "key": "iobj--nsubj--VERB--obj--xcomp",
+            "count": 1,
+            "example_sent_id": "ssj256.1645.5919"
+        },
+        {
+            "key": "VERB--obj--xcomp--csubj",
+            "count": 1,
+            "example_sent_id": "ssj280.1737.6159"
+        },
+        {
+            "key": "ccomp--nsubj--VERB",
+            "count": 1,
+            "example_sent_id": "ssj289.1770.6294"
+        },
+        {
+            "key": "xcomp--obj--nsubj--VERB",
+            "count": 1,
+            "example_sent_id": "ssj335.1980.7032"
+        },
+        {
+            "key": "VERB--xcomp--xcomp",
+            "count": 2,
+            "example_sent_id": "ssj352.2050.7248"
+        },
+        {
+            "key": "obj--xcomp--VERB",
+            "count": 1,
+            "example_sent_id": "ssj370.2118.7536"
+        },
+        {
+            "key": "nsubj--iobj--VERB--xcomp--obj",
+            "count": 1,
+            "example_sent_id": "ssj386.2217.7844"
+        },
+        {
+            "key": "obj--VERB--ccomp",
+            "count": 2,
+            "example_sent_id": "ssj414.2311.8140"
+        },
+        {
+            "key": "nsubj--VERB--xcomp--ccomp",
+            "count": 1,
+            "example_sent_id": "ssj456.2510.8878"
+        },
+        {
+            "key": "iobj--VERB--nsubj--ccomp",
+            "count": 1,
+            "example_sent_id": "ssj472.2559.9122"
+        },
+        {
+            "key": "obj--VERB--nsubj--iobj",
+            "count": 1,
+            "example_sent_id": "ssj487.2610.9286"
+        },
+        {
+            "key": "VERB--ccomp--obj",
+            "count": 1,
+            "example_sent_id": "ssj540.2847.10118"
+        },
+        {
+            "key": "csubj--VERB--xcomp",
+            "count": 1,
+            "example_sent_id": "ssj559.2916.10329"
+        },
+        {
+            "key": "nsubj--obj--VERB--ccomp",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.1820.sl.132646"
+        },
+        {
+            "key": "VERB--xcomp--ccomp",
+            "count": 1,
+            "example_sent_id": "ssj570.2939.10432"
+        }
+    ]
+}

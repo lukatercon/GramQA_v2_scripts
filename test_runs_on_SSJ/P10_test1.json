@@ -1,0 +1,80 @@
+{
+    "item_id": "P10",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 10716,
+    "table": [
+        {
+            "key": "ADV",
+            "count": 523,
+            "example_sent_id": "ssj1.1.7"
+        },
+        {
+            "key": "VERB",
+            "count": 6837,
+            "example_sent_id": "ssj1.1.7"
+        },
+        {
+            "key": "ADJ",
+            "count": 2163,
+            "example_sent_id": "ssj3.4.14"
+        },
+        {
+            "key": "NOUN",
+            "count": 732,
+            "example_sent_id": "ssj3.4.15"
+        },
+        {
+            "key": "DET",
+            "count": 180,
+            "example_sent_id": "ssj12.44.196"
+        },
+        {
+            "key": "PRON",
+            "count": 21,
+            "example_sent_id": "ssj12.47.211"
+        },
+        {
+            "key": "NUM",
+            "count": 181,
+            "example_sent_id": "ssj13.56.245"
+        },
+        {
+            "key": "X",
+            "count": 7,
+            "example_sent_id": "ssj20.89.359"
+        },
+        {
+            "key": "PROPN",
+            "count": 59,
+            "example_sent_id": "ssj27.136.548"
+        },
+        {
+            "key": "ADP",
+            "count": 3,
+            "example_sent_id": "ssj42.250.999"
+        },
+        {
+            "key": "SCONJ",
+            "count": 3,
+            "example_sent_id": "ssj77.506.1902"
+        },
+        {
+            "key": "AUX",
+            "count": 2,
+            "example_sent_id": "ssj131.828.3164"
+        },
+        {
+            "key": "PART",
+            "count": 3,
+            "example_sent_id": "ssj212.1401.5091"
+        },
+        {
+            "key": "SYM",
+            "count": 2,
+            "example_sent_id": "elexiswsd1.214.sl.131030"
+        }
+    ]
+}

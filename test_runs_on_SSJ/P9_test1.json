@@ -1,0 +1,300 @@
+{
+    "item_id": "P9",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 11535,
+    "table": [
+        {
+            "key": "['VERB', 'VERB']",
+            "count": 2540,
+            "example_sent_id": "ssj1.1.4"
+        },
+        {
+            "key": "['NOUN', 'NOUN']",
+            "count": 4539,
+            "example_sent_id": "ssj2.2.9"
+        },
+        {
+            "key": "['NOUN', 'VERB']",
+            "count": 269,
+            "example_sent_id": "ssj3.5.18"
+        },
+        {
+            "key": "['ADJ', 'NOUN']",
+            "count": 171,
+            "example_sent_id": "ssj3.7.21"
+        },
+        {
+            "key": "['ADV', 'ADV']",
+            "count": 145,
+            "example_sent_id": "ssj3.10.40"
+        },
+        {
+            "key": "['ADJ', 'ADJ']",
+            "count": 1313,
+            "example_sent_id": "ssj3.11.42"
+        },
+        {
+            "key": "['NOUN', 'PROPN']",
+            "count": 217,
+            "example_sent_id": "ssj4.15.51"
+        },
+        {
+            "key": "['ADJ', 'VERB']",
+            "count": 512,
+            "example_sent_id": "ssj5.20.68"
+        },
+        {
+            "key": "['PART', 'VERB']",
+            "count": 19,
+            "example_sent_id": "ssj5.22.75"
+        },
+        {
+            "key": "['PROPN', 'PROPN']",
+            "count": 811,
+            "example_sent_id": "ssj5.30.97"
+        },
+        {
+            "key": "['NUM', 'NUM']",
+            "count": 420,
+            "example_sent_id": "ssj5.30.98"
+        },
+        {
+            "key": "['ADV', 'NOUN']",
+            "count": 44,
+            "example_sent_id": "ssj6.33.116"
+        },
+        {
+            "key": "['NOUN', 'PART']",
+            "count": 5,
+            "example_sent_id": "ssj6.33.128"
+        },
+        {
+            "key": "['X', 'X']",
+            "count": 39,
+            "example_sent_id": "ssj12.45.202"
+        },
+        {
+            "key": "['VERB', 'X']",
+            "count": 9,
+            "example_sent_id": "ssj12.46.205"
+        },
+        {
+            "key": "['PROPN', 'X']",
+            "count": 32,
+            "example_sent_id": "ssj12.47.212"
+        },
+        {
+            "key": "['NOUN', 'X']",
+            "count": 39,
+            "example_sent_id": "ssj12.47.220"
+        },
+        {
+            "key": "['ADV', 'DET']",
+            "count": 15,
+            "example_sent_id": "ssj12.50.229"
+        },
+        {
+            "key": "['PROPN', 'VERB']",
+            "count": 19,
+            "example_sent_id": "ssj13.57.247"
+        },
+        {
+            "key": "['SCONJ', 'SCONJ']",
+            "count": 1,
+            "example_sent_id": "ssj13.60.250"
+        },
+        {
+            "key": "['NOUN', 'PRON']",
+            "count": 55,
+            "example_sent_id": "ssj18.85.327"
+        },
+        {
+            "key": "['ADJ', 'ADV']",
+            "count": 8,
+            "example_sent_id": "ssj21.107.459"
+        },
+        {
+            "key": "['ADJ', 'X']",
+            "count": 5,
+            "example_sent_id": "ssj27.155.636"
+        },
+        {
+            "key": "['DET', 'NUM']",
+            "count": 15,
+            "example_sent_id": "ssj28.172.699"
+        },
+        {
+            "key": "['ADV', 'PART']",
+            "count": 2,
+            "example_sent_id": "ssj29.178.718"
+        },
+        {
+            "key": "['NOUN', 'NUM']",
+            "count": 28,
+            "example_sent_id": "ssj30.186.750"
+        },
+        {
+            "key": "['ADV', 'VERB']",
+            "count": 16,
+            "example_sent_id": "ssj35.206.819"
+        },
+        {
+            "key": "['ADJ', 'NUM']",
+            "count": 10,
+            "example_sent_id": "ssj35.206.823"
+        },
+        {
+            "key": "['DET', 'DET']",
+            "count": 17,
+            "example_sent_id": "ssj35.207.833"
+        },
+        {
+            "key": "['DET', 'NOUN']",
+            "count": 42,
+            "example_sent_id": "ssj35.207.836"
+        },
+        {
+            "key": "['PART', 'PART']",
+            "count": 3,
+            "example_sent_id": "ssj36.215.891"
+        },
+        {
+            "key": "['PRON', 'VERB']",
+            "count": 8,
+            "example_sent_id": "ssj38.227.917"
+        },
+        {
+            "key": "['ADV', 'PRON']",
+            "count": 4,
+            "example_sent_id": "ssj42.257.1023"
+        },
+        {
+            "key": "['ADJ', 'DET']",
+            "count": 22,
+            "example_sent_id": "ssj42.257.1026"
+        },
+        {
+            "key": "['ADV', 'PROPN']",
+            "count": 5,
+            "example_sent_id": "ssj44.263.1046"
+        },
+        {
+            "key": "['PRON', 'PRON']",
+            "count": 13,
+            "example_sent_id": "ssj46.292.1178"
+        },
+        {
+            "key": "['DET', 'VERB']",
+            "count": 19,
+            "example_sent_id": "ssj53.336.1373"
+        },
+        {
+            "key": "['NUM', 'VERB']",
+            "count": 11,
+            "example_sent_id": "ssj73.464.1747"
+        },
+        {
+            "key": "['ADJ', 'PROPN']",
+            "count": 19,
+            "example_sent_id": "ssj77.504.1889"
+        },
+        {
+            "key": "['CCONJ', 'CCONJ']",
+            "count": 5,
+            "example_sent_id": "ssj86.571.2171"
+        },
+        {
+            "key": "['CCONJ', 'NOUN']",
+            "count": 6,
+            "example_sent_id": "ssj88.582.2198"
+        },
+        {
+            "key": "['DET', 'PRON']",
+            "count": 6,
+            "example_sent_id": "ssj88.586.2208"
+        },
+        {
+            "key": "['ADJ', 'PRON']",
+            "count": 10,
+            "example_sent_id": "ssj92.609.2300"
+        },
+        {
+            "key": "['AUX', 'VERB']",
+            "count": 2,
+            "example_sent_id": "ssj118.765.2896"
+        },
+        {
+            "key": "['CCONJ', 'VERB']",
+            "count": 6,
+            "example_sent_id": "ssj131.825.3114"
+        },
+        {
+            "key": "['ADJ', 'CCONJ']",
+            "count": 2,
+            "example_sent_id": "ssj142.919.3516"
+        },
+        {
+            "key": "['SYM', 'SYM']",
+            "count": 5,
+            "example_sent_id": "ssj142.931.3563"
+        },
+        {
+            "key": "['PRON', 'PROPN']",
+            "count": 5,
+            "example_sent_id": "ssj144.1002.3778"
+        },
+        {
+            "key": "['ADJ', 'PART']",
+            "count": 9,
+            "example_sent_id": "ssj154.1050.3934"
+        },
+        {
+            "key": "['NUM', 'X']",
+            "count": 3,
+            "example_sent_id": "ssj165.1133.4180"
+        },
+        {
+            "key": "['DET', 'X']",
+            "count": 1,
+            "example_sent_id": "ssj226.1490.5423"
+        },
+        {
+            "key": "['NOUN', 'SYM']",
+            "count": 3,
+            "example_sent_id": "ssj226.1495.5438"
+        },
+        {
+            "key": "['ADP', 'NOUN']",
+            "count": 2,
+            "example_sent_id": "ssj301.1827.6471"
+        },
+        {
+            "key": "['ADP', 'ADP']",
+            "count": 4,
+            "example_sent_id": "ssj310.1871.6637"
+        },
+        {
+            "key": "['DET', 'PROPN']",
+            "count": 2,
+            "example_sent_id": "ssj351.2047.7231"
+        },
+        {
+            "key": "['ADJ', 'SYM']",
+            "count": 1,
+            "example_sent_id": "ssj481.2601.9263"
+        },
+        {
+            "key": "['ADJ', 'AUX']",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.763.sl.131581"
+        },
+        {
+            "key": "['DET', 'PART']",
+            "count": 1,
+            "example_sent_id": "ssj516.2730.9745"
+        }
+    ]
+}

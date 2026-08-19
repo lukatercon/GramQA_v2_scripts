@@ -1,0 +1,25 @@
+{
+    "item_id": "C4",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 10994,
+    "table": [
+        {
+            "key": "nominal subject",
+            "count": 4699,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "no overt subject relation",
+            "count": 5982,
+            "example_sent_id": "ssj3.4.15"
+        },
+        {
+            "key": "clausal subject",
+            "count": 313,
+            "example_sent_id": "ssj3.4.16"
+        }
+    ]
+}

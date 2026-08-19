@@ -1,0 +1,30 @@
+{
+    "item_id": "S9",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 13435,
+    "table": [
+        {
+            "key": "4 or more clauses",
+            "count": 4077,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "1 clause",
+            "count": 3128,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "2 clauses",
+            "count": 3559,
+            "example_sent_id": "ssj1.1.4"
+        },
+        {
+            "key": "3 clauses",
+            "count": 2671,
+            "example_sent_id": "ssj1.1.6"
+        }
+    ]
+}

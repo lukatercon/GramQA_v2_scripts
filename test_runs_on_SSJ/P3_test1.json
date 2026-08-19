@@ -1,0 +1,15 @@
+{
+    "item_id": "P3",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 5695,
+    "table": [
+        {
+            "key": "determiner before noun",
+            "count": 5695,
+            "example_sent_id": "ssj1.1.1"
+        }
+    ]
+}

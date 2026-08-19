@@ -1,0 +1,20 @@
+{
+    "item_id": "M9",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 21155,
+    "table": [
+        {
+            "key": "Perf",
+            "count": 10838,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Imp",
+            "count": 10317,
+            "example_sent_id": "ssj1.1.1"
+        }
+    ]
+}

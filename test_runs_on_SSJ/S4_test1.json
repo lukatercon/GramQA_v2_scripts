@@ -1,0 +1,20 @@
+{
+    "item_id": "S4",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 8048,
+    "table": [
+        {
+            "key": "MARKER-CLAUSE_HEAD",
+            "count": 8047,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "CLAUSE_HEAD-MARKER",
+            "count": 1,
+            "example_sent_id": "ssj602.3091.10946"
+        }
+    ]
+}

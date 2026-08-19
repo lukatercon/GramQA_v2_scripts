@@ -1,0 +1,35 @@
+{
+    "item_id": "S1",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 11578,
+    "table": [
+        {
+            "key": "acl",
+            "count": 4235,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "ccomp",
+            "count": 2022,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "xcomp",
+            "count": 1972,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "advcl",
+            "count": 2456,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "csubj",
+            "count": 893,
+            "example_sent_id": "ssj2.3.12"
+        }
+    ]
+}

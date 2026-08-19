@@ -1,0 +1,20 @@
+{
+    "item_id": "P4",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 3402,
+    "table": [
+        {
+            "key": "numeral before noun",
+            "count": 2620,
+            "example_sent_id": "ssj3.10.40"
+        },
+        {
+            "key": "noun before numeral",
+            "count": 782,
+            "example_sent_id": "ssj11.43.195"
+        }
+    ]
+}

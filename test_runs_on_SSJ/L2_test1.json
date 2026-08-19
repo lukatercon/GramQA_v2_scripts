@@ -1,0 +1,15 @@
+{
+    "item_id": "L2",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 12016,
+    "table": [
+        {
+            "key": "biti",
+            "count": 12016,
+            "example_sent_id": "ssj1.1.1"
+        }
+    ]
+}

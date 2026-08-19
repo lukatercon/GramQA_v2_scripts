@@ -1,0 +1,25 @@
+{
+    "item_id": "M10",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 27066,
+    "table": [
+        {
+            "key": "Pos",
+            "count": 25970,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "Sup",
+            "count": 432,
+            "example_sent_id": "ssj2.3.13"
+        },
+        {
+            "key": "Cmp",
+            "count": 664,
+            "example_sent_id": "ssj3.14.46"
+        }
+    ]
+}

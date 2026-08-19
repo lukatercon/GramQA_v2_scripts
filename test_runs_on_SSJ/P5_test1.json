@@ -1,0 +1,20 @@
+{
+    "item_id": "P5",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 18209,
+    "table": [
+        {
+            "key": "noun before nominal modifier",
+            "count": 17893,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "nominal modifier before noun",
+            "count": 316,
+            "example_sent_id": "ssj4.16.56"
+        }
+    ]
+}

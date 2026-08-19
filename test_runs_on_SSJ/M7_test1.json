@@ -1,0 +1,25 @@
+{
+    "item_id": "M7",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 26807,
+    "table": [
+        {
+            "key": "Ind",
+            "count": 24890,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Cnd",
+            "count": 1448,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "Imp",
+            "count": 469,
+            "example_sent_id": "ssj3.9.36"
+        }
+    ]
+}

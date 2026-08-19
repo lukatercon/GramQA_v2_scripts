@@ -1,0 +1,30 @@
+{
+    "item_id": "S5",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 13435,
+    "table": [
+        {
+            "key": "2",
+            "count": 1249,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "0",
+            "count": 6420,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "1",
+            "count": 5549,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "3+ levels",
+            "count": 217,
+            "example_sent_id": "ssj5.17.59"
+        }
+    ]
+}

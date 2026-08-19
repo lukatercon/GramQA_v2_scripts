@@ -1,0 +1,125 @@
+{
+    "item_id": "L10",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 45,
+    "table": [
+        {
+            "key": "opa",
+            "count": 1,
+            "example_sent_id": "ssj6.36.175"
+        },
+        {
+            "key": "oh",
+            "count": 7,
+            "example_sent_id": "ssj21.97.411"
+        },
+        {
+            "key": "ha",
+            "count": 4,
+            "example_sent_id": "ssj31.187.756"
+        },
+        {
+            "key": "aaaa",
+            "count": 1,
+            "example_sent_id": "ssj36.213.871"
+        },
+        {
+            "key": "ih",
+            "count": 1,
+            "example_sent_id": "ssj47.316.1283"
+        },
+        {
+            "key": "ph",
+            "count": 1,
+            "example_sent_id": "ssj75.471.1764"
+        },
+        {
+            "key": "ah",
+            "count": 5,
+            "example_sent_id": "ssj107.681.2581"
+        },
+        {
+            "key": "hej",
+            "count": 2,
+            "example_sent_id": "ssj118.758.2858"
+        },
+        {
+            "key": "hm",
+            "count": 1,
+            "example_sent_id": "ssj131.836.3199"
+        },
+        {
+            "key": "oho",
+            "count": 2,
+            "example_sent_id": "ssj131.838.3206"
+        },
+        {
+            "key": "zbogom",
+            "count": 2,
+            "example_sent_id": "ssj132.841.3229"
+        },
+        {
+            "key": "hvalabogu",
+            "count": 2,
+            "example_sent_id": "ssj139.893.3421"
+        },
+        {
+            "key": "ej",
+            "count": 1,
+            "example_sent_id": "ssj144.996.3759"
+        },
+        {
+            "key": "haha",
+            "count": 1,
+            "example_sent_id": "ssj160.1076.4020"
+        },
+        {
+            "key": "tup",
+            "count": 1,
+            "example_sent_id": "ssj193.1266.4578"
+        },
+        {
+            "key": "jaggghh",
+            "count": 1,
+            "example_sent_id": "ssj193.1266.4581"
+        },
+        {
+            "key": "jebemti",
+            "count": 5,
+            "example_sent_id": "ssj369.2109.7491"
+        },
+        {
+            "key": "aha",
+            "count": 1,
+            "example_sent_id": "ssj377.2168.7698"
+        },
+        {
+            "key": "joj",
+            "count": 2,
+            "example_sent_id": "ssj402.2250.7944"
+        },
+        {
+            "key": "adijo",
+            "count": 1,
+            "example_sent_id": "ssj469.2547.9056"
+        },
+        {
+            "key": "\u017eivijo",
+            "count": 1,
+            "example_sent_id": "ssj477.2578.9186"
+        },
+        {
+            "key": "o",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.1213.sl.132032"
+        },
+        {
+            "key": "jezesna",
+            "count": 1,
+            "example_sent_id": "ssj543.2853.10139"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "item_id": "C7",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 11301,
+    "table": [
+        {
+            "key": "Acc",
+            "count": 8934,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Gen",
+            "count": 1683,
+            "example_sent_id": "ssj1.1.5"
+        },
+        {
+            "key": "Dat",
+            "count": 646,
+            "example_sent_id": "ssj1.1.8"
+        },
+        {
+            "key": "Nom",
+            "count": 36,
+            "example_sent_id": "ssj6.32.114"
+        },
+        {
+            "key": "Ins",
+            "count": 2,
+            "example_sent_id": "ssj267.1687.6031"
+        }
+    ]
+}

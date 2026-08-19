@@ -1,0 +1,25 @@
+{
+    "item_id": "C3",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 11167,
+    "table": [
+        {
+            "key": "OV",
+            "count": 4160,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "VO",
+            "count": 7005,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "OVO",
+            "count": 2,
+            "example_sent_id": "ssj234.1550.5607"
+        }
+    ]
+}

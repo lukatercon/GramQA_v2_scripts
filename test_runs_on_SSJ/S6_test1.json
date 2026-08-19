@@ -1,0 +1,90 @@
+{
+    "item_id": "S6",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 13435,
+    "table": [
+        {
+            "key": "VERB",
+            "count": 9764,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "NOUN",
+            "count": 1440,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "ADJ",
+            "count": 1746,
+            "example_sent_id": "ssj2.2.11"
+        },
+        {
+            "key": "X",
+            "count": 108,
+            "example_sent_id": "ssj4.16.58"
+        },
+        {
+            "key": "PROPN",
+            "count": 142,
+            "example_sent_id": "ssj5.17.62"
+        },
+        {
+            "key": "NUM",
+            "count": 44,
+            "example_sent_id": "ssj5.25.80"
+        },
+        {
+            "key": "PART",
+            "count": 33,
+            "example_sent_id": "ssj6.33.128"
+        },
+        {
+            "key": "PUNCT",
+            "count": 2,
+            "example_sent_id": "ssj6.36.177"
+        },
+        {
+            "key": "PRON",
+            "count": 33,
+            "example_sent_id": "ssj12.47.211"
+        },
+        {
+            "key": "ADV",
+            "count": 39,
+            "example_sent_id": "ssj18.80.310"
+        },
+        {
+            "key": "DET",
+            "count": 71,
+            "example_sent_id": "ssj27.161.658"
+        },
+        {
+            "key": "CCONJ",
+            "count": 2,
+            "example_sent_id": "ssj35.209.850"
+        },
+        {
+            "key": "INTJ",
+            "count": 2,
+            "example_sent_id": "ssj75.471.1764"
+        },
+        {
+            "key": "AUX",
+            "count": 7,
+            "example_sent_id": "ssj203.1361.4927"
+        },
+        {
+            "key": "SYM",
+            "count": 1,
+            "example_sent_id": "ssj226.1505.5480"
+        },
+        {
+            "key": "ADP",
+            "count": 1,
+            "example_sent_id": "ssj476.2571.9161"
+        }
+    ]
+}

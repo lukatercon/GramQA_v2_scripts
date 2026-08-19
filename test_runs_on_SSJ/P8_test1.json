@@ -1,0 +1,1355 @@
+{
+    "item_id": "P8",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 56865,
+    "table": [
+        {
+            "key": "det--HEAD",
+            "count": 3431,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "HEAD--nmod--nmod",
+            "count": 660,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "none",
+            "count": 18118,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "HEAD--nmod",
+            "count": 9690,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "amod--HEAD",
+            "count": 9565,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "amod--amod--HEAD",
+            "count": 1444,
+            "example_sent_id": "ssj1.1.8"
+        },
+        {
+            "key": "HEAD--nmod--acl",
+            "count": 326,
+            "example_sent_id": "ssj2.2.9"
+        },
+        {
+            "key": "HEAD--acl",
+            "count": 1450,
+            "example_sent_id": "ssj2.2.10"
+        },
+        {
+            "key": "amod--HEAD--nmod",
+            "count": 3381,
+            "example_sent_id": "ssj2.2.11"
+        },
+        {
+            "key": "amod--HEAD--acl",
+            "count": 721,
+            "example_sent_id": "ssj3.6.19"
+        },
+        {
+            "key": "amod--HEAD--nmod--acl",
+            "count": 174,
+            "example_sent_id": "ssj3.7.20"
+        },
+        {
+            "key": "det--amod--HEAD",
+            "count": 788,
+            "example_sent_id": "ssj3.7.24"
+        },
+        {
+            "key": "det--HEAD--nmod",
+            "count": 491,
+            "example_sent_id": "ssj3.8.30"
+        },
+        {
+            "key": "HEAD--amod",
+            "count": 175,
+            "example_sent_id": "ssj3.8.30"
+        },
+        {
+            "key": "HEAD--nmod--appos",
+            "count": 166,
+            "example_sent_id": "ssj3.9.31"
+        },
+        {
+            "key": "det--amod--HEAD--acl",
+            "count": 57,
+            "example_sent_id": "ssj3.9.34"
+        },
+        {
+            "key": "amod--HEAD--nmod--appos",
+            "count": 69,
+            "example_sent_id": "ssj3.9.36"
+        },
+        {
+            "key": "det--nummod--HEAD",
+            "count": 53,
+            "example_sent_id": "ssj3.10.40"
+        },
+        {
+            "key": "amod--HEAD--appos",
+            "count": 239,
+            "example_sent_id": "ssj3.10.40"
+        },
+        {
+            "key": "nummod--HEAD",
+            "count": 1292,
+            "example_sent_id": "ssj3.11.42"
+        },
+        {
+            "key": "amod--amod--amod--HEAD",
+            "count": 84,
+            "example_sent_id": "ssj3.12.44"
+        },
+        {
+            "key": "amod--HEAD--amod",
+            "count": 85,
+            "example_sent_id": "ssj3.13.45"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--nmod",
+            "count": 36,
+            "example_sent_id": "ssj4.15.48"
+        },
+        {
+            "key": "amod--amod--HEAD--acl",
+            "count": 141,
+            "example_sent_id": "ssj4.15.51"
+        },
+        {
+            "key": "nmod--HEAD",
+            "count": 132,
+            "example_sent_id": "ssj4.16.56"
+        },
+        {
+            "key": "nmod--HEAD--nmod",
+            "count": 38,
+            "example_sent_id": "ssj4.16.57"
+        },
+        {
+            "key": "det--amod--amod--HEAD--acl",
+            "count": 9,
+            "example_sent_id": "ssj5.20.71"
+        },
+        {
+            "key": "nummod--HEAD--nmod",
+            "count": 492,
+            "example_sent_id": "ssj5.21.74"
+        },
+        {
+            "key": "HEAD--appos",
+            "count": 301,
+            "example_sent_id": "ssj5.22.75"
+        },
+        {
+            "key": "nmod--nummod--HEAD",
+            "count": 30,
+            "example_sent_id": "ssj5.22.75"
+        },
+        {
+            "key": "nummod--amod--HEAD--nmod",
+            "count": 64,
+            "example_sent_id": "ssj5.23.76"
+        },
+        {
+            "key": "nummod--HEAD--nmod--acl",
+            "count": 15,
+            "example_sent_id": "ssj5.23.77"
+        },
+        {
+            "key": "det--amod--HEAD--nmod",
+            "count": 134,
+            "example_sent_id": "ssj5.28.89"
+        },
+        {
+            "key": "det--det--HEAD",
+            "count": 61,
+            "example_sent_id": "ssj5.30.95"
+        },
+        {
+            "key": "nummod--det--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj6.34.149"
+        },
+        {
+            "key": "det--HEAD--acl",
+            "count": 189,
+            "example_sent_id": "ssj6.34.152"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod",
+            "count": 361,
+            "example_sent_id": "ssj6.35.154"
+        },
+        {
+            "key": "amod--HEAD--nmod--nmod",
+            "count": 212,
+            "example_sent_id": "ssj7.37.180"
+        },
+        {
+            "key": "nummod--amod--HEAD",
+            "count": 196,
+            "example_sent_id": "ssj7.38.183"
+        },
+        {
+            "key": "HEAD--nummod",
+            "count": 564,
+            "example_sent_id": "ssj11.43.195"
+        },
+        {
+            "key": "nummod--nmod--amod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj12.44.196"
+        },
+        {
+            "key": "nummod--HEAD--appos",
+            "count": 52,
+            "example_sent_id": "ssj12.45.202"
+        },
+        {
+            "key": "nummod--amod--HEAD--acl",
+            "count": 16,
+            "example_sent_id": "ssj12.45.202"
+        },
+        {
+            "key": "nummod--amod--HEAD--appos",
+            "count": 22,
+            "example_sent_id": "ssj12.47.212"
+        },
+        {
+            "key": "nmod--amod--HEAD",
+            "count": 15,
+            "example_sent_id": "ssj12.49.226"
+        },
+        {
+            "key": "amod--nmod--HEAD--nmod",
+            "count": 7,
+            "example_sent_id": "ssj12.50.229"
+        },
+        {
+            "key": "HEAD--nmod--nmod--acl",
+            "count": 18,
+            "example_sent_id": "ssj12.50.229"
+        },
+        {
+            "key": "amod--HEAD--nummod--acl",
+            "count": 3,
+            "example_sent_id": "ssj12.50.231"
+        },
+        {
+            "key": "amod--amod--HEAD--appos",
+            "count": 52,
+            "example_sent_id": "ssj13.55.242"
+        },
+        {
+            "key": "nummod--HEAD--nmod--nmod",
+            "count": 20,
+            "example_sent_id": "ssj13.55.243"
+        },
+        {
+            "key": "det--amod--amod--HEAD",
+            "count": 84,
+            "example_sent_id": "ssj13.56.245"
+        },
+        {
+            "key": "HEAD--nmod--appos--appos--appos",
+            "count": 1,
+            "example_sent_id": "ssj13.61.255"
+        },
+        {
+            "key": "HEAD--nmod--nummod",
+            "count": 22,
+            "example_sent_id": "ssj13.61.255"
+        },
+        {
+            "key": "HEAD--nmod--amod",
+            "count": 18,
+            "example_sent_id": "ssj14.63.260"
+        },
+        {
+            "key": "amod--HEAD--nmod--nmod--acl",
+            "count": 10,
+            "example_sent_id": "ssj15.64.261"
+        },
+        {
+            "key": "nummod--HEAD--acl",
+            "count": 55,
+            "example_sent_id": "ssj18.80.310"
+        },
+        {
+            "key": "nummod--HEAD--nummod",
+            "count": 65,
+            "example_sent_id": "ssj18.84.320"
+        },
+        {
+            "key": "HEAD--nmod--nmod--nmod",
+            "count": 24,
+            "example_sent_id": "ssj18.86.330"
+        },
+        {
+            "key": "amod--HEAD--nummod",
+            "count": 44,
+            "example_sent_id": "ssj18.86.335"
+        },
+        {
+            "key": "amod--det--HEAD--acl",
+            "count": 1,
+            "example_sent_id": "ssj20.91.383"
+        },
+        {
+            "key": "det--nummod--HEAD--nmod",
+            "count": 17,
+            "example_sent_id": "ssj20.95.408"
+        },
+        {
+            "key": "amod--det--HEAD",
+            "count": 14,
+            "example_sent_id": "ssj21.99.422"
+        },
+        {
+            "key": "HEAD--nmod--appos--appos",
+            "count": 5,
+            "example_sent_id": "ssj24.114.482"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD",
+            "count": 27,
+            "example_sent_id": "ssj27.140.561"
+        },
+        {
+            "key": "det--amod--HEAD--amod",
+            "count": 6,
+            "example_sent_id": "ssj27.143.581"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--amod",
+            "count": 1,
+            "example_sent_id": "ssj27.147.595"
+        },
+        {
+            "key": "HEAD--appos--acl",
+            "count": 9,
+            "example_sent_id": "ssj27.152.631"
+        },
+        {
+            "key": "det--HEAD--nummod--acl",
+            "count": 1,
+            "example_sent_id": "ssj27.160.654"
+        },
+        {
+            "key": "det--HEAD--appos",
+            "count": 45,
+            "example_sent_id": "ssj27.161.657"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--nmod--acl",
+            "count": 2,
+            "example_sent_id": "ssj28.165.666"
+        },
+        {
+            "key": "det--HEAD--nmod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj28.167.671"
+        },
+        {
+            "key": "amod--HEAD--appos--nmod",
+            "count": 5,
+            "example_sent_id": "ssj28.172.695"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--appos",
+            "count": 4,
+            "example_sent_id": "ssj28.172.699"
+        },
+        {
+            "key": "HEAD--nummod--nmod",
+            "count": 4,
+            "example_sent_id": "ssj30.184.743"
+        },
+        {
+            "key": "nummod--HEAD--appos--nmod",
+            "count": 3,
+            "example_sent_id": "ssj30.184.743"
+        },
+        {
+            "key": "det--HEAD--amod",
+            "count": 13,
+            "example_sent_id": "ssj30.186.750"
+        },
+        {
+            "key": "det--det--amod--HEAD",
+            "count": 7,
+            "example_sent_id": "ssj32.192.779"
+        },
+        {
+            "key": "det--amod--HEAD--nmod--acl",
+            "count": 11,
+            "example_sent_id": "ssj33.193.789"
+        },
+        {
+            "key": "amod--nmod--HEAD",
+            "count": 14,
+            "example_sent_id": "ssj35.203.812"
+        },
+        {
+            "key": "det--nmod--HEAD",
+            "count": 9,
+            "example_sent_id": "ssj35.203.813"
+        },
+        {
+            "key": "nmod--nummod--HEAD--acl",
+            "count": 2,
+            "example_sent_id": "ssj35.205.818"
+        },
+        {
+            "key": "HEAD--nummod--appos",
+            "count": 12,
+            "example_sent_id": "ssj35.207.826"
+        },
+        {
+            "key": "det--amod--amod--amod--HEAD",
+            "count": 3,
+            "example_sent_id": "ssj35.208.845"
+        },
+        {
+            "key": "nummod--HEAD--amod",
+            "count": 10,
+            "example_sent_id": "ssj36.212.862"
+        },
+        {
+            "key": "amod--nummod--HEAD",
+            "count": 57,
+            "example_sent_id": "ssj36.213.873"
+        },
+        {
+            "key": "nmod--HEAD--nmod--acl",
+            "count": 2,
+            "example_sent_id": "ssj36.213.874"
+        },
+        {
+            "key": "HEAD--nmod--nummod--appos",
+            "count": 2,
+            "example_sent_id": "ssj37.218.896"
+        },
+        {
+            "key": "det--HEAD--nmod--amod",
+            "count": 1,
+            "example_sent_id": "ssj38.225.908"
+        },
+        {
+            "key": "det--det--HEAD--nmod",
+            "count": 11,
+            "example_sent_id": "ssj38.233.937"
+        },
+        {
+            "key": "det--amod--amod--HEAD--nmod",
+            "count": 12,
+            "example_sent_id": "ssj40.241.965"
+        },
+        {
+            "key": "amod--amod--nummod--HEAD",
+            "count": 2,
+            "example_sent_id": "ssj40.244.974"
+        },
+        {
+            "key": "amod--HEAD--nmod--nummod",
+            "count": 11,
+            "example_sent_id": "ssj42.247.987"
+        },
+        {
+            "key": "det--nummod--amod--HEAD--appos",
+            "count": 1,
+            "example_sent_id": "ssj42.250.998"
+        },
+        {
+            "key": "HEAD--appos--nmod",
+            "count": 7,
+            "example_sent_id": "ssj45.271.1081"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--acl",
+            "count": 30,
+            "example_sent_id": "ssj46.286.1145"
+        },
+        {
+            "key": "amod--HEAD--nmod--amod",
+            "count": 11,
+            "example_sent_id": "ssj46.294.1188"
+        },
+        {
+            "key": "det--amod--amod--HEAD--appos",
+            "count": 10,
+            "example_sent_id": "ssj46.298.1203"
+        },
+        {
+            "key": "amod--HEAD--nmod--nmod--nmod",
+            "count": 11,
+            "example_sent_id": "ssj47.313.1269"
+        },
+        {
+            "key": "det--HEAD--nmod--appos",
+            "count": 7,
+            "example_sent_id": "ssj47.316.1284"
+        },
+        {
+            "key": "det--HEAD--nmod--acl--appos",
+            "count": 1,
+            "example_sent_id": "ssj47.317.1298"
+        },
+        {
+            "key": "det--HEAD--nmod--acl",
+            "count": 34,
+            "example_sent_id": "ssj53.327.1332"
+        },
+        {
+            "key": "HEAD--acl--amod",
+            "count": 1,
+            "example_sent_id": "ssj53.327.1334"
+        },
+        {
+            "key": "det--nummod--HEAD--acl",
+            "count": 4,
+            "example_sent_id": "ssj53.331.1349"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--acl",
+            "count": 14,
+            "example_sent_id": "ssj54.341.1387"
+        },
+        {
+            "key": "det--nummod--amod--HEAD",
+            "count": 6,
+            "example_sent_id": "ssj54.348.1406"
+        },
+        {
+            "key": "det--amod--HEAD--appos--acl",
+            "count": 4,
+            "example_sent_id": "ssj54.350.1409"
+        },
+        {
+            "key": "amod--nummod--amod--HEAD",
+            "count": 4,
+            "example_sent_id": "ssj55.352.1420"
+        },
+        {
+            "key": "det--amod--amod--HEAD--nmod--appos",
+            "count": 2,
+            "example_sent_id": "ssj59.361.1452"
+        },
+        {
+            "key": "amod--HEAD--appos--appos",
+            "count": 5,
+            "example_sent_id": "ssj61.373.1495"
+        },
+        {
+            "key": "amod--HEAD--appos--acl",
+            "count": 11,
+            "example_sent_id": "ssj63.387.1533"
+        },
+        {
+            "key": "nmod--nummod--HEAD--nmod",
+            "count": 14,
+            "example_sent_id": "ssj63.388.1535"
+        },
+        {
+            "key": "det--amod--HEAD--nmod--nmod",
+            "count": 2,
+            "example_sent_id": "ssj63.394.1557"
+        },
+        {
+            "key": "nummod--HEAD--nmod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj64.398.1563"
+        },
+        {
+            "key": "HEAD--appos--appos",
+            "count": 6,
+            "example_sent_id": "ssj64.399.1564"
+        },
+        {
+            "key": "nummod--amod--HEAD--nmod--nmod",
+            "count": 3,
+            "example_sent_id": "ssj65.410.1583"
+        },
+        {
+            "key": "HEAD--nummod--acl",
+            "count": 17,
+            "example_sent_id": "ssj65.410.1584"
+        },
+        {
+            "key": "det--HEAD--nmod--nmod",
+            "count": 8,
+            "example_sent_id": "ssj65.410.1584"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--nmod",
+            "count": 17,
+            "example_sent_id": "ssj66.414.1592"
+        },
+        {
+            "key": "amod--HEAD--nmod--nmod--appos",
+            "count": 3,
+            "example_sent_id": "ssj66.417.1602"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--appos",
+            "count": 7,
+            "example_sent_id": "ssj66.418.1604"
+        },
+        {
+            "key": "nummod--nummod--HEAD",
+            "count": 2,
+            "example_sent_id": "ssj69.430.1639"
+        },
+        {
+            "key": "HEAD--amod--nmod",
+            "count": 5,
+            "example_sent_id": "ssj69.433.1650"
+        },
+        {
+            "key": "HEAD--amod--acl",
+            "count": 8,
+            "example_sent_id": "ssj71.450.1710"
+        },
+        {
+            "key": "amod--det--amod--HEAD--acl",
+            "count": 1,
+            "example_sent_id": "ssj73.460.1731"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--nmod",
+            "count": 11,
+            "example_sent_id": "ssj74.469.1758"
+        },
+        {
+            "key": "amod--nummod--HEAD--nmod",
+            "count": 12,
+            "example_sent_id": "ssj77.503.1886"
+        },
+        {
+            "key": "nummod--HEAD--acl--appos",
+            "count": 1,
+            "example_sent_id": "ssj83.547.2083"
+        },
+        {
+            "key": "HEAD--nmod--appos--nmod",
+            "count": 3,
+            "example_sent_id": "ssj84.553.2098"
+        },
+        {
+            "key": "amod--HEAD--nummod--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj84.553.2100"
+        },
+        {
+            "key": "amod--nummod--HEAD--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj84.554.2104"
+        },
+        {
+            "key": "amod--HEAD--nmod--appos--acl",
+            "count": 1,
+            "example_sent_id": "ssj86.569.2161"
+        },
+        {
+            "key": "amod--amod--HEAD--nummod",
+            "count": 4,
+            "example_sent_id": "ssj86.570.2165"
+        },
+        {
+            "key": "amod--amod--HEAD--amod",
+            "count": 12,
+            "example_sent_id": "ssj86.570.2165"
+        },
+        {
+            "key": "amod--HEAD--acl--nmod",
+            "count": 1,
+            "example_sent_id": "ssj86.573.2181"
+        },
+        {
+            "key": "amod--nummod--HEAD--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj90.592.2232"
+        },
+        {
+            "key": "amod--HEAD--acl--appos",
+            "count": 4,
+            "example_sent_id": "ssj90.596.2255"
+        },
+        {
+            "key": "det--amod--det--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj91.600.2261"
+        },
+        {
+            "key": "det--amod--HEAD--appos",
+            "count": 22,
+            "example_sent_id": "ssj100.640.2462"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--nmod--appos",
+            "count": 1,
+            "example_sent_id": "ssj106.676.2564"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--appos",
+            "count": 2,
+            "example_sent_id": "ssj106.676.2564"
+        },
+        {
+            "key": "HEAD--nmod--nmod--nmod--nmod",
+            "count": 3,
+            "example_sent_id": "ssj107.678.2571"
+        },
+        {
+            "key": "HEAD--nmod--nmod--appos",
+            "count": 11,
+            "example_sent_id": "ssj111.695.2621"
+        },
+        {
+            "key": "nummod--HEAD--nmod--appos",
+            "count": 14,
+            "example_sent_id": "ssj111.698.2629"
+        },
+        {
+            "key": "nummod--nmod--nummod--HEAD",
+            "count": 2,
+            "example_sent_id": "ssj111.698.2630"
+        },
+        {
+            "key": "acl--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj116.728.2737"
+        },
+        {
+            "key": "amod--nummod--HEAD--acl",
+            "count": 2,
+            "example_sent_id": "ssj116.731.2756"
+        },
+        {
+            "key": "HEAD--amod--amod",
+            "count": 1,
+            "example_sent_id": "ssj119.770.2915"
+        },
+        {
+            "key": "nummod--HEAD--nummod--acl",
+            "count": 1,
+            "example_sent_id": "ssj119.772.2918"
+        },
+        {
+            "key": "nmod--amod--amod--HEAD",
+            "count": 2,
+            "example_sent_id": "ssj121.780.2957"
+        },
+        {
+            "key": "det--nummod--det--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj124.789.2991"
+        },
+        {
+            "key": "det--nummod--HEAD--nmod--nmod",
+            "count": 2,
+            "example_sent_id": "ssj125.793.3008"
+        },
+        {
+            "key": "nummod--HEAD--nmod--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj129.814.3067"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--appos--amod--acl",
+            "count": 1,
+            "example_sent_id": "ssj130.821.3085"
+        },
+        {
+            "key": "det--amod--amod--HEAD--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj130.824.3105"
+        },
+        {
+            "key": "HEAD--acl--appos",
+            "count": 15,
+            "example_sent_id": "ssj131.829.3171"
+        },
+        {
+            "key": "det--det--HEAD--acl",
+            "count": 7,
+            "example_sent_id": "ssj131.839.3213"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--nmod--acl",
+            "count": 5,
+            "example_sent_id": "ssj142.921.3521"
+        },
+        {
+            "key": "HEAD--nummod--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj142.938.3589"
+        },
+        {
+            "key": "amod--HEAD--appos--nummod",
+            "count": 1,
+            "example_sent_id": "ssj144.1003.3781"
+        },
+        {
+            "key": "nummod--amod--HEAD--nmod--appos",
+            "count": 2,
+            "example_sent_id": "ssj148.1019.3823"
+        },
+        {
+            "key": "det--amod--HEAD--nmod--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj151.1028.3846"
+        },
+        {
+            "key": "det--det--amod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj152.1038.3888"
+        },
+        {
+            "key": "HEAD--acl--acl",
+            "count": 10,
+            "example_sent_id": "ssj156.1062.3964"
+        },
+        {
+            "key": "amod--nmod--HEAD--acl",
+            "count": 3,
+            "example_sent_id": "ssj157.1071.3994"
+        },
+        {
+            "key": "amod--nmod--HEAD--appos",
+            "count": 3,
+            "example_sent_id": "ssj159.1074.4013"
+        },
+        {
+            "key": "amod--HEAD--amod--nmod",
+            "count": 3,
+            "example_sent_id": "ssj162.1116.4119"
+        },
+        {
+            "key": "HEAD--appos--nummod",
+            "count": 1,
+            "example_sent_id": "ssj165.1134.4186"
+        },
+        {
+            "key": "amod--amod--amod--amod--HEAD--nmod",
+            "count": 2,
+            "example_sent_id": "ssj166.1142.4212"
+        },
+        {
+            "key": "nmod--HEAD--appos",
+            "count": 2,
+            "example_sent_id": "ssj169.1152.4229"
+        },
+        {
+            "key": "nmod--amod--HEAD--nmod",
+            "count": 3,
+            "example_sent_id": "ssj172.1179.4302"
+        },
+        {
+            "key": "det--HEAD--nummod",
+            "count": 2,
+            "example_sent_id": "ssj172.1181.4311"
+        },
+        {
+            "key": "nmod--HEAD--nmod--appos",
+            "count": 2,
+            "example_sent_id": "ssj177.1193.4341"
+        },
+        {
+            "key": "det--amod--HEAD--acl--appos",
+            "count": 1,
+            "example_sent_id": "ssj177.1196.4356"
+        },
+        {
+            "key": "amod--HEAD--amod--appos",
+            "count": 1,
+            "example_sent_id": "ssj178.1200.4382"
+        },
+        {
+            "key": "amod--nummod--HEAD--nmod--appos--nmod",
+            "count": 1,
+            "example_sent_id": "ssj192.1260.4566"
+        },
+        {
+            "key": "amod--amod--amod--amod--HEAD",
+            "count": 3,
+            "example_sent_id": "ssj193.1276.4614"
+        },
+        {
+            "key": "HEAD--nummod--nmod--nummod--acl",
+            "count": 1,
+            "example_sent_id": "ssj195.1318.4755"
+        },
+        {
+            "key": "HEAD--nummod--nmod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj195.1319.4761"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--nmod--appos",
+            "count": 1,
+            "example_sent_id": "ssj206.1381.5011"
+        },
+        {
+            "key": "det--nmod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj206.1382.5012"
+        },
+        {
+            "key": "det--HEAD--acl--appos",
+            "count": 5,
+            "example_sent_id": "ssj206.1384.5016"
+        },
+        {
+            "key": "amod--HEAD--nmod--acl--appos",
+            "count": 1,
+            "example_sent_id": "ssj206.1387.5034"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--nmod--acl",
+            "count": 2,
+            "example_sent_id": "ssj209.1397.5068"
+        },
+        {
+            "key": "det--nmod--nmod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj212.1404.5102"
+        },
+        {
+            "key": "nummod--det--HEAD--nmod",
+            "count": 1,
+            "example_sent_id": "ssj213.1411.5121"
+        },
+        {
+            "key": "HEAD--nmod--appos--acl",
+            "count": 3,
+            "example_sent_id": "ssj213.1412.5126"
+        },
+        {
+            "key": "amod--HEAD--nummod--nmod",
+            "count": 4,
+            "example_sent_id": "ssj214.1417.5150"
+        },
+        {
+            "key": "amod--HEAD--amod--acl",
+            "count": 3,
+            "example_sent_id": "ssj217.1442.5227"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--acl",
+            "count": 2,
+            "example_sent_id": "ssj221.1453.5271"
+        },
+        {
+            "key": "HEAD--appos--amod",
+            "count": 1,
+            "example_sent_id": "ssj226.1489.5416"
+        },
+        {
+            "key": "amod--nummod--amod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj226.1504.5477"
+        },
+        {
+            "key": "HEAD--nmod--nmod--amod",
+            "count": 1,
+            "example_sent_id": "ssj228.1518.5510"
+        },
+        {
+            "key": "HEAD--amod--nmod--amod",
+            "count": 1,
+            "example_sent_id": "ssj228.1521.5516"
+        },
+        {
+            "key": "amod--HEAD--acl--acl",
+            "count": 1,
+            "example_sent_id": "ssj234.1553.5618"
+        },
+        {
+            "key": "nummod--det--amod--HEAD--nmod",
+            "count": 1,
+            "example_sent_id": "ssj237.1563.5654"
+        },
+        {
+            "key": "HEAD--nmod--appos--nummod",
+            "count": 1,
+            "example_sent_id": "ssj239.1576.5704"
+        },
+        {
+            "key": "nmod--HEAD--acl",
+            "count": 8,
+            "example_sent_id": "ssj243.1587.5750"
+        },
+        {
+            "key": "det--HEAD--nmod--nmod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj247.1598.5792"
+        },
+        {
+            "key": "HEAD--nmod--acl--acl",
+            "count": 2,
+            "example_sent_id": "ssj247.1598.5793"
+        },
+        {
+            "key": "det--nummod--amod--HEAD--nmod",
+            "count": 1,
+            "example_sent_id": "ssj247.1598.5802"
+        },
+        {
+            "key": "nummod--amod--nmod--HEAD--appos",
+            "count": 2,
+            "example_sent_id": "ssj249.1600.5811"
+        },
+        {
+            "key": "nmod--nmod--HEAD",
+            "count": 3,
+            "example_sent_id": "ssj251.1609.5838"
+        },
+        {
+            "key": "HEAD--nmod--acl--appos--acl",
+            "count": 1,
+            "example_sent_id": "ssj252.1625.5864"
+        },
+        {
+            "key": "amod--HEAD--nmod--appos--appos",
+            "count": 1,
+            "example_sent_id": "ssj260.1661.5970"
+        },
+        {
+            "key": "nmod--det--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj269.1702.6065"
+        },
+        {
+            "key": "nmod--nummod--HEAD--appos",
+            "count": 1,
+            "example_sent_id": "ssj277.1717.6101"
+        },
+        {
+            "key": "amod--nummod--HEAD--appos",
+            "count": 1,
+            "example_sent_id": "ssj278.1726.6119"
+        },
+        {
+            "key": "nmod--amod--HEAD--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj295.1801.6382"
+        },
+        {
+            "key": "amod--amod--HEAD--amod--acl",
+            "count": 1,
+            "example_sent_id": "ssj295.1803.6386"
+        },
+        {
+            "key": "det--amod--HEAD--nmod--appos",
+            "count": 3,
+            "example_sent_id": "ssj295.1804.6389"
+        },
+        {
+            "key": "amod--nmod--nummod--HEAD--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj296.1806.6394"
+        },
+        {
+            "key": "amod--amod--HEAD--acl--appos",
+            "count": 1,
+            "example_sent_id": "ssj296.1806.6396"
+        },
+        {
+            "key": "det--nummod--amod--amod--HEAD--nmod--appos",
+            "count": 1,
+            "example_sent_id": "ssj299.1812.6414"
+        },
+        {
+            "key": "nummod--det--HEAD",
+            "count": 2,
+            "example_sent_id": "ssj300.1817.6437"
+        },
+        {
+            "key": "nmod--nummod--amod--HEAD--nmod",
+            "count": 1,
+            "example_sent_id": "ssj312.1876.6656"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj312.1877.6687"
+        },
+        {
+            "key": "HEAD--nmod--nmod--appos--nmod",
+            "count": 1,
+            "example_sent_id": "ssj319.1901.6784"
+        },
+        {
+            "key": "nmod--HEAD--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj322.1911.6824"
+        },
+        {
+            "key": "HEAD--nmod--nmod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj341.1991.7072"
+        },
+        {
+            "key": "amod--det--HEAD--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj345.2015.7155"
+        },
+        {
+            "key": "nmod--det--nummod--HEAD--nmod",
+            "count": 1,
+            "example_sent_id": "ssj356.2062.7297"
+        },
+        {
+            "key": "nmod--det--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj358.2069.7326"
+        },
+        {
+            "key": "amod--det--HEAD--nmod",
+            "count": 1,
+            "example_sent_id": "ssj364.2085.7393"
+        },
+        {
+            "key": "det--det--HEAD--appos",
+            "count": 1,
+            "example_sent_id": "ssj369.2111.7498"
+        },
+        {
+            "key": "det--nmod--HEAD--amod",
+            "count": 1,
+            "example_sent_id": "ssj370.2112.7506"
+        },
+        {
+            "key": "nummod--det--HEAD--acl",
+            "count": 1,
+            "example_sent_id": "ssj370.2124.7555"
+        },
+        {
+            "key": "nmod--HEAD--appos--appos",
+            "count": 1,
+            "example_sent_id": "ssj370.2127.7569"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--nmod--nummod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj391.2225.7872"
+        },
+        {
+            "key": "nmod--amod--HEAD--appos",
+            "count": 1,
+            "example_sent_id": "ssj412.2284.8050"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "ssj417.2322.8184"
+        },
+        {
+            "key": "det--amod--amod--amod--HEAD--acl",
+            "count": 1,
+            "example_sent_id": "ssj417.2328.8204"
+        },
+        {
+            "key": "HEAD--amod--appos",
+            "count": 2,
+            "example_sent_id": "ssj420.2338.8232"
+        },
+        {
+            "key": "HEAD--nmod--nmod--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj425.2363.8305"
+        },
+        {
+            "key": "det--HEAD--appos--appos",
+            "count": 1,
+            "example_sent_id": "ssj433.2384.8373"
+        },
+        {
+            "key": "amod--HEAD--nmod--nummod--acl",
+            "count": 2,
+            "example_sent_id": "ssj445.2428.8514"
+        },
+        {
+            "key": "amod--amod--HEAD--appos--amod",
+            "count": 1,
+            "example_sent_id": "ssj445.2429.8516"
+        },
+        {
+            "key": "HEAD--nmod--nummod--acl",
+            "count": 1,
+            "example_sent_id": "ssj445.2430.8525"
+        },
+        {
+            "key": "amod--amod--HEAD--nummod--amod",
+            "count": 1,
+            "example_sent_id": "ssj446.2435.8544"
+        },
+        {
+            "key": "det--amod--nmod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj459.2521.8947"
+        },
+        {
+            "key": "nummod--det--amod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj464.2530.8989"
+        },
+        {
+            "key": "nummod--HEAD--nummod--nmod",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.188.sl.131004"
+        },
+        {
+            "key": "det--HEAD--nmod--nmod--nmod",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.464.sl.131281"
+        },
+        {
+            "key": "amod--amod--HEAD--appos--acl",
+            "count": 3,
+            "example_sent_id": "elexiswsd1.476.sl.131293"
+        },
+        {
+            "key": "amod--nmod--HEAD--amod",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.521.sl.131338"
+        },
+        {
+            "key": "amod--amod--HEAD--appos--appos",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.675.sl.131493"
+        },
+        {
+            "key": "nummod--amod--HEAD--acl--appos",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.697.sl.131515"
+        },
+        {
+            "key": "amod--nummod--amod--HEAD--nmod--appos",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.787.sl.131605"
+        },
+        {
+            "key": "nummod--amod--HEAD--nmod--nmod--appos",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.885.sl.131704"
+        },
+        {
+            "key": "nummod--HEAD--nummod--appos",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.988.sl.131807"
+        },
+        {
+            "key": "nummod--amod--HEAD--appos--acl",
+            "count": 3,
+            "example_sent_id": "elexiswsd1.1035.sl.131854"
+        },
+        {
+            "key": "amod--amod--nmod--HEAD",
+            "count": 2,
+            "example_sent_id": "elexiswsd1.1103.sl.131922"
+        },
+        {
+            "key": "amod--HEAD--nmod--nmod--nmod--acl",
+            "count": 3,
+            "example_sent_id": "elexiswsd1.1351.sl.132172"
+        },
+        {
+            "key": "nummod--amod--amod--HEAD--acl--appos",
+            "count": 1,
+            "example_sent_id": "elexiswsd1.1550.sl.132375"
+        },
+        {
+            "key": "det--HEAD--appos--acl",
+            "count": 1,
+            "example_sent_id": "ssj489.2624.9340"
+        },
+        {
+            "key": "HEAD--nummod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj490.2627.9364"
+        },
+        {
+            "key": "nummod--nmod--HEAD--acl",
+            "count": 1,
+            "example_sent_id": "ssj503.2668.9536"
+        },
+        {
+            "key": "nummod--det--amod--HEAD--acl",
+            "count": 1,
+            "example_sent_id": "ssj526.2767.9851"
+        },
+        {
+            "key": "amod--amod--HEAD--nmod--nummod",
+            "count": 1,
+            "example_sent_id": "ssj539.2845.10115"
+        },
+        {
+            "key": "nummod--amod--HEAD--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj550.2881.10220"
+        },
+        {
+            "key": "nmod--HEAD--nummod",
+            "count": 1,
+            "example_sent_id": "ssj550.2885.10235"
+        },
+        {
+            "key": "HEAD--nmod--amod--acl",
+            "count": 1,
+            "example_sent_id": "ssj559.2912.10311"
+        },
+        {
+            "key": "det--amod--HEAD--nmod--amod",
+            "count": 1,
+            "example_sent_id": "ssj572.2948.10474"
+        },
+        {
+            "key": "amod--det--HEAD--nmod--appos",
+            "count": 1,
+            "example_sent_id": "ssj590.3033.10742"
+        },
+        {
+            "key": "nmod--HEAD--nummod--nmod--appos",
+            "count": 1,
+            "example_sent_id": "ssj590.3033.10742"
+        },
+        {
+            "key": "HEAD--appos--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj596.3063.10845"
+        },
+        {
+            "key": "amod--amod--amod--HEAD--nmod--amod",
+            "count": 1,
+            "example_sent_id": "ssj598.3077.10893"
+        },
+        {
+            "key": "nummod--amod--amod--amod--HEAD--nmod--acl",
+            "count": 1,
+            "example_sent_id": "ssj598.3082.10916"
+        },
+        {
+            "key": "det--amod--amod--amod--amod--HEAD",
+            "count": 1,
+            "example_sent_id": "ssj607.3126.11107"
+        },
+        {
+            "key": "det--nummod--HEAD--appos",
+            "count": 1,
+            "example_sent_id": "ssj607.3145.11185"
+        }
+    ]
+}

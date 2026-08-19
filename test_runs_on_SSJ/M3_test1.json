@@ -1,0 +1,25 @@
+{
+    "item_id": "M3",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 56865,
+    "table": [
+        {
+            "key": "Sing",
+            "count": 40401,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Plur",
+            "count": 15865,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Dual",
+            "count": 599,
+            "example_sent_id": "ssj3.7.23"
+        }
+    ]
+}

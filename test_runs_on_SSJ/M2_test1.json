@@ -1,0 +1,25 @@
+{
+    "item_id": "M2",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 56865,
+    "table": [
+        {
+            "key": "Masc",
+            "count": 23631,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Fem",
+            "count": 23065,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Neut",
+            "count": 10169,
+            "example_sent_id": "ssj1.1.3"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "item_id": "P1",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 21452,
+    "table": [
+        {
+            "key": "adjective before noun",
+            "count": 21082,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "noun before adjective",
+            "count": 370,
+            "example_sent_id": "ssj3.8.30"
+        }
+    ]
+}

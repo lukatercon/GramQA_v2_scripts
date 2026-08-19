@@ -1,0 +1,20 @@
+{
+    "item_id": "S8",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 214186,
+    "table": [
+        {
+            "key": "DEPENDENT-HEAD",
+            "count": 136067,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "HEAD-DEPENDENT",
+            "count": 78119,
+            "example_sent_id": "ssj1.1.1"
+        }
+    ]
+}

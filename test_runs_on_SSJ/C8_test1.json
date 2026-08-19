@@ -1,0 +1,60 @@
+{
+    "item_id": "C8",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 5295,
+    "table": [
+        {
+            "key": "NOUN",
+            "count": 1624,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "ADJ",
+            "count": 3406,
+            "example_sent_id": "ssj2.2.9"
+        },
+        {
+            "key": "NUM",
+            "count": 52,
+            "example_sent_id": "ssj5.25.80"
+        },
+        {
+            "key": "PRON",
+            "count": 34,
+            "example_sent_id": "ssj6.35.162"
+        },
+        {
+            "key": "DET",
+            "count": 92,
+            "example_sent_id": "ssj27.161.658"
+        },
+        {
+            "key": "PROPN",
+            "count": 55,
+            "example_sent_id": "ssj29.178.718"
+        },
+        {
+            "key": "VERB",
+            "count": 19,
+            "example_sent_id": "ssj59.361.1460"
+        },
+        {
+            "key": "X",
+            "count": 4,
+            "example_sent_id": "ssj178.1201.4384"
+        },
+        {
+            "key": "SYM",
+            "count": 3,
+            "example_sent_id": "ssj226.1493.5434"
+        },
+        {
+            "key": "ADV",
+            "count": 6,
+            "example_sent_id": "ssj427.2374.8349"
+        }
+    ]
+}

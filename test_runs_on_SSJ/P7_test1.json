@@ -1,0 +1,20 @@
+{
+    "item_id": "P7",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 21956,
+    "table": [
+        {
+            "key": "ADP-NOMINAL",
+            "count": 21953,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "NOMINAL-ADP",
+            "count": 3,
+            "example_sent_id": "ssj188.1238.4504"
+        }
+    ]
+}

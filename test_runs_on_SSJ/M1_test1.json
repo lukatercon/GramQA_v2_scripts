@@ -1,0 +1,40 @@
+{
+    "item_id": "M1",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 56865,
+    "table": [
+        {
+            "key": "Gen",
+            "count": 15799,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Acc",
+            "count": 13185,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Nom",
+            "count": 14563,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "Loc",
+            "count": 8214,
+            "example_sent_id": "ssj1.1.3"
+        },
+        {
+            "key": "Ins",
+            "count": 3720,
+            "example_sent_id": "ssj1.1.7"
+        },
+        {
+            "key": "Dat",
+            "count": 1384,
+            "example_sent_id": "ssj1.1.8"
+        }
+    ]
+}

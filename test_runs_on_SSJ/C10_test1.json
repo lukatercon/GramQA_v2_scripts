@@ -1,0 +1,20 @@
+{
+    "item_id": "C10",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 5295,
+    "table": [
+        {
+            "key": "PREDICATE-COP",
+            "count": 499,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "COP-PREDICATE",
+            "count": 4796,
+            "example_sent_id": "ssj2.2.9"
+        }
+    ]
+}

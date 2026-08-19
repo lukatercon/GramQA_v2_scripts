@@ -1,0 +1,350 @@
+{
+    "item_id": "L8",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 9352,
+    "table": [
+        {
+            "key": "tisti",
+            "count": 279,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "preve\u010d",
+            "count": 42,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "ta",
+            "count": 2408,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "njihov",
+            "count": 235,
+            "example_sent_id": "ssj2.2.9"
+        },
+        {
+            "key": "ves",
+            "count": 894,
+            "example_sent_id": "ssj2.2.10"
+        },
+        {
+            "key": "kateri",
+            "count": 546,
+            "example_sent_id": "ssj2.2.10"
+        },
+        {
+            "key": "svoj",
+            "count": 818,
+            "example_sent_id": "ssj2.3.12"
+        },
+        {
+            "key": "tak\u0161en",
+            "count": 112,
+            "example_sent_id": "ssj3.6.19"
+        },
+        {
+            "key": "oba",
+            "count": 114,
+            "example_sent_id": "ssj3.7.23"
+        },
+        {
+            "key": "isti",
+            "count": 78,
+            "example_sent_id": "ssj3.7.24"
+        },
+        {
+            "key": "nekak\u0161en",
+            "count": 37,
+            "example_sent_id": "ssj3.8.30"
+        },
+        {
+            "key": "njegov",
+            "count": 448,
+            "example_sent_id": "ssj3.8.30"
+        },
+        {
+            "key": "noben",
+            "count": 82,
+            "example_sent_id": "ssj3.9.33"
+        },
+        {
+            "key": "va\u0161",
+            "count": 97,
+            "example_sent_id": "ssj3.9.35"
+        },
+        {
+            "key": "malo",
+            "count": 95,
+            "example_sent_id": "ssj3.13.45"
+        },
+        {
+            "key": "nekateri",
+            "count": 173,
+            "example_sent_id": "ssj4.15.48"
+        },
+        {
+            "key": "veliko",
+            "count": 180,
+            "example_sent_id": "ssj4.15.54"
+        },
+        {
+            "key": "moj",
+            "count": 134,
+            "example_sent_id": "ssj5.20.69"
+        },
+        {
+            "key": "njen",
+            "count": 251,
+            "example_sent_id": "ssj5.20.70"
+        },
+        {
+            "key": "ve\u010d",
+            "count": 325,
+            "example_sent_id": "ssj5.21.74"
+        },
+        {
+            "key": "vsak",
+            "count": 250,
+            "example_sent_id": "ssj5.28.89"
+        },
+        {
+            "key": "mnog",
+            "count": 62,
+            "example_sent_id": "ssj5.29.92"
+        },
+        {
+            "key": "na\u0161",
+            "count": 230,
+            "example_sent_id": "ssj5.30.95"
+        },
+        {
+            "key": "nekaj",
+            "count": 290,
+            "example_sent_id": "ssj5.30.96"
+        },
+        {
+            "key": "koliko",
+            "count": 26,
+            "example_sent_id": "ssj6.32.103"
+        },
+        {
+            "key": "kak\u0161en",
+            "count": 148,
+            "example_sent_id": "ssj6.32.104"
+        },
+        {
+            "key": "vajin",
+            "count": 9,
+            "example_sent_id": "ssj6.32.109"
+        },
+        {
+            "key": "najve\u010d",
+            "count": 41,
+            "example_sent_id": "ssj6.33.120"
+        },
+        {
+            "key": "najin",
+            "count": 11,
+            "example_sent_id": "ssj6.33.122"
+        },
+        {
+            "key": "tvoj",
+            "count": 23,
+            "example_sent_id": "ssj6.33.122"
+        },
+        {
+            "key": "pol",
+            "count": 49,
+            "example_sent_id": "ssj6.34.147"
+        },
+        {
+            "key": "dovolj",
+            "count": 96,
+            "example_sent_id": "ssj11.42.194"
+        },
+        {
+            "key": "manj",
+            "count": 118,
+            "example_sent_id": "ssj12.45.203"
+        },
+        {
+            "key": "kak",
+            "count": 55,
+            "example_sent_id": "ssj12.51.233"
+        },
+        {
+            "key": "tak",
+            "count": 126,
+            "example_sent_id": "ssj13.52.238"
+        },
+        {
+            "key": "oboj",
+            "count": 11,
+            "example_sent_id": "ssj15.64.262"
+        },
+        {
+            "key": "nikakr\u0161en",
+            "count": 9,
+            "example_sent_id": "ssj18.75.292"
+        },
+        {
+            "key": "tolik",
+            "count": 2,
+            "example_sent_id": "ssj20.88.352"
+        },
+        {
+            "key": "toliko",
+            "count": 63,
+            "example_sent_id": "ssj20.88.358"
+        },
+        {
+            "key": "mnogo",
+            "count": 15,
+            "example_sent_id": "ssj20.91.372"
+        },
+        {
+            "key": "enak",
+            "count": 66,
+            "example_sent_id": "ssj24.120.504"
+        },
+        {
+            "key": "kakr\u0161en",
+            "count": 36,
+            "example_sent_id": "ssj30.182.731"
+        },
+        {
+            "key": "marsikateri",
+            "count": 8,
+            "example_sent_id": "ssj30.185.747"
+        },
+        {
+            "key": "neki",
+            "count": 10,
+            "example_sent_id": "ssj31.188.762"
+        },
+        {
+            "key": "nek",
+            "count": 108,
+            "example_sent_id": "ssj33.193.789"
+        },
+        {
+            "key": "tale",
+            "count": 18,
+            "example_sent_id": "ssj38.233.935"
+        },
+        {
+            "key": "oni",
+            "count": 13,
+            "example_sent_id": "ssj46.290.1168"
+        },
+        {
+            "key": "\u010dimve\u010d",
+            "count": 1,
+            "example_sent_id": "ssj46.292.1180"
+        },
+        {
+            "key": "kakr\u0161enkoli",
+            "count": 8,
+            "example_sent_id": "ssj46.293.1183"
+        },
+        {
+            "key": "njun",
+            "count": 38,
+            "example_sent_id": "ssj46.297.1199"
+        },
+        {
+            "key": "prenekateri",
+            "count": 1,
+            "example_sent_id": "ssj53.336.1374"
+        },
+        {
+            "key": "dosti",
+            "count": 15,
+            "example_sent_id": "ssj75.472.1769"
+        },
+        {
+            "key": "katerikoli",
+            "count": 6,
+            "example_sent_id": "ssj75.485.1818"
+        },
+        {
+            "key": "ne\u0161teto",
+            "count": 3,
+            "example_sent_id": "ssj81.531.2009"
+        },
+        {
+            "key": "ogromno",
+            "count": 3,
+            "example_sent_id": "ssj88.583.2202"
+        },
+        {
+            "key": "\u010digar",
+            "count": 3,
+            "example_sent_id": "ssj88.585.2207"
+        },
+        {
+            "key": "premnog",
+            "count": 4,
+            "example_sent_id": "ssj100.640.2462"
+        },
+        {
+            "key": "vsakr\u0161en",
+            "count": 7,
+            "example_sent_id": "ssj151.1028.3847"
+        },
+        {
+            "key": "tolik\u0161en",
+            "count": 7,
+            "example_sent_id": "ssj184.1227.4454"
+        },
+        {
+            "key": "malokateri",
+            "count": 1,
+            "example_sent_id": "ssj191.1241.4520"
+        },
+        {
+            "key": "kolik\u0161en",
+            "count": 1,
+            "example_sent_id": "ssj201.1353.4881"
+        },
+        {
+            "key": "par",
+            "count": 5,
+            "example_sent_id": "ssj228.1513.5497"
+        },
+        {
+            "key": "\u010detrt",
+            "count": 2,
+            "example_sent_id": "ssj302.1840.6499"
+        },
+        {
+            "key": "un",
+            "count": 1,
+            "example_sent_id": "ssj369.2111.7498"
+        },
+        {
+            "key": "\u010digav",
+            "count": 1,
+            "example_sent_id": "ssj414.2309.8131"
+        },
+        {
+            "key": "takle",
+            "count": 1,
+            "example_sent_id": "ssj455.2503.8798"
+        },
+        {
+            "key": "obilo",
+            "count": 2,
+            "example_sent_id": "ssj550.2883.10233"
+        },
+        {
+            "key": "nekak",
+            "count": 1,
+            "example_sent_id": "ssj618.3189.11355"
+        }
+    ]
+}

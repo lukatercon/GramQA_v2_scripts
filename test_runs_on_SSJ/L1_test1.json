@@ -1,0 +1,90 @@
+{
+    "item_id": "L1",
+    "lang": "sl",
+    "treebank": "UD_Slovenian-SSJ",
+    "ud_release": "2.15",
+    "status": "OK",
+    "total": 227619,
+    "table": [
+        {
+            "key": "DET",
+            "count": 9352,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "NOUN",
+            "count": 56865,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "AUX",
+            "count": 17327,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "VERB",
+            "count": 24592,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "PRON",
+            "count": 9106,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "ADP",
+            "count": 24235,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "SCONJ",
+            "count": 8974,
+            "example_sent_id": "ssj1.1.1"
+        },
+        {
+            "key": "PROPN",
+            "count": 10239,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "ADJ",
+            "count": 28426,
+            "example_sent_id": "ssj1.1.2"
+        },
+        {
+            "key": "CCONJ",
+            "count": 11237,
+            "example_sent_id": "ssj1.1.4"
+        },
+        {
+            "key": "PART",
+            "count": 7542,
+            "example_sent_id": "ssj1.1.5"
+        },
+        {
+            "key": "ADV",
+            "count": 11803,
+            "example_sent_id": "ssj1.1.7"
+        },
+        {
+            "key": "NUM",
+            "count": 5585,
+            "example_sent_id": "ssj3.10.40"
+        },
+        {
+            "key": "X",
+            "count": 2092,
+            "example_sent_id": "ssj4.15.54"
+        },
+        {
+            "key": "SYM",
+            "count": 199,
+            "example_sent_id": "ssj4.16.58"
+        },
+        {
+            "key": "INTJ",
+            "count": 45,
+            "example_sent_id": "ssj6.36.175"
+        }
+    ]
+}
