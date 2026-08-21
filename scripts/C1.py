@@ -21,8 +21,10 @@ for sent in data_cont.parsed_conllu_sents:
         if type(tok["id"]) is not int:
             continue
 
-        if tok["upos"] == "VERB" and any([get_basic_deprel(x["deprel"]) == "nsubj" and x["head"] == tok["id"] for x in sent]) \
-                                     and any([get_basic_deprel(y["deprel"]) == "obj" and y["head"] == tok["id"] for y in sent]):
+        # Each verb should have exactly one subject and one object dependent
+        subjs = [get_basic_deprel(x["deprel"]) == "nsubj" and x["head"] == tok["id"] for x in sent]
+        objs = [get_basic_deprel(y["deprel"]) == "obj" and y["head"] == tok["id"] for y in sent]
+        if tok["upos"] == "VERB" and list(filter(bool, subjs)) == [True] and list(filter(bool, objs)) == [True]:
 
             dependents = ""
             for dep in sent:

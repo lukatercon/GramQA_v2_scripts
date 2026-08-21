@@ -5,7 +5,7 @@ from utils.tree_analysis import get_basic_deprel
 
 """
 ID: C2
-Inventory question: Which orders of subject and verb are attested in clauses without a direct object?
+Inventory question: Which orders of subject and verb are attested in intransitive clauses?
 UD-oriented version: Which linear orders are attested between tokens with UPOS=VERB and one dependent whose DEPREL is nsubj when the verb has no obj dependent?
 Output - a frequency list of: SV; VS
 """
@@ -21,8 +21,9 @@ for sent in data_cont.parsed_conllu_sents:
         if type(tok["id"]) is not int:
             continue
 
-        if tok["upos"] == "VERB" and any([get_basic_deprel(x["deprel"]) == "nsubj" and x["head"] == tok["id"] for x in sent]) \
-                                     and not any([get_basic_deprel(y["deprel"]) == "obj" and y["head"] == tok["id"] for y in sent]):
+        subjs = [get_basic_deprel(x["deprel"]) == "nsubj" and x["head"] == tok["id"] for x in sent]
+        objs = [get_basic_deprel(y["deprel"]) == "obj" and y["head"] == tok["id"] for y in sent]
+        if tok["upos"] == "VERB" and list(filter(bool, subjs)) == [True] and not any(objs):
 
             dependents = ""
             for dep in sent:

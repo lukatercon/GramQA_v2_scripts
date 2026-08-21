@@ -93,3 +93,14 @@ def is_projective(sent, tok_id):
                 return False
 
     return True
+
+
+# function that returns the string representation of the whole subtree headed by a token
+def get_token_subtree(sent, tok_id, field_to_check="lemma"):
+    subtree = ""
+
+    for tok in sent:
+        if dominates(sent, tok_id, tok["id"]):
+            subtree += tok[field_to_check] + " "
+
+    return subtree.strip(" ")

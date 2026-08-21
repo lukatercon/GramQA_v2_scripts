@@ -9,32 +9,38 @@
         {
             "key": "OSV",
             "count": 333,
-            "example_sent_id": "ssj1.1.1"
+            "example_sent_id": "ssj1.1.1",
+            "example_sent_text": ""
         },
         {
             "key": "SVO",
             "count": 2131,
-            "example_sent_id": "ssj3.4.14"
+            "example_sent_id": "ssj3.4.14",
+            "example_sent_text": ""
         },
         {
             "key": "OVS",
             "count": 826,
-            "example_sent_id": "ssj3.7.20"
+            "example_sent_id": "ssj3.7.20",
+            "example_sent_text": ""
         },
         {
             "key": "SOV",
             "count": 427,
-            "example_sent_id": "ssj3.8.27"
+            "example_sent_id": "ssj3.8.27",
+            "example_sent_text": ""
         },
         {
             "key": "VSO",
             "count": 108,
-            "example_sent_id": "ssj3.11.42"
+            "example_sent_id": "ssj3.11.42",
+            "example_sent_text": ""
         },
         {
             "key": "VOS",
             "count": 83,
-            "example_sent_id": "ssj5.23.77"
+            "example_sent_id": "ssj5.23.77",
+            "example_sent_text": ""
         }
     ]
 }

@@ -1,6 +1,7 @@
 import sys
 
 from utils.data_structs import DataContainer
+from utils.tree_analysis import get_token_subtree
 
 """
 ID: L7
@@ -26,6 +27,7 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if tok["deprel"].split(":")[0] == "mark":
-            data_cont.add_to_results(tok[field_to_check], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(get_token_subtree(sent, tok["id"], field_to_check),
+                                     1, sent.metadata["sent_id"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=mark")

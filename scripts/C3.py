@@ -21,7 +21,8 @@ for sent in data_cont.parsed_conllu_sents:
         if type(tok["id"]) is not int:
             continue
 
-        if tok["upos"] == "VERB" and any([get_basic_deprel(y["deprel"]) == "obj" and y["head"] == tok["id"] for y in sent]):
+        objs = [get_basic_deprel(y["deprel"]) == "obj" and y["head"] == tok["id"] for y in sent]
+        if tok["upos"] == "VERB" and list(filter(bool, objs)) == [True]:
 
             dependents = ""
             for dep in sent:

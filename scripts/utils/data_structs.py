@@ -4,9 +4,10 @@ import json
 
 
 class DataContainer:
-    def __init__(self, q_id, filepath):
+    def __init__(self, q_id, filepath, do_parse=True):
         # parsed conllu file
-        self.parsed_conllu_sents = self.parse_conllu(filepath)
+        if do_parse:
+            self.parsed_conllu_sents = self.parse_conllu(filepath)
 
         # question ID
         self.item_id = q_id
@@ -53,13 +54,13 @@ class DataContainer:
 
 
     # method for adding an item to the result table.
-    # In the actual scripts, this can be called on the level of an individual word (where the cound should only be incremented by one) or a whole sentence, 
-    # where all occurrences of the item are added at once if several occurrences are found in the same sentence.
-    def add_to_results(self, key_name, count, sent_id):
+    # In the actual scripts, this can be called on the level of an individual word (where the cound should only be incremented by one) 
+    # or a whole sentence, where all occurrences of the item are added at once if several occurrences are found in the same sentence.
+    def add_to_results(self, key_name, count, sent_id, example_sent=""):
         assert count > 0, "The count passed to the add_to_results function should be a nonzero positive integer."
 
         if key_name not in self.table.keys():
-            self.table[key_name] = [count, sent_id]
+            self.table[key_name] = [count, sent_id, example_sent]
         else:
             self.table[key_name][0] += count
 
@@ -83,7 +84,7 @@ class DataContainer:
             "status": self.status,
             "total": self.total,
             "table": [
-                {"key": k, "count": v[0], "example_sent_id": v[1]} for k, v in self.table.items()
+                {"key": k, "count": v[0], "example_sent_id": v[1], "example_sent_text": v[2]} for k, v in self.table.items()
             ]
         }  
 

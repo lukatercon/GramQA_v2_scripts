@@ -4,1352 +4,1189 @@
     "treebank": "UD_Slovenian-SSJ",
     "ud_release": "2.15",
     "status": "OK",
-    "total": 56865,
+    "total": 10600,
     "table": [
         {
-            "key": "det--HEAD",
-            "count": 3431,
-            "example_sent_id": "ssj1.1.1"
+            "key": "_ <amod _",
+            "count": 3980,
+            "example_sent_id": "",
+            "example_sent_text": "Dogodek v Ankaranu je bila A[dramati\u010dna] B[nesre\u010da]. "
         },
         {
-            "key": "HEAD--nmod--nmod",
-            "count": 660,
-            "example_sent_id": "ssj1.1.1"
+            "key": "_ <det _",
+            "count": 1729,
+            "example_sent_id": "",
+            "example_sent_text": "Kljub tradiciji so bili tokrat organizatorji prisiljeni izvesti A[nekatere] B[spremembe]. "
         },
         {
-            "key": "none",
-            "count": 18118,
-            "example_sent_id": "ssj1.1.1"
+            "key": "_ >nmod _",
+            "count": 1148,
+            "example_sent_id": "",
+            "example_sent_text": "Iz pogodbe se ne da razbrati A[na\u010dina] B[pla\u010dila]. "
         },
         {
-            "key": "HEAD--nmod",
-            "count": 9690,
-            "example_sent_id": "ssj1.1.2"
-        },
-        {
-            "key": "amod--HEAD",
-            "count": 9565,
-            "example_sent_id": "ssj1.1.2"
-        },
-        {
-            "key": "amod--amod--HEAD",
-            "count": 1444,
-            "example_sent_id": "ssj1.1.8"
-        },
-        {
-            "key": "HEAD--nmod--acl",
-            "count": 326,
-            "example_sent_id": "ssj2.2.9"
-        },
-        {
-            "key": "HEAD--acl",
-            "count": 1450,
-            "example_sent_id": "ssj2.2.10"
-        },
-        {
-            "key": "amod--HEAD--nmod",
-            "count": 3381,
-            "example_sent_id": "ssj2.2.11"
-        },
-        {
-            "key": "amod--HEAD--acl",
-            "count": 721,
-            "example_sent_id": "ssj3.6.19"
-        },
-        {
-            "key": "amod--HEAD--nmod--acl",
-            "count": 174,
-            "example_sent_id": "ssj3.7.20"
-        },
-        {
-            "key": "det--amod--HEAD",
-            "count": 788,
-            "example_sent_id": "ssj3.7.24"
-        },
-        {
-            "key": "det--HEAD--nmod",
-            "count": 491,
-            "example_sent_id": "ssj3.8.30"
-        },
-        {
-            "key": "HEAD--amod",
-            "count": 175,
-            "example_sent_id": "ssj3.8.30"
-        },
-        {
-            "key": "HEAD--nmod--appos",
-            "count": 166,
-            "example_sent_id": "ssj3.9.31"
-        },
-        {
-            "key": "det--amod--HEAD--acl",
-            "count": 57,
-            "example_sent_id": "ssj3.9.34"
-        },
-        {
-            "key": "amod--HEAD--nmod--appos",
-            "count": 69,
-            "example_sent_id": "ssj3.9.36"
-        },
-        {
-            "key": "det--nummod--HEAD",
-            "count": 53,
-            "example_sent_id": "ssj3.10.40"
-        },
-        {
-            "key": "amod--HEAD--appos",
-            "count": 239,
-            "example_sent_id": "ssj3.10.40"
-        },
-        {
-            "key": "nummod--HEAD",
-            "count": 1292,
-            "example_sent_id": "ssj3.11.42"
-        },
-        {
-            "key": "amod--amod--amod--HEAD",
-            "count": 84,
-            "example_sent_id": "ssj3.12.44"
-        },
-        {
-            "key": "amod--HEAD--amod",
-            "count": 85,
-            "example_sent_id": "ssj3.13.45"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod--nmod",
-            "count": 36,
-            "example_sent_id": "ssj4.15.48"
-        },
-        {
-            "key": "amod--amod--HEAD--acl",
-            "count": 141,
-            "example_sent_id": "ssj4.15.51"
-        },
-        {
-            "key": "nmod--HEAD",
-            "count": 132,
-            "example_sent_id": "ssj4.16.56"
-        },
-        {
-            "key": "nmod--HEAD--nmod",
-            "count": 38,
-            "example_sent_id": "ssj4.16.57"
-        },
-        {
-            "key": "det--amod--amod--HEAD--acl",
-            "count": 9,
-            "example_sent_id": "ssj5.20.71"
-        },
-        {
-            "key": "nummod--HEAD--nmod",
-            "count": 492,
-            "example_sent_id": "ssj5.21.74"
-        },
-        {
-            "key": "HEAD--appos",
-            "count": 301,
-            "example_sent_id": "ssj5.22.75"
-        },
-        {
-            "key": "nmod--nummod--HEAD",
-            "count": 30,
-            "example_sent_id": "ssj5.22.75"
-        },
-        {
-            "key": "nummod--amod--HEAD--nmod",
-            "count": 64,
-            "example_sent_id": "ssj5.23.76"
-        },
-        {
-            "key": "nummod--HEAD--nmod--acl",
-            "count": 15,
-            "example_sent_id": "ssj5.23.77"
-        },
-        {
-            "key": "det--amod--HEAD--nmod",
-            "count": 134,
-            "example_sent_id": "ssj5.28.89"
-        },
-        {
-            "key": "det--det--HEAD",
-            "count": 61,
-            "example_sent_id": "ssj5.30.95"
-        },
-        {
-            "key": "nummod--det--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj6.34.149"
-        },
-        {
-            "key": "det--HEAD--acl",
-            "count": 189,
-            "example_sent_id": "ssj6.34.152"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod",
-            "count": 361,
-            "example_sent_id": "ssj6.35.154"
-        },
-        {
-            "key": "amod--HEAD--nmod--nmod",
-            "count": 212,
-            "example_sent_id": "ssj7.37.180"
-        },
-        {
-            "key": "nummod--amod--HEAD",
-            "count": 196,
-            "example_sent_id": "ssj7.38.183"
-        },
-        {
-            "key": "HEAD--nummod",
+            "key": "_ <amod _ <amod _",
             "count": 564,
-            "example_sent_id": "ssj11.43.195"
+            "example_sent_id": "",
+            "example_sent_text": "Predvideni datum A[leto\u0161nje] B[osrednje] C[dirke] je sovpadal z dnevom pogreba pape\u017ea Janeza Pavla II. "
         },
         {
-            "key": "nummod--nmod--amod--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj12.44.196"
+            "key": "_ <det _ <amod _",
+            "count": 378,
+            "example_sent_id": "",
+            "example_sent_text": "Smehljajte se v svoje sredi\u0161\u010de in segrevajte A[to] B[pomembno] C[obmo\u010dje]. "
         },
         {
-            "key": "nummod--HEAD--appos",
-            "count": 52,
-            "example_sent_id": "ssj12.45.202"
+            "key": "_ <amod _ >nmod _",
+            "count": 372,
+            "example_sent_id": "",
+            "example_sent_text": "- Spoznajo A[osnovne] B[zna\u010dilnosti] C[bolezni]: kaj je astma in kako poteka. "
         },
         {
-            "key": "nummod--amod--HEAD--acl",
-            "count": 16,
-            "example_sent_id": "ssj12.45.202"
+            "key": "_ >nmod (_ <amod _)",
+            "count": 367,
+            "example_sent_id": "",
+            "example_sent_text": "Pri nas prodaja Auralogov te\u010daj A[zalo\u017eba] B[Mladinska] C[knjiga] tudi v slovenski razli\u010dici. "
         },
         {
-            "key": "nummod--amod--HEAD--appos",
-            "count": 22,
-            "example_sent_id": "ssj12.47.212"
+            "key": "_ <nummod _",
+            "count": 355,
+            "example_sent_id": "",
+            "example_sent_text": "Njej je v zbirki A[enajstih] B[izbirnikov] posve\u010den \u0161e celoten izbirnik. "
         },
         {
-            "key": "nmod--amod--HEAD",
-            "count": 15,
-            "example_sent_id": "ssj12.49.226"
+            "key": "_ >nummod _",
+            "count": 315,
+            "example_sent_id": "",
+            "example_sent_text": "A[Leta] B[1929] se z dru\u017eino preseli v Ljubljano. "
         },
         {
-            "key": "amod--nmod--HEAD--nmod",
-            "count": 7,
-            "example_sent_id": "ssj12.50.229"
+            "key": "_ <amod _ >nmod (_ <amod _)",
+            "count": 118,
+            "example_sent_id": "",
+            "example_sent_text": "A[Pravi] B[razmah] C[digitalnih] D[kamer] pa \u0161ele prihaja. "
         },
         {
-            "key": "HEAD--nmod--nmod--acl",
-            "count": 18,
-            "example_sent_id": "ssj12.50.229"
+            "key": "_ >nmod (_ >nmod _)",
+            "count": 111,
+            "example_sent_id": "",
+            "example_sent_text": "A[Metodologija] B[sestave] C[gesel] se zdi premi\u0161ljena, natan\u010dna ter ve\u010dfunkcijsko uporabna. "
         },
         {
-            "key": "amod--HEAD--nummod--acl",
-            "count": 3,
-            "example_sent_id": "ssj12.50.231"
+            "key": "_ >nmod (_ <det _)",
+            "count": 80,
+            "example_sent_id": "",
+            "example_sent_text": "Zdaj A[te\u017ea] B[njene] C[pu\u0161ke] ni bila tola\u017eilna. "
         },
         {
-            "key": "amod--amod--HEAD--appos",
-            "count": 52,
-            "example_sent_id": "ssj13.55.242"
+            "key": "_ <nummod _ >nmod _",
+            "count": 59,
+            "example_sent_id": "",
+            "example_sent_text": "Odprava napake naj bi stala A[65] B[milijonov] C[mark]. "
         },
         {
-            "key": "nummod--HEAD--nmod--nmod",
-            "count": 20,
-            "example_sent_id": "ssj13.55.243"
+            "key": "_ <nummod _ <amod _",
+            "count": 56,
+            "example_sent_id": "",
+            "example_sent_text": "A[Sedemnajst] B[primorskih] C[\u017eupanov] je konec aprila ministru Janezu Kopa\u010du poslalo jezno pismo. "
         },
         {
-            "key": "det--amod--amod--HEAD",
-            "count": 84,
-            "example_sent_id": "ssj13.56.245"
+            "key": "_ <nummod _ >nummod _",
+            "count": 54,
+            "example_sent_id": "",
+            "example_sent_text": "Premiera je bila A[30.] B[decembra] C[1997] na odru SNG Drama Ljubljana. "
         },
         {
-            "key": "HEAD--nmod--appos--appos--appos",
-            "count": 1,
-            "example_sent_id": "ssj13.61.255"
+            "key": "_ <det _ >nmod _",
+            "count": 53,
+            "example_sent_id": "",
+            "example_sent_text": "Ka\u017ee, da si vsi \u017eelimo A[svoje] B[merice] C[uspeha]. "
         },
         {
-            "key": "HEAD--nmod--nummod",
-            "count": 22,
-            "example_sent_id": "ssj13.61.255"
+            "key": "_ <amod _ >nmod (_ >nmod _)",
+            "count": 42,
+            "example_sent_id": "",
+            "example_sent_text": "A[Najve\u010dje] B[vozli\u0161\u010de] C[\u010dlanstva] D[F21] pa je v razli\u010dnih lions klubih. "
         },
         {
-            "key": "HEAD--nmod--amod",
-            "count": 18,
-            "example_sent_id": "ssj14.63.260"
+            "key": "_ <amod _ <amod _ >nmod _",
+            "count": 40,
+            "example_sent_id": "",
+            "example_sent_text": "V pokalu A[evropske] B[plavalne] C[zveze] D[LEN] bosta nastopila dva slovenska kluba. "
         },
         {
-            "key": "amod--HEAD--nmod--nmod--acl",
-            "count": 10,
-            "example_sent_id": "ssj15.64.261"
+            "key": "_ >nmod (_ <amod _ <amod _)",
+            "count": 39,
+            "example_sent_id": "",
+            "example_sent_text": "Postala je A[kraljica] B[mra\u010dnega] C[Hadovega] D[kraljestva] in se poslej imenovala Persefona. "
         },
         {
-            "key": "nummod--HEAD--acl",
-            "count": 55,
-            "example_sent_id": "ssj18.80.310"
+            "key": "_ <det _ <nummod _",
+            "count": 36,
+            "example_sent_id": "",
+            "example_sent_text": "A[Kakih] B[deset] C[mo\u017e] se je z vsemi mo\u010dmi trudilo napeti ogromne samostrele. "
         },
         {
-            "key": "nummod--HEAD--nummod",
-            "count": 65,
-            "example_sent_id": "ssj18.84.320"
+            "key": "_ <nmod _",
+            "count": 36,
+            "example_sent_id": "",
+            "example_sent_text": "A[Orto] B[klub] je res postal pravi no\u010dni klub za alternativno mainstream sceno. "
         },
         {
-            "key": "HEAD--nmod--nmod--nmod",
-            "count": 24,
-            "example_sent_id": "ssj18.86.330"
-        },
-        {
-            "key": "amod--HEAD--nummod",
-            "count": 44,
-            "example_sent_id": "ssj18.86.335"
-        },
-        {
-            "key": "amod--det--HEAD--acl",
-            "count": 1,
-            "example_sent_id": "ssj20.91.383"
-        },
-        {
-            "key": "det--nummod--HEAD--nmod",
-            "count": 17,
-            "example_sent_id": "ssj20.95.408"
-        },
-        {
-            "key": "amod--det--HEAD",
-            "count": 14,
-            "example_sent_id": "ssj21.99.422"
-        },
-        {
-            "key": "HEAD--nmod--appos--appos",
-            "count": 5,
-            "example_sent_id": "ssj24.114.482"
-        },
-        {
-            "key": "nummod--amod--amod--HEAD",
-            "count": 27,
-            "example_sent_id": "ssj27.140.561"
-        },
-        {
-            "key": "det--amod--HEAD--amod",
-            "count": 6,
-            "example_sent_id": "ssj27.143.581"
-        },
-        {
-            "key": "amod--amod--amod--HEAD--amod",
-            "count": 1,
-            "example_sent_id": "ssj27.147.595"
-        },
-        {
-            "key": "HEAD--appos--acl",
-            "count": 9,
-            "example_sent_id": "ssj27.152.631"
-        },
-        {
-            "key": "det--HEAD--nummod--acl",
-            "count": 1,
-            "example_sent_id": "ssj27.160.654"
-        },
-        {
-            "key": "det--HEAD--appos",
-            "count": 45,
-            "example_sent_id": "ssj27.161.657"
-        },
-        {
-            "key": "nummod--amod--amod--HEAD--nmod--acl",
-            "count": 2,
-            "example_sent_id": "ssj28.165.666"
-        },
-        {
-            "key": "det--HEAD--nmod--nummod",
-            "count": 1,
-            "example_sent_id": "ssj28.167.671"
-        },
-        {
-            "key": "amod--HEAD--appos--nmod",
-            "count": 5,
-            "example_sent_id": "ssj28.172.695"
-        },
-        {
-            "key": "amod--amod--amod--HEAD--appos",
-            "count": 4,
-            "example_sent_id": "ssj28.172.699"
-        },
-        {
-            "key": "HEAD--nummod--nmod",
-            "count": 4,
-            "example_sent_id": "ssj30.184.743"
-        },
-        {
-            "key": "nummod--HEAD--appos--nmod",
-            "count": 3,
-            "example_sent_id": "ssj30.184.743"
-        },
-        {
-            "key": "det--HEAD--amod",
-            "count": 13,
-            "example_sent_id": "ssj30.186.750"
-        },
-        {
-            "key": "det--det--amod--HEAD",
-            "count": 7,
-            "example_sent_id": "ssj32.192.779"
-        },
-        {
-            "key": "det--amod--HEAD--nmod--acl",
-            "count": 11,
-            "example_sent_id": "ssj33.193.789"
-        },
-        {
-            "key": "amod--nmod--HEAD",
-            "count": 14,
-            "example_sent_id": "ssj35.203.812"
-        },
-        {
-            "key": "det--nmod--HEAD",
-            "count": 9,
-            "example_sent_id": "ssj35.203.813"
-        },
-        {
-            "key": "nmod--nummod--HEAD--acl",
-            "count": 2,
-            "example_sent_id": "ssj35.205.818"
-        },
-        {
-            "key": "HEAD--nummod--appos",
-            "count": 12,
-            "example_sent_id": "ssj35.207.826"
-        },
-        {
-            "key": "det--amod--amod--amod--HEAD",
-            "count": 3,
-            "example_sent_id": "ssj35.208.845"
-        },
-        {
-            "key": "nummod--HEAD--amod",
-            "count": 10,
-            "example_sent_id": "ssj36.212.862"
-        },
-        {
-            "key": "amod--nummod--HEAD",
-            "count": 57,
-            "example_sent_id": "ssj36.213.873"
-        },
-        {
-            "key": "nmod--HEAD--nmod--acl",
-            "count": 2,
-            "example_sent_id": "ssj36.213.874"
-        },
-        {
-            "key": "HEAD--nmod--nummod--appos",
-            "count": 2,
-            "example_sent_id": "ssj37.218.896"
-        },
-        {
-            "key": "det--HEAD--nmod--amod",
-            "count": 1,
-            "example_sent_id": "ssj38.225.908"
-        },
-        {
-            "key": "det--det--HEAD--nmod",
-            "count": 11,
-            "example_sent_id": "ssj38.233.937"
-        },
-        {
-            "key": "det--amod--amod--HEAD--nmod",
-            "count": 12,
-            "example_sent_id": "ssj40.241.965"
-        },
-        {
-            "key": "amod--amod--nummod--HEAD",
-            "count": 2,
-            "example_sent_id": "ssj40.244.974"
-        },
-        {
-            "key": "amod--HEAD--nmod--nummod",
-            "count": 11,
-            "example_sent_id": "ssj42.247.987"
-        },
-        {
-            "key": "det--nummod--amod--HEAD--appos",
-            "count": 1,
-            "example_sent_id": "ssj42.250.998"
-        },
-        {
-            "key": "HEAD--appos--nmod",
-            "count": 7,
-            "example_sent_id": "ssj45.271.1081"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod--acl",
-            "count": 30,
-            "example_sent_id": "ssj46.286.1145"
-        },
-        {
-            "key": "amod--HEAD--nmod--amod",
-            "count": 11,
-            "example_sent_id": "ssj46.294.1188"
-        },
-        {
-            "key": "det--amod--amod--HEAD--appos",
-            "count": 10,
-            "example_sent_id": "ssj46.298.1203"
-        },
-        {
-            "key": "amod--HEAD--nmod--nmod--nmod",
-            "count": 11,
-            "example_sent_id": "ssj47.313.1269"
-        },
-        {
-            "key": "det--HEAD--nmod--appos",
-            "count": 7,
-            "example_sent_id": "ssj47.316.1284"
-        },
-        {
-            "key": "det--HEAD--nmod--acl--appos",
-            "count": 1,
-            "example_sent_id": "ssj47.317.1298"
-        },
-        {
-            "key": "det--HEAD--nmod--acl",
+            "key": "_ <amod _ <amod _ <amod _",
             "count": 34,
-            "example_sent_id": "ssj53.327.1332"
+            "example_sent_id": "",
+            "example_sent_text": "V Slovenj Gradcu so konec tedna izpeljali A[posami\u010dno] B[dr\u017eavno] C[\u010dlansko] D[prvenstvo]. "
         },
         {
-            "key": "HEAD--acl--amod",
-            "count": 1,
-            "example_sent_id": "ssj53.327.1334"
+            "key": "_ <det _ <amod _ <amod _",
+            "count": 32,
+            "example_sent_id": "",
+            "example_sent_text": "V Jugoslaviji tedaj ni bilo A[nobenega] B[drugega] C[slovenskega] D[trenerja]. "
         },
         {
-            "key": "det--nummod--HEAD--acl",
-            "count": 4,
-            "example_sent_id": "ssj53.331.1349"
+            "key": "_ <det _ <det _",
+            "count": 32,
+            "example_sent_id": "",
+            "example_sent_text": "Danes nam A[to] B[na\u0161o] C[strategijo] priznajo, je dejal koro\u0161ki de\u017eelni vladar. "
         },
         {
-            "key": "amod--amod--amod--HEAD--acl",
-            "count": 14,
-            "example_sent_id": "ssj54.341.1387"
+            "key": "_ >amod _",
+            "count": 29,
+            "example_sent_id": "",
+            "example_sent_text": "Zdaj \u0161e, A[Mati] B[ljuba] ti, * pla\u0161\u010d nad nami razprostri. "
         },
         {
-            "key": "det--nummod--amod--HEAD",
-            "count": 6,
-            "example_sent_id": "ssj54.348.1406"
+            "key": "_ >nmod (_ >nmod (_ <amod _))",
+            "count": 29,
+            "example_sent_id": "",
+            "example_sent_text": "A[Smisel] B[uporabe] C[razli\u010dnih] D[orodij] je v njihovem povezovanju in doseganju sinergijskih u\u010dinkov. "
         },
         {
-            "key": "det--amod--HEAD--appos--acl",
-            "count": 4,
-            "example_sent_id": "ssj54.350.1409"
+            "key": "_ >nmod (_ <amod _ >nmod _)",
+            "count": 28,
+            "example_sent_id": "",
+            "example_sent_text": "Slovenija odlo\u010dno nasprotuje racionalizaciji A[\u0161tevila] B[uradnih] C[jezikov] D[EU]. "
         },
         {
-            "key": "amod--nummod--amod--HEAD",
-            "count": 4,
-            "example_sent_id": "ssj55.352.1420"
+            "key": "_ >nmod (_ >nummod _)",
+            "count": 24,
+            "example_sent_id": "",
+            "example_sent_text": "Vzemimo, da zahtevamo, da ima obstoje\u010di proces A[sposobnost] B[Cp] C[1,33]. "
         },
         {
-            "key": "det--amod--amod--HEAD--nmod--appos",
-            "count": 2,
-            "example_sent_id": "ssj59.361.1452"
+            "key": "_ <amod _ <nummod _",
+            "count": 20,
+            "example_sent_id": "",
+            "example_sent_text": "Telefonski pogovori med njima so se nadaljevali A[naslednje] B[tri] C[dni]. "
         },
         {
-            "key": "amod--HEAD--appos--appos",
-            "count": 5,
-            "example_sent_id": "ssj61.373.1495"
+            "key": "_ <det _ >nmod (_ <amod _)",
+            "count": 20,
+            "example_sent_id": "",
+            "example_sent_text": "A[VSI] B[POKLICI] C[CIVILNIH] D[URADNIKOV] SO BILI RAZDELJENI NA POLO\u017dAJNE SKUPINE, DOLO\u010cENE Z RAZPREDELNICO. "
         },
         {
-            "key": "amod--HEAD--appos--acl",
-            "count": 11,
-            "example_sent_id": "ssj63.387.1533"
-        },
-        {
-            "key": "nmod--nummod--HEAD--nmod",
-            "count": 14,
-            "example_sent_id": "ssj63.388.1535"
-        },
-        {
-            "key": "det--amod--HEAD--nmod--nmod",
-            "count": 2,
-            "example_sent_id": "ssj63.394.1557"
-        },
-        {
-            "key": "nummod--HEAD--nmod--nummod",
-            "count": 1,
-            "example_sent_id": "ssj64.398.1563"
-        },
-        {
-            "key": "HEAD--appos--appos",
-            "count": 6,
-            "example_sent_id": "ssj64.399.1564"
-        },
-        {
-            "key": "nummod--amod--HEAD--nmod--nmod",
-            "count": 3,
-            "example_sent_id": "ssj65.410.1583"
-        },
-        {
-            "key": "HEAD--nummod--acl",
+            "key": "_ <amod _ >nmod (_ <det _)",
             "count": 17,
-            "example_sent_id": "ssj65.410.1584"
+            "example_sent_id": "",
+            "example_sent_text": "Konkretno je A[drugo] B[branje] C[tega] D[zakona] obti\u010dalo pri vpra\u0161anju imenovanja direktorjev knji\u017enic. "
         },
         {
-            "key": "det--HEAD--nmod--nmod",
-            "count": 8,
-            "example_sent_id": "ssj65.410.1584"
-        },
-        {
-            "key": "amod--amod--amod--HEAD--nmod",
-            "count": 17,
-            "example_sent_id": "ssj66.414.1592"
-        },
-        {
-            "key": "amod--HEAD--nmod--nmod--appos",
-            "count": 3,
-            "example_sent_id": "ssj66.417.1602"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod--appos",
-            "count": 7,
-            "example_sent_id": "ssj66.418.1604"
-        },
-        {
-            "key": "nummod--nummod--HEAD",
-            "count": 2,
-            "example_sent_id": "ssj69.430.1639"
-        },
-        {
-            "key": "HEAD--amod--nmod",
-            "count": 5,
-            "example_sent_id": "ssj69.433.1650"
-        },
-        {
-            "key": "HEAD--amod--acl",
-            "count": 8,
-            "example_sent_id": "ssj71.450.1710"
-        },
-        {
-            "key": "amod--det--amod--HEAD--acl",
-            "count": 1,
-            "example_sent_id": "ssj73.460.1731"
-        },
-        {
-            "key": "nummod--amod--amod--HEAD--nmod",
-            "count": 11,
-            "example_sent_id": "ssj74.469.1758"
-        },
-        {
-            "key": "amod--nummod--HEAD--nmod",
-            "count": 12,
-            "example_sent_id": "ssj77.503.1886"
-        },
-        {
-            "key": "nummod--HEAD--acl--appos",
-            "count": 1,
-            "example_sent_id": "ssj83.547.2083"
-        },
-        {
-            "key": "HEAD--nmod--appos--nmod",
-            "count": 3,
-            "example_sent_id": "ssj84.553.2098"
-        },
-        {
-            "key": "amod--HEAD--nummod--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj84.553.2100"
-        },
-        {
-            "key": "amod--nummod--HEAD--nmod--acl",
-            "count": 1,
-            "example_sent_id": "ssj84.554.2104"
-        },
-        {
-            "key": "amod--HEAD--nmod--appos--acl",
-            "count": 1,
-            "example_sent_id": "ssj86.569.2161"
-        },
-        {
-            "key": "amod--amod--HEAD--nummod",
-            "count": 4,
-            "example_sent_id": "ssj86.570.2165"
-        },
-        {
-            "key": "amod--amod--HEAD--amod",
-            "count": 12,
-            "example_sent_id": "ssj86.570.2165"
-        },
-        {
-            "key": "amod--HEAD--acl--nmod",
-            "count": 1,
-            "example_sent_id": "ssj86.573.2181"
-        },
-        {
-            "key": "amod--nummod--HEAD--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj90.592.2232"
-        },
-        {
-            "key": "amod--HEAD--acl--appos",
-            "count": 4,
-            "example_sent_id": "ssj90.596.2255"
-        },
-        {
-            "key": "det--amod--det--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj91.600.2261"
-        },
-        {
-            "key": "det--amod--HEAD--appos",
-            "count": 22,
-            "example_sent_id": "ssj100.640.2462"
-        },
-        {
-            "key": "nummod--amod--amod--HEAD--nmod--appos",
-            "count": 1,
-            "example_sent_id": "ssj106.676.2564"
-        },
-        {
-            "key": "nummod--amod--amod--HEAD--appos",
-            "count": 2,
-            "example_sent_id": "ssj106.676.2564"
-        },
-        {
-            "key": "HEAD--nmod--nmod--nmod--nmod",
-            "count": 3,
-            "example_sent_id": "ssj107.678.2571"
-        },
-        {
-            "key": "HEAD--nmod--nmod--appos",
-            "count": 11,
-            "example_sent_id": "ssj111.695.2621"
-        },
-        {
-            "key": "nummod--HEAD--nmod--appos",
+            "key": "_ >nmod (_ <nummod _)",
             "count": 14,
-            "example_sent_id": "ssj111.698.2629"
+            "example_sent_id": "",
+            "example_sent_text": "4 bitna omogo\u010da A[prikaz] B[\u0161estnajstih] C[barv]. "
         },
         {
-            "key": "nummod--nmod--nummod--HEAD",
-            "count": 2,
-            "example_sent_id": "ssj111.698.2630"
+            "key": "_ <amod _ >nmod (_ <amod _ <amod _)",
+            "count": 13,
+            "example_sent_id": "",
+            "example_sent_text": "A[Predvideni] B[datum] C[leto\u0161nje] D[osrednje] E[dirke] je sovpadal z dnevom pogreba pape\u017ea Janeza Pavla II. "
         },
         {
-            "key": "acl--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj116.728.2737"
+            "key": "_ <det _ <amod _ >nmod _",
+            "count": 13,
+            "example_sent_id": "",
+            "example_sent_text": "A[Moji] B[najzgodnej\u0161i] C[trenutki] D[\u017eivljenja] so vezani na ta ve\u010der. "
         },
         {
-            "key": "amod--nummod--HEAD--acl",
-            "count": 2,
-            "example_sent_id": "ssj116.731.2756"
+            "key": "_ <nummod _ >nmod (_ <amod _)",
+            "count": 13,
+            "example_sent_id": "",
+            "example_sent_text": "Srce poganja kri skozi \u0161krge s pomo\u010djo A[8] B[parov] C[\u0161kr\u017enih] D[arterij]. "
         },
         {
-            "key": "HEAD--amod--amod",
-            "count": 1,
-            "example_sent_id": "ssj119.770.2915"
+            "key": "_ >nmod (_ <det _ <amod _)",
+            "count": 13,
+            "example_sent_id": "",
+            "example_sent_text": "Torej, gre za to, kak\u0161en je A[u\u010dinek] B[te] C[dav\u010dne] D[olaj\u0161ave]. "
         },
         {
-            "key": "nummod--HEAD--nummod--acl",
-            "count": 1,
-            "example_sent_id": "ssj119.772.2918"
+            "key": "_ <amod _ <amod _ >nmod (_ <amod _)",
+            "count": 12,
+            "example_sent_id": "",
+            "example_sent_text": "A[Nizozemska] B[kolonialna] C[naselbina] D[Novi] E[Amsterdam] je pozneje postala New York. "
         },
         {
-            "key": "nmod--amod--amod--HEAD",
-            "count": 2,
-            "example_sent_id": "ssj121.780.2957"
+            "key": "_ <amod _ >nmod (_ >nmod (_ <amod _))",
+            "count": 12,
+            "example_sent_id": "",
+            "example_sent_text": "So\u010dasno je zavrnilo prito\u017ebo proti sodbi in potrdilo A[zamudno] B[sodbo] C[sodi\u0161\u010da] D[prve] E[stopnje]. "
         },
         {
-            "key": "det--nummod--det--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj124.789.2991"
+            "key": "_ <nummod _ <amod _ <amod _",
+            "count": 11,
+            "example_sent_id": "",
+            "example_sent_text": "Od hrbtnega predela prek pobo\u010dnice poteka A[15] B[ozkih] C[valovitih] D[prog]. "
         },
         {
-            "key": "det--nummod--HEAD--nmod--nmod",
-            "count": 2,
-            "example_sent_id": "ssj125.793.3008"
-        },
-        {
-            "key": "nummod--HEAD--nmod--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj129.814.3067"
-        },
-        {
-            "key": "amod--amod--amod--HEAD--appos--amod--acl",
-            "count": 1,
-            "example_sent_id": "ssj130.821.3085"
-        },
-        {
-            "key": "det--amod--amod--HEAD--nmod--acl",
-            "count": 1,
-            "example_sent_id": "ssj130.824.3105"
-        },
-        {
-            "key": "HEAD--acl--appos",
-            "count": 15,
-            "example_sent_id": "ssj131.829.3171"
-        },
-        {
-            "key": "det--det--HEAD--acl",
-            "count": 7,
-            "example_sent_id": "ssj131.839.3213"
-        },
-        {
-            "key": "amod--amod--amod--HEAD--nmod--acl",
-            "count": 5,
-            "example_sent_id": "ssj142.921.3521"
-        },
-        {
-            "key": "HEAD--nummod--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj142.938.3589"
-        },
-        {
-            "key": "amod--HEAD--appos--nummod",
-            "count": 1,
-            "example_sent_id": "ssj144.1003.3781"
-        },
-        {
-            "key": "nummod--amod--HEAD--nmod--appos",
-            "count": 2,
-            "example_sent_id": "ssj148.1019.3823"
-        },
-        {
-            "key": "det--amod--HEAD--nmod--nmod--acl",
-            "count": 1,
-            "example_sent_id": "ssj151.1028.3846"
-        },
-        {
-            "key": "det--det--amod--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj152.1038.3888"
-        },
-        {
-            "key": "HEAD--acl--acl",
+            "key": "_ <amod _ >nmod (_ >nummod _)",
             "count": 10,
-            "example_sent_id": "ssj156.1062.3964"
+            "example_sent_id": "",
+            "example_sent_text": "Projekt A[Literarni] B[vlak] C[Evropa] D[2000] poteka pod pokroviteljstvom Evropske komisije. "
         },
         {
-            "key": "amod--nmod--HEAD--acl",
-            "count": 3,
-            "example_sent_id": "ssj157.1071.3994"
+            "key": "(_ <nmod _) <amod _",
+            "count": 9,
+            "example_sent_id": "",
+            "example_sent_text": "Od srca se mi je odvalil A[tono] B[te\u017eak] C[kamen]. "
         },
         {
-            "key": "amod--nmod--HEAD--appos",
-            "count": 3,
-            "example_sent_id": "ssj159.1074.4013"
+            "key": "_ <det _ >nmod (_ >nmod _)",
+            "count": 7,
+            "example_sent_id": "",
+            "example_sent_text": "Tu so natan\u010dno prikazane A[vse] B[faze] C[gradnje] D[objekta]. "
         },
         {
-            "key": "amod--HEAD--amod--nmod",
-            "count": 3,
-            "example_sent_id": "ssj162.1116.4119"
+            "key": "_ >nmod (_ <amod _ >nmod (_ <amod _))",
+            "count": 7,
+            "example_sent_id": "",
+            "example_sent_text": "Zdi se, da A[u\u017eivanje] B[velikih] C[koli\u010din] D[belega] E[ri\u017ea] prav tako pove\u010duje tveganje. "
         },
         {
-            "key": "HEAD--appos--nummod",
-            "count": 1,
-            "example_sent_id": "ssj165.1134.4186"
+            "key": "_ >nmod (_ <det _ >nmod _)",
+            "count": 7,
+            "example_sent_id": "",
+            "example_sent_text": "Bli\u017eamo se A[koncu] B[na\u0161ega] C[pregleda] D[izzivov]. "
         },
         {
-            "key": "amod--amod--amod--amod--HEAD--nmod",
-            "count": 2,
-            "example_sent_id": "ssj166.1142.4212"
+            "key": "_ >nmod (_ <nmod _)",
+            "count": 7,
+            "example_sent_id": "",
+            "example_sent_text": "A[Gospodu] B[von] C[Schleicherju] da gre predvsem za \u0161tevil\u010dno pove\u010danje in okrepitev armade. "
         },
         {
-            "key": "nmod--HEAD--appos",
-            "count": 2,
-            "example_sent_id": "ssj169.1152.4229"
+            "key": "_ <amod _ >nmod (_ <amod _ >nmod _)",
+            "count": 6,
+            "example_sent_id": "",
+            "example_sent_text": "Ve\u010dino podatkov, dosegljivih na portalu odprtih podatkov EU, ureja A[pravno] B[obvestilo] C[spletne] D[strani] E[Europa]. "
         },
         {
-            "key": "nmod--amod--HEAD--nmod",
-            "count": 3,
-            "example_sent_id": "ssj172.1179.4302"
+            "key": "_ >nmod (_ <nummod _ <amod _)",
+            "count": 6,
+            "example_sent_id": "",
+            "example_sent_text": "\u017de \u010dez dve leti je postal A[gospodar] B[dveh] C[viso\u0161kih] D[kmetij]. "
         },
         {
-            "key": "det--HEAD--nummod",
-            "count": 2,
-            "example_sent_id": "ssj172.1181.4311"
+            "key": "_ >nmod (_ >nmod (_ >nmod _))",
+            "count": 6,
+            "example_sent_id": "",
+            "example_sent_text": "Predsednik je vodja dr\u017eave in predstavlja A[enotnost] B[ljudstva] C[Republike] D[Kosovo]. "
         },
         {
-            "key": "nmod--HEAD--nmod--appos",
-            "count": 2,
-            "example_sent_id": "ssj177.1193.4341"
+            "key": "_ >nmod _ >nmod _",
+            "count": 6,
+            "example_sent_id": "",
+            "example_sent_text": "Po zaklju\u010dku foruma so udele\u017eenci sledili tradiciji in se udele\u017eili zaklju\u010dne tekme A[Lige] B[prvakov] C[UEFA]. "
         },
         {
-            "key": "det--amod--HEAD--acl--appos",
-            "count": 1,
-            "example_sent_id": "ssj177.1196.4356"
-        },
-        {
-            "key": "amod--HEAD--amod--appos",
-            "count": 1,
-            "example_sent_id": "ssj178.1200.4382"
-        },
-        {
-            "key": "amod--nummod--HEAD--nmod--appos--nmod",
-            "count": 1,
-            "example_sent_id": "ssj192.1260.4566"
-        },
-        {
-            "key": "amod--amod--amod--amod--HEAD",
-            "count": 3,
-            "example_sent_id": "ssj193.1276.4614"
-        },
-        {
-            "key": "HEAD--nummod--nmod--nummod--acl",
-            "count": 1,
-            "example_sent_id": "ssj195.1318.4755"
-        },
-        {
-            "key": "HEAD--nummod--nmod--nummod",
-            "count": 1,
-            "example_sent_id": "ssj195.1319.4761"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod--nmod--appos",
-            "count": 1,
-            "example_sent_id": "ssj206.1381.5011"
-        },
-        {
-            "key": "det--nmod--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj206.1382.5012"
-        },
-        {
-            "key": "det--HEAD--acl--appos",
+            "key": "_ <amod _ >nmod (_ <nummod _)",
             "count": 5,
-            "example_sent_id": "ssj206.1384.5016"
+            "example_sent_id": "",
+            "example_sent_text": "Na prelomu tiso\u010dletja bomo pripravili A[histori\u010dno] B[razstavo] C[20.] D[stoletja]. "
         },
         {
-            "key": "amod--HEAD--nmod--acl--appos",
-            "count": 1,
-            "example_sent_id": "ssj206.1387.5034"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod--nmod--acl",
-            "count": 2,
-            "example_sent_id": "ssj209.1397.5068"
-        },
-        {
-            "key": "det--nmod--nmod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj212.1404.5102"
-        },
-        {
-            "key": "nummod--det--HEAD--nmod",
-            "count": 1,
-            "example_sent_id": "ssj213.1411.5121"
-        },
-        {
-            "key": "HEAD--nmod--appos--acl",
-            "count": 3,
-            "example_sent_id": "ssj213.1412.5126"
-        },
-        {
-            "key": "amod--HEAD--nummod--nmod",
+            "key": "_ <amod _ <det _",
             "count": 4,
-            "example_sent_id": "ssj214.1417.5150"
+            "example_sent_id": "",
+            "example_sent_text": "Potem sem prebral A[prvo] B[tak\u0161no] C[knjigo], za njo so se zvrstile druge. "
         },
         {
-            "key": "amod--HEAD--amod--acl",
+            "key": "_ <amod _ >nummod _",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "A[Olimpijske] B[igre] C[1916] so bile dodeljene Berlinu, vendar so bile odpovedane zaradi prve svetovne vojne. "
+        },
+        {
+            "key": "_ <det _ <nmod _",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "Prav zato lahko pri japonski Toyoti zapi\u0161ejo A[svojega] B[land] C[cruiserja] v svojo zgodovino z zlatimi \u010drkami. "
+        },
+        {
+            "key": "_ <det _ <nummod _ <amod _",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "Letos so na ob\u010dinskem tekmovanju osvojili A[vseh] B[pet] C[prvih] D[mest]! "
+        },
+        {
+            "key": "_ <det _ >nmod (_ <det _)",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "Ja, tudi iz Poljske sem dobivala A[veliko] B[po\u0161te] C[mojih] D[ob\u010dudovalcev]. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ >nmod _)",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "Osemnajst slovenskih vzajemnih skladov je v juliju pove\u010dalo obseg sredstev kar za 555 milijonov tolarjev ali 5,04 odstotka in tako upravljalo A[11,56] B[milijarde] C[tolarjev] D[sredstev]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ >nmod _))",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "S tem nikakor ni zmanj\u0161an A[pomen] B[enotne] C[volje] D[dr\u017eavljanov] E[Slovenije]. "
+        },
+        {
+            "key": "_ >nmod (_ <det _ <amod _ <amod _)",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "Slovenija je namre\u010d z leto\u0161njim letom postala A[\u010dlanica] B[tega] C[panevropskega] D[filmskega] E[sklada]. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <amod _ <amod _))",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "Danski zaseg trdnjav Christiansborg and Carlsborg je zaklju\u010dil A[priklju\u010ditev] B[naselij] C[\u0161vedske] D[zlate] E[obale]. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ >nummod _))",
+            "count": 4,
+            "example_sent_id": "",
+            "example_sent_text": "A[Cilji] B[strategije] C[Evropa] D[2020] dolo\u010dajo prednostne naloge ESS. "
+        },
+        {
+            "key": "_ <amod _ <amod _ >nmod (_ <amod _ <amod _)",
             "count": 3,
-            "example_sent_id": "ssj217.1442.5227"
+            "example_sent_id": "",
+            "example_sent_text": "Ljubljana - A[Najve\u010dja] B[razpravna] C[dvorana] D[ljubljanskega] E[okro\u017enega] F[sodi\u0161\u010da] se je v\u010deraj spremenila v \u0161portno igri\u0161\u010de, \u017eogo pa so si podajali odvetniki in to\u017eilka. "
         },
         {
-            "key": "nummod--amod--amod--HEAD--acl",
-            "count": 2,
-            "example_sent_id": "ssj221.1453.5271"
-        },
-        {
-            "key": "HEAD--appos--amod",
-            "count": 1,
-            "example_sent_id": "ssj226.1489.5416"
-        },
-        {
-            "key": "amod--nummod--amod--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj226.1504.5477"
-        },
-        {
-            "key": "HEAD--nmod--nmod--amod",
-            "count": 1,
-            "example_sent_id": "ssj228.1518.5510"
-        },
-        {
-            "key": "HEAD--amod--nmod--amod",
-            "count": 1,
-            "example_sent_id": "ssj228.1521.5516"
-        },
-        {
-            "key": "amod--HEAD--acl--acl",
-            "count": 1,
-            "example_sent_id": "ssj234.1553.5618"
-        },
-        {
-            "key": "nummod--det--amod--HEAD--nmod",
-            "count": 1,
-            "example_sent_id": "ssj237.1563.5654"
-        },
-        {
-            "key": "HEAD--nmod--appos--nummod",
-            "count": 1,
-            "example_sent_id": "ssj239.1576.5704"
-        },
-        {
-            "key": "nmod--HEAD--acl",
-            "count": 8,
-            "example_sent_id": "ssj243.1587.5750"
-        },
-        {
-            "key": "det--HEAD--nmod--nmod--nummod",
-            "count": 1,
-            "example_sent_id": "ssj247.1598.5792"
-        },
-        {
-            "key": "HEAD--nmod--acl--acl",
-            "count": 2,
-            "example_sent_id": "ssj247.1598.5793"
-        },
-        {
-            "key": "det--nummod--amod--HEAD--nmod",
-            "count": 1,
-            "example_sent_id": "ssj247.1598.5802"
-        },
-        {
-            "key": "nummod--amod--nmod--HEAD--appos",
-            "count": 2,
-            "example_sent_id": "ssj249.1600.5811"
-        },
-        {
-            "key": "nmod--nmod--HEAD",
+            "key": "_ <amod _ <amod _ >nmod (_ >nummod _)",
             "count": 3,
-            "example_sent_id": "ssj251.1609.5838"
+            "example_sent_id": "",
+            "example_sent_text": "Torej bomo A[plavajo\u010do] B[kijasto] C[vrvico] D[\u0161t.] E[8], na primer, ozna\u010dili s kodo WF-8-F. "
         },
         {
-            "key": "HEAD--nmod--acl--appos--acl",
-            "count": 1,
-            "example_sent_id": "ssj252.1625.5864"
-        },
-        {
-            "key": "amod--HEAD--nmod--appos--appos",
-            "count": 1,
-            "example_sent_id": "ssj260.1661.5970"
-        },
-        {
-            "key": "nmod--det--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj269.1702.6065"
-        },
-        {
-            "key": "nmod--nummod--HEAD--appos",
-            "count": 1,
-            "example_sent_id": "ssj277.1717.6101"
-        },
-        {
-            "key": "amod--nummod--HEAD--appos",
-            "count": 1,
-            "example_sent_id": "ssj278.1726.6119"
-        },
-        {
-            "key": "nmod--amod--HEAD--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj295.1801.6382"
-        },
-        {
-            "key": "amod--amod--HEAD--amod--acl",
-            "count": 1,
-            "example_sent_id": "ssj295.1803.6386"
-        },
-        {
-            "key": "det--amod--HEAD--nmod--appos",
+            "key": "_ <amod _ >amod _",
             "count": 3,
-            "example_sent_id": "ssj295.1804.6389"
+            "example_sent_id": "",
+            "example_sent_text": "Fa\u0161izem se je predstavljal kot branilec pred komunisti\u010dno nevarnostjo, saj je pu\u0161\u010dal A[zasebno] B[lastnino] C[bogatih] nedotaknjeno. "
         },
         {
-            "key": "amod--nmod--nummod--HEAD--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj296.1806.6394"
-        },
-        {
-            "key": "amod--amod--HEAD--acl--appos",
-            "count": 1,
-            "example_sent_id": "ssj296.1806.6396"
-        },
-        {
-            "key": "det--nummod--amod--amod--HEAD--nmod--appos",
-            "count": 1,
-            "example_sent_id": "ssj299.1812.6414"
-        },
-        {
-            "key": "nummod--det--HEAD",
-            "count": 2,
-            "example_sent_id": "ssj300.1817.6437"
-        },
-        {
-            "key": "nmod--nummod--amod--HEAD--nmod",
-            "count": 1,
-            "example_sent_id": "ssj312.1876.6656"
-        },
-        {
-            "key": "nummod--amod--amod--HEAD--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj312.1877.6687"
-        },
-        {
-            "key": "HEAD--nmod--nmod--appos--nmod",
-            "count": 1,
-            "example_sent_id": "ssj319.1901.6784"
-        },
-        {
-            "key": "nmod--HEAD--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj322.1911.6824"
-        },
-        {
-            "key": "HEAD--nmod--nmod--nummod",
-            "count": 1,
-            "example_sent_id": "ssj341.1991.7072"
-        },
-        {
-            "key": "amod--det--HEAD--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj345.2015.7155"
-        },
-        {
-            "key": "nmod--det--nummod--HEAD--nmod",
-            "count": 1,
-            "example_sent_id": "ssj356.2062.7297"
-        },
-        {
-            "key": "nmod--det--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj358.2069.7326"
-        },
-        {
-            "key": "amod--det--HEAD--nmod",
-            "count": 1,
-            "example_sent_id": "ssj364.2085.7393"
-        },
-        {
-            "key": "det--det--HEAD--appos",
-            "count": 1,
-            "example_sent_id": "ssj369.2111.7498"
-        },
-        {
-            "key": "det--nmod--HEAD--amod",
-            "count": 1,
-            "example_sent_id": "ssj370.2112.7506"
-        },
-        {
-            "key": "nummod--det--HEAD--acl",
-            "count": 1,
-            "example_sent_id": "ssj370.2124.7555"
-        },
-        {
-            "key": "nmod--HEAD--appos--appos",
-            "count": 1,
-            "example_sent_id": "ssj370.2127.7569"
-        },
-        {
-            "key": "amod--amod--amod--HEAD--nmod--nummod--nummod",
-            "count": 1,
-            "example_sent_id": "ssj391.2225.7872"
-        },
-        {
-            "key": "nmod--amod--HEAD--appos",
-            "count": 1,
-            "example_sent_id": "ssj412.2284.8050"
-        },
-        {
-            "key": "amod--amod--HEAD--nmod--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "ssj417.2322.8184"
-        },
-        {
-            "key": "det--amod--amod--amod--HEAD--acl",
-            "count": 1,
-            "example_sent_id": "ssj417.2328.8204"
-        },
-        {
-            "key": "HEAD--amod--appos",
-            "count": 2,
-            "example_sent_id": "ssj420.2338.8232"
-        },
-        {
-            "key": "HEAD--nmod--nmod--nmod--acl",
-            "count": 1,
-            "example_sent_id": "ssj425.2363.8305"
-        },
-        {
-            "key": "det--HEAD--appos--appos",
-            "count": 1,
-            "example_sent_id": "ssj433.2384.8373"
-        },
-        {
-            "key": "amod--HEAD--nmod--nummod--acl",
-            "count": 2,
-            "example_sent_id": "ssj445.2428.8514"
-        },
-        {
-            "key": "amod--amod--HEAD--appos--amod",
-            "count": 1,
-            "example_sent_id": "ssj445.2429.8516"
-        },
-        {
-            "key": "HEAD--nmod--nummod--acl",
-            "count": 1,
-            "example_sent_id": "ssj445.2430.8525"
-        },
-        {
-            "key": "amod--amod--HEAD--nummod--amod",
-            "count": 1,
-            "example_sent_id": "ssj446.2435.8544"
-        },
-        {
-            "key": "det--amod--nmod--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj459.2521.8947"
-        },
-        {
-            "key": "nummod--det--amod--amod--HEAD",
-            "count": 1,
-            "example_sent_id": "ssj464.2530.8989"
-        },
-        {
-            "key": "nummod--HEAD--nummod--nmod",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.188.sl.131004"
-        },
-        {
-            "key": "det--HEAD--nmod--nmod--nmod",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.464.sl.131281"
-        },
-        {
-            "key": "amod--amod--HEAD--appos--acl",
+            "key": "_ <amod _ >nmod (_ >nmod (_ >nmod _))",
             "count": 3,
-            "example_sent_id": "elexiswsd1.476.sl.131293"
+            "example_sent_id": "",
+            "example_sent_text": "Mijo Kurpes, predsednik A[pokrajinskega] B[zveze] C[dru\u0161tev] D[upokojencev] E[Dolenjske]: Ne moremo se strinjati s tem, da smo Dolenjci kar naprej odrinjeni. "
         },
         {
-            "key": "amod--nmod--HEAD--amod",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.521.sl.131338"
-        },
-        {
-            "key": "amod--amod--HEAD--appos--appos",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.675.sl.131493"
-        },
-        {
-            "key": "nummod--amod--HEAD--acl--appos",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.697.sl.131515"
-        },
-        {
-            "key": "amod--nummod--amod--HEAD--nmod--appos",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.787.sl.131605"
-        },
-        {
-            "key": "nummod--amod--HEAD--nmod--nmod--appos",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.885.sl.131704"
-        },
-        {
-            "key": "nummod--HEAD--nummod--appos",
-            "count": 1,
-            "example_sent_id": "elexiswsd1.988.sl.131807"
-        },
-        {
-            "key": "nummod--amod--HEAD--appos--acl",
+            "key": "_ <det _ <amod _ >nmod (_ <amod _)",
             "count": 3,
-            "example_sent_id": "elexiswsd1.1035.sl.131854"
+            "example_sent_id": "",
+            "example_sent_text": "A[Mnogo] B[pomembnih] C[zna\u010dilnosti] D[fizikalnih] E[sistemov] se lahko matemati\u010dno prika\u017ee kot matri\u010dne ena\u010dbe. "
         },
         {
-            "key": "amod--amod--nmod--HEAD",
+            "key": "_ <nmod _ >nmod _",
+            "count": 3,
+            "example_sent_id": "",
+            "example_sent_text": "Spomnimo se samo pred leti prenosa A[\u017eiro] B[ra\u010duna] C[elektrogospodarstva] v Ljubljano, spomnimo se \"sve\u017eega\" sede\u017ea holdinga elektrogospodarstva, v to kategorijo pa spada tudi privatizacija Nove KBM. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ <det _)",
+            "count": 3,
+            "example_sent_id": "",
+            "example_sent_text": "Davek iz drugega odstavka A[3.] B[\u010dlena] C[tega] D[zakona] se pla\u010da v roku 15 dni od nastanka dav\u010dne obveznosti. "
+        },
+        {
+            "key": "_ <nummod _ >nmod _ >nmod _",
+            "count": 3,
+            "example_sent_id": "",
+            "example_sent_text": "Lani so ustvarili A[550] B[milijonov] C[tolarjev] D[prometa]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ <amod _ <amod _)",
+            "count": 3,
+            "example_sent_id": "",
+            "example_sent_text": "Skrbno je treba na\u010drtovati prenos novih podatkov v skladi\u0161\u010de, da ne bi preve\u010d ohromili dela A[uporabnikov] B[obstoje\u010dih] C[poslovnih] D[informacijskih] E[sistemov]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ <amod _ >nmod _)",
+            "count": 3,
+            "example_sent_id": "",
+            "example_sent_text": "Malo smo utrujeni, vendar nas A[ogled] B[starega] C[tur\u0161kega] D[dela] E[mesta] spet prebudi. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <amod _ >nmod _))",
+            "count": 3,
+            "example_sent_id": "",
+            "example_sent_text": "Slovenija odlo\u010dno nasprotuje A[racionalizaciji] B[\u0161tevila] C[uradnih] D[jezikov] E[EU]. "
+        },
+        {
+            "key": "(_ <det _) <nummod _",
             "count": 2,
-            "example_sent_id": "elexiswsd1.1103.sl.131922"
+            "example_sent_id": "",
+            "example_sent_text": "Levine si je oddahnil in pogledal dol, proti Diegu, ki je bil A[kakih] B[\u0161est] C[metrov] pod njim v steni. "
         },
         {
-            "key": "amod--HEAD--nmod--nmod--nmod--acl",
-            "count": 3,
-            "example_sent_id": "elexiswsd1.1351.sl.132172"
+            "key": "_ <amod _ <amod _ <amod _ >nmod _",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "A[Edinstveni] B[spro\u0161\u010deni] C[\u017eivljenjski] D[slog] E[prebivalcev] pa je \u010dudovita sprememba. "
         },
         {
-            "key": "nummod--amod--amod--HEAD--acl--appos",
+            "key": "_ <amod _ <amod _ >nummod _",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "V Gr\u010diji se je dogodka udele\u017eil Theodoras Zagorakis, zmagovalec A[Evropskega] B[nogometnega] C[prvenstva] D[2004], z dr\u017eavno reprezentanco. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <amod _ <amod _ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Pavia je po triletnem obleganju padla leta 572 in tako postala A[prva] B[prestolnica] C[novega] D[italskega] E[Langobardskega] F[kraljestva]. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <amod _ >nmod (_ <amod _))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "A[Zna\u010dilni] B[vzorec] C[trikotnih] D[zob] E[morskega] F[psa] je dobro viden pri posnetku, ko je sonce \u017ee nizko. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <det _ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "\u201c A[Osrednji] B[del] C[na\u0161e] D[nove] E[pridobitve] je 15 metrov visok stolp, s katerega smo za za\u010detek speljali \u0161est toboganov. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <nummod _ >nmod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Z novo nagrado je presko\u010dila A[sanjsko] B[mejo] C[2,5] D[mio] E[dolarjev]. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ >nmod (_ <amod _ >nmod _))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "A[Drugi] B[amandma] C[ustave] D[Zdru\u017eenih] E[dr\u017eav] F[Amerike] nam daje pravico do no\u0161enja oro\u017eja. "
+        },
+        {
+            "key": "_ <det _ <amod _ >nmod (_ >nmod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Bo poslej SNTO vendarle igral A[svojo] B[osrednjo] C[vlogo] D[pospe\u0161evanja] E[prodaje] "
+        },
+        {
+            "key": "_ <det _ <det _ <amod _",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "A[Nekaj] B[takih] C[univerzalnih] D[\u010ditalcev] (cena za enega je menda le okrog 20000 SIT) je pri nas \u017ee. "
+        },
+        {
+            "key": "_ <det _ <nummod _ >nmod (_ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "TETOVO A[Ve\u010d] B[sto] C[\u0161tudentov] D[albanske] E[narodnosti] se je v\u010deraj zbralo v tem severozahodnem makedonskem mestu na protestnem shodu v podporo kolegoma, ki so ju v petek zaprli zaradi domnevnega sodelovanja v hudodelski skupini. "
+        },
+        {
+            "key": "_ <det _ <nummod _ >nmod _",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Prednost kompatibilnostnega pred na\u010dinom \u00bblegacy\u00ab je predvsem v uporabi A[vseh] B[4] C[GB] D[pomnilnika] za namen dolo\u010denega procesa (pri 32-bitnih aplikacijah obstaja 2 GB omejitev, preostala 2 GB pa sta namenjena operacijskemu sistemu). "
+        },
+        {
+            "key": "_ <nmod _ >nmod (_ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Podobno razmi\u0161lja tudi Anton \u0160teblaj, direktor A[RTC] B[\u017di\u010dnice] C[Kranjska] D[Gora]: Mislim, da gre za prijateljski prevzem, od katerega bomo imeli koristi oboji. "
+        },
+        {
+            "key": "_ <nummod _ <amod _ >nmod (_ <amod _ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "ZAGREB, 22. (Od na\u0161ega dopisnika) Po ve\u010dmese\u010dnih vro\u010dih predvolilnih pripravah se je v\u010deraj za\u010del A[7.] B[splo\u0161ni] C[zbor] D[Hrva\u0161ke] E[demokratske] F[skupnosti]. "
+        },
+        {
+            "key": "_ <nummod _ <amod _ >nmod (_ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "V mo\u0161ki konkurenci je bil izid zelo tesen, saj so o \u0161portniku leta odlo\u010dili glasovi A[enega] B[samega] C[\u010dlana] D[strokovne] E[komisije]. "
+        },
+        {
+            "key": "_ <nummod _ >amod _",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Med drugimi pogostimi dejavniki so tudi monotonija, kratki roki (A[29] B[odstotkov] C[zaposlenih] trdi, da morajo nenehno slediti rokom) in nadlegovanje (fizi\u010dno in psihi\u010dno). "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ <amod _ <amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Ira\u0161ki uporniki so medtem v pokrajini Al Anbar na zahodu Iraka ugrabili avtobus, na katerem je bilo A[21] B[pripadnikov] C[ira\u0161ke] D[narodne] E[garde]. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ >nmod (_ <amod _))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "V obratu bi lahko na leto predelali A[6,5] B[milijona] C[litrov] D[odpadnih] E[olj], investicijska vrednost objekta pa je po ocenah \u0161tiri milijone ameri\u0161kih dolarjev. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ >nummod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Krstna izvedba je bila A[9.] B[februarja] C[leta] D[1893] v milanski Scali. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ >nummod _))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "A[Projekt] B[Literarni] C[vlak] D[Evropa] E[2000] poteka pod pokroviteljstvom Evropske komisije. "
+        },
+        {
+            "key": "_ >nmod (_ <det _ <nummod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "A[Skupino] B[kakih] C[tiso\u010d] D[bojevnikov] sta vodila znani \u010de\u010denski voditelj \u0160amil Basajev in Jordanec Hatab. "
+        },
+        {
+            "key": "_ >nmod (_ <nummod _ >nummod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Med aretacijo in sojenjem A[dne] B[22.] C[decembra] D[1930] je pre\u017eivel 108 dni v zaporu. "
+        },
+        {
+            "key": "_ >nmod (_ >amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "To je izrazil v pismu A[pisateljici] B[Zofki] C[Kvedrovi], ko ji je napisal: "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <det _))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Je pa pri odlo\u010danju o spremembi tega zakona pri\u0161lo do prav \u010dudne situacije, da smo dobili v odlo\u010danje zakon, ki pove\u010duje finan\u010dno obveznost dr\u017eave in ki v posledici omogo\u010da A[odprodaje] B[delov] C[tega] D[sistema] brez obveznosti, kar me\u010de \u010dudno lu\u010d na samo smer, v katero naj bi se ta sanacija vodila. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <nummod _))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Kljub majskemu odprtju A[meja] B[trga] C[tiso\u010derih] D[prilo\u017enosti] velikega povpra\u0161evanja delodajalcev nismo do\u017eiveli. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ >nmod (_ <amod _)))",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "V Slovenski filharmoniji je kot poslovna in programska direktorica izpeljala A[projekt] B[obnove] C[stavbe] D[Slovenske] E[filharmonije] in pripravila klju\u010dne aktivnosti ob 300. obletnici ustanovitve filharmonije. "
+        },
+        {
+            "key": "_ >nmod (_ >nummod _ >amod _)",
+            "count": 2,
+            "example_sent_id": "",
+            "example_sent_text": "Red britanskega imperija je ustanovil A[kralj] B[Jurij] C[V.] D[Britanski] 4. junija 1917. "
+        },
+        {
+            "key": "((_ <det _) <nmod _) <amod _",
             "count": 1,
-            "example_sent_id": "elexiswsd1.1550.sl.132375"
+            "example_sent_id": "",
+            "example_sent_text": "Veliko dejavnikov vpliva na to, kako bo sadje uspevalo na na\u0161em vrtu, na nas pa je, da jih pravilno ocenimo in izberemo A[na\u0161im] B[razmeram] C[najustreznej\u0161e] D[sorte]. "
         },
         {
-            "key": "det--HEAD--appos--acl",
+            "key": "((_ <nummod _ >nmod _) <nmod _) <amod _ <amod _",
             "count": 1,
-            "example_sent_id": "ssj489.2624.9340"
+            "example_sent_id": "",
+            "example_sent_text": "Kljub vsemu pa izjave kitajskega finan\u010dnega ministra ne smemo prezreti, saj so A[200] B[milijard] C[dolarjev] D[vredne] E[kitajske] F[rezerve] druge najve\u010dje za japonskimi in \u010de bi se kitajske finan\u010dne oblasti res odlo\u010dile spreminjati valutno strukturo, bi njihova akcija zares lahko bistveno okrepila evro. "
         },
         {
-            "key": "HEAD--nummod--nummod",
+            "key": "((_ <nummod _) <nmod _) <amod _ <amod _",
             "count": 1,
-            "example_sent_id": "ssj490.2627.9364"
+            "example_sent_id": "",
+            "example_sent_text": "Predstavniki vlade in protivladnih upornikov v Gvatemali podpi\u0161ejo sporazum, s katerim kon\u010dajo A[36] B[let] C[trajajo\u010do] D[dr\u017eavljansko] E[vojno]. "
         },
         {
-            "key": "nummod--nmod--HEAD--acl",
+            "key": "(_ <amod _) <amod _",
             "count": 1,
-            "example_sent_id": "ssj503.2668.9536"
+            "example_sent_id": "",
+            "example_sent_text": "Toda entitete A[poznega] B[dvajsetega] C[stoletja], ne glede na to, ali imajo strukturo in lastnosti retori\u010dnih objektov \u2013 infekcijski vektorji (mikrobi), elementarni delci (kvarki) in biomolekularne kode (geni) \u2013 niso romanti\u010dni ali modernisti\u010dni objekti z notranjimi zakoni koherence. "
         },
         {
-            "key": "nummod--det--amod--HEAD--acl",
+            "key": "(_ <amod _) <nummod _",
             "count": 1,
-            "example_sent_id": "ssj526.2767.9851"
+            "example_sent_id": "",
+            "example_sent_text": "Svoje prispevke je doslej \u017ee nakazalo A[dobrih] B[4000] C[podjetij], vendar nobeno ni prispevalo milijonskih vsot, tudi tista ne, ki bi si to lahko privo\u0161\u010dila. "
         },
         {
-            "key": "amod--amod--HEAD--nmod--nummod",
+            "key": "(_ <det _) <amod _",
             "count": 1,
-            "example_sent_id": "ssj539.2845.10115"
+            "example_sent_id": "",
+            "example_sent_text": "Od petih nivojev preverjanja se najbolj pogosto uporablja IV. nivo (normalni nivo), razen, \u010de se izrecno ne zahteva A[kak] B[drug] C[nivo]. "
         },
         {
-            "key": "nummod--amod--HEAD--nmod--acl",
+            "key": "(_ <nmod _) <amod _ >nmod _",
             "count": 1,
-            "example_sent_id": "ssj550.2881.10220"
+            "example_sent_id": "",
+            "example_sent_text": "Na ulici je precej samotno, bli\u017ea se poldan in z njim nova prigoda pri romanju v El Toboso, v kraj, kjer naj bi bila \u017eivela A[don] B[Kihotova] C[izvoljenka] D[Dulcineja]. "
         },
         {
-            "key": "nmod--HEAD--nummod",
+            "key": "(_ <nummod _) <nmod _",
             "count": 1,
-            "example_sent_id": "ssj550.2885.10235"
+            "example_sent_id": "",
+            "example_sent_text": "Sedaj je najbli\u017eja trgovina na Preloki, do koder je A[2] B[km] C[klanca], naslednja pa v 7 km oddaljenih Adle\u0161i\u010dih. "
         },
         {
-            "key": "HEAD--nmod--amod--acl",
+            "key": "(_ >nmod _) <nmod _ >nmod _",
             "count": 1,
-            "example_sent_id": "ssj559.2912.10311"
+            "example_sent_id": "",
+            "example_sent_text": "A[ALOE] B[VERA] C[\u017eele] D[VERDALOE] pomaga pri pikih \u017eu\u017eelk, opeklinah, srbenju repa, rape, ugrizi, ekcemi. "
         },
         {
-            "key": "det--amod--HEAD--nmod--amod",
+            "key": "(_ >nmod _) <nummod _",
             "count": 1,
-            "example_sent_id": "ssj572.2948.10474"
+            "example_sent_id": "",
+            "example_sent_text": "Najbolj\u0161i ko\u0161arkarski klubi v Sloveniji pozabljajo, da je praznovanje sploh obstajalo, kajti drevi jih \u010daka 17. krog doma\u010dega prvenstva A[1.] B[A] C[lige]. "
         },
         {
-            "key": "amod--det--HEAD--nmod--appos",
+            "key": "(_ >nummod _) <nmod _",
             "count": 1,
-            "example_sent_id": "ssj590.3033.10742"
+            "example_sent_id": "",
+            "example_sent_text": "Torej morajo biti A[H] B[II] C[regije] obmo\u010dja, v katerih se rojevajo zvezde. "
         },
         {
-            "key": "nmod--HEAD--nummod--nmod--appos",
+            "key": "_ <amod _ <amod _ <amod _ <amod _",
             "count": 1,
-            "example_sent_id": "ssj590.3033.10742"
+            "example_sent_id": "",
+            "example_sent_text": "Ker je bil v preteklih stoletjih velika \u017eivina, \u010digar bibliografija je bila dalj\u0161a kot odvita rola strani\u0161\u010dnega papirja in biografija polna A[akcijskih] B[socialisti\u010dnih] C[ekskluzivnih] D[znanstvenih] E[podvigov], se je itak ve\u010dino \u010dasa ukvarjal s tem, da je najbolj\u0161i, najve\u010dji, najpomembnej\u0161i in najpametnej\u0161i. "
         },
         {
-            "key": "HEAD--appos--nmod--acl",
+            "key": "_ <amod _ <amod _ <amod _ >nmod (_ >nummod _)",
             "count": 1,
-            "example_sent_id": "ssj596.3063.10845"
+            "example_sent_id": "",
+            "example_sent_text": "A[Drugi] B[kratki] C[eksplozivni] D[izbruh] E[januarja] F[1929] je o\u010ditno obsegal tudi piroklasti\u010dni tok in tok lave. "
         },
         {
-            "key": "amod--amod--amod--HEAD--nmod--amod",
+            "key": "_ <amod _ <amod _ >nmod (_ <amod _ >nmod (_ >nmod (_ >nmod _)))",
             "count": 1,
-            "example_sent_id": "ssj598.3077.10893"
+            "example_sent_id": "",
+            "example_sent_text": "Tola\u017eilo nas je spoznanje, da so skrbi, ki jih ima predsedujo\u010da dr\u017eava v EU kot gostiteljica A[rednega] B[polletnega] C[sre\u010danja] D[politi\u010dnih] E[vodstev] F[dr\u017eav] G[\u010dlanic] H[EU], kar zadeva Slovenijo, \u0161e dale\u010d. "
         },
         {
-            "key": "nummod--amod--amod--amod--HEAD--nmod--acl",
+            "key": "_ <amod _ <amod _ >nmod (_ <det _ <amod _)",
             "count": 1,
-            "example_sent_id": "ssj598.3082.10916"
+            "example_sent_id": "",
+            "example_sent_text": "A[Pravi] B[divji] C[zagon] D[obeh] E[nem\u0161kih] F[navez] se je \u017ee do tretjega razte\u017eaja ustavil, pred \u010detrtim pa smo spet vsi lepo na tesnem na drobni poli\u010dki. "
         },
         {
-            "key": "det--amod--amod--amod--amod--HEAD",
+            "key": "_ <amod _ <amod _ >nmod (_ <det _)",
             "count": 1,
-            "example_sent_id": "ssj607.3126.11107"
+            "example_sent_id": "",
+            "example_sent_text": "Znanstvenike njihova bo\u017eanska radovednost in neustavljivi entuziazem zaslepita do te mere, da praviloma niti ne uvidijo A[mo\u017enih] B[negativnih] C[posledic] D[svojega] E[dela], prav tako pa jim nikoli v zgodovini ni uspelo nadzirati dru\u017ebenih posledic svojih odkritij. "
         },
         {
-            "key": "det--nummod--HEAD--appos",
+            "key": "_ <amod _ <amod _ >nmod (_ >nmod (_ >nmod _))",
             "count": 1,
-            "example_sent_id": "ssj607.3145.11185"
+            "example_sent_id": "",
+            "example_sent_text": "Avtor \u010carobnic dr. Mirko Zupan\u010di\u010d je dan po premieri v novogori\u0161kem gledali\u0161\u010du prejel A[srebrni] B[\u010dastni] C[znak] D[Svobode] E[Republike] F[Slovenije]. "
+        },
+        {
+            "key": "_ <amod _ <nmod _ >nmod (_ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Sgt. Pepper's Lonely Hearts Club Band je osmi studijski album A[angle\u0161ke] B[rock] C[skupine] D[The] E[Beatles]. "
+        },
+        {
+            "key": "_ <amod _ <nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Devizni trgovci so po za\u010detnih nekaj sunkovitih poskusih navzgor, ki so v nekaj minutah splahneli, morali re\u0161evati A[nakupljene] B[evro] C[pozicije] s prodajami le-teh, saj je takoj po objavi zmanj\u0161anja ameri\u0161kih brezposelnih prosilcev pomo\u010di dolar za\u010del neustavljivo pridobivati, vse do najprej mo\u010dno za evro podpornega 0,8910 dolarja. "
+        },
+        {
+            "key": "_ <amod _ <nummod _ <amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Zadnje] B[tri] C[manj\u0161inske] D[veroizpovedi] so uradno priznane, za\u0161\u010ditene in imajo v iranskem parlamentu rezervirane sede\u017ee. "
+        },
+        {
+            "key": "_ <amod _ <nummod _ >nmod (_ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "To delo se je kasneje raz\u0161irilo na Magellanove oblake, kar je prispevalo A[dodatna] B[2.000.000] C[opazovanj] D[spremenljivih] E[zvezd]. "
+        },
+        {
+            "key": "_ <amod _ <nummod _ >nmod _ >nmod (_ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "\u00bbSlovenski\u00ab begunci so \u017ee lani dobili A[skromne] B[4] C[milijone] D[dolarjev] E[humanitarne] F[pomo\u010di], letos pa je denarja le \u0161e desetino lanskega. "
+        },
+        {
+            "key": "_ <amod _ <nummod _ >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Projekt je stal A[dobrih] B[8] C[milijonov] D[tolarjev], polovico zneska je prispevalo ministrstvo za znanost. "
+        },
+        {
+            "key": "_ <amod _ >amod (_ <det _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Vrh je v zunanji manifestaciji dosegla s spravno slovesnostjo 8. julija 1990 v Ko\u010devskem rogu, \u017ee prej pa se je Slovenska \u0161kofovska konferenca zavzela za spravo kot \"spo\u0161tljivo priznanje A[dostojnega] B[spomina] C[vseh] D[mrtvih], ne glede na to, kako in zaradi kak\u0161nega prepri\u010danja so izgubili \u017eivljenje\" (Balkovec et al., 1996, 441), pa tudi zato, da bi se v imenu sprave odrekli vsakr\u0161nemu obra\u010dunavanju. "
+        },
+        {
+            "key": "_ <amod _ >nmod ((_ >nmod _) <nummod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Najbolj\u0161i ko\u0161arkarski klubi v Sloveniji pozabljajo, da je praznovanje sploh obstajalo, kajti drevi jih \u010daka 17. krog A[doma\u010dega] B[prvenstva] C[1.] D[A] E[lige]. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <amod _ <amod _ >nmod (_ >nummod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Potem ko je Microsoft za grafi\u010dno jedro nove konzole Xbox 2 izbral ATI, pa je nVidia vrnila udarec z ravnokar podpisano pogodbo za izdelavo A[grafi\u010dnega] B[procesorja] C[Sonyjeve] D[prihajajo\u010de] E[konzole] F[Playstation] G[3]. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <amod _ <amod _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Pred dnevi so odprli obnovljeno \u0161portno igri\u0161\u010de, ki je bilo zgrajeno z veliko pomo\u010djo A[prizadevnih] B[\u010dlanov] C[doma\u010dega] D[\u0161portnega] E[dru\u0161tva] F[Lon\u010dar]. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <amod _ >nmod (_ >nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "2 Zbirka odlo\u010db A[civilnega] B[oddelka] C[Vrhovnega] D[sodi\u0161\u010da] E[Republike] F[Slovenije] 2000, GV, Ljubljana 2001, \u0161t. 37, str. 240. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <amod _) >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Krajevna] B[organizacija] C[Rde\u010dega] D[kri\u017ea] E[\u0160marjeta] vsako jesen organizira sre\u010danje za starostnike nad 70. letom starosti. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <det _ >nmod (_ >nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Skupno] B[\u0161tevilo] C[vseh] D[govorcev] E[jezikov] F[gbe] je med 4 in 8 milijonov. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "V \u0161krlatnih \u017earkih zahajajo\u010dega sonca \u017eari A[mogo\u010dna] B[kupola] C[Mt.] D[Blanca] bledo ro\u017enato. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ <nummod _ <amod _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Slednji ima kot mati\u010dna ustanova za industrijsko dedi\u0161\u010dino v dr\u017eavi A[skromno] B[\u010detico] C[petnajstih] D[izobra\u017eenih] E[muzejskih] F[strokovnjakov], je dejal njegov direktor dr. Orest Jarh. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ >nmod (_ <nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Iz\u0161la je A[prva] B[\u0161tevilka] C[revije] D[National] E[Geographic]. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ >nmod (_ <nummod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Velikost nosilne pole z natisnjenim besedilom Arte del merletto in petnajstimi znamkami je 202 x 325 mm, prebodi s posamezno znamko so veliki 48 x 40 mm, tekstilni odrezki oz. znamke pa 42 x 34 mm; A[prodajna] B[cena] C[pole] D[petnajstih] E[znamk] je 42 evrov. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ >nmod (_ >nummod (_ >nmod _)))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "POSLOVNI PROSTOR v \u010cardaku 26, \u010crnomelj, oddam, in prodam A[novo] B[blagajno] C[Olivetti] D[ECR] E[003] F[N.]+ (068) 51-669. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ >nmod (_ >nummod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Jurij je pozneje postal A[mo\u010dan] B[zaveznik] C[cesarja] D[Maksimilijana] E[I.] in podpiral je njegove kampanje v \u0160vabiji, \u0160vici, Geldernu in na Mad\u017earskem. "
+        },
+        {
+            "key": "_ <amod _ >nmod (_ >nmod _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Po zaklju\u010dku foruma so udele\u017eenci sledili tradiciji in se udele\u017eili A[zaklju\u010dne] B[tekme] C[Lige] D[prvakov] E[UEFA]. "
+        },
+        {
+            "key": "_ <amod _ >nmod _ >nmod (_ <amod _ >nmod (_ >nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Prvi\u010d so na reviji sodelovali pevci A[vokalne] B[skupine] C[Jurij] D[kulturnega] E[dru\u0161tva] F[Jurij] G[Mozirje]. "
+        },
+        {
+            "key": "_ <amod _ >nmod _ >nmod (_ >nummod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "V torkovem Delu (28. 11. 1995) sem na strani A[Delova] B[borza] C[dela] D[\u0161t.] E[13], pod naslovom\u00bbPogovor z Ale\u0161em Klinarjem - kulturni delavec - \u010dlovek brez pravic in polo\u017eaja\u00ab, prebral doslej enega najbolj sme\u0161nih in abotnih intervjujev. "
+        },
+        {
+            "key": "_ <amod _ >nmod _ >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Ko jo je dobil Bojan Toki\u010d, pa je moral A[mati\u010dni] B[klub] C[Maximarket] D[Olimpija] za njegov nastop na evropskem prvenstvu pla\u010dati blizu 300.000 tolarjev. "
+        },
+        {
+            "key": "_ <det ((_ <nummod _) <nmod _) <amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "\u0160e posebno pa je A[ta] B[773] C[metrov] D[visok] E[vrh] obiskan eno od nedelj v mesecu marcu, ko tu pripravijo tradicionalno prireditev Pohod po nagelj. "
+        },
+        {
+            "key": "_ <det _ <amod _ <amod _ <amod _ <amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Kljub temu se A[ta] B[najstarej\u0161a] C[ameri\u0161ka] D[raziskovalna] E[vesoljska] F[sonda] \u0161e vedno odziva na signale z Zemlje. "
+        },
+        {
+            "key": "_ <det _ <amod _ <amod _ <amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Ta] B[na\u010drtovani] C[strukturni] D[\u017eivljenjski] E[cikel] je postopoma dvignil nivo mest, tako da so bila vi\u0161je od okoli\u0161ke ravnice. "
+        },
+        {
+            "key": "_ <det _ <amod _ >nmod (_ <amod _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "(Glede na eno izmed teorij o trubadurski poeziji, po kateri naj bi A[to] B[novo] C[ob\u010dutenje] D[individualne] E[heterospolne] F[ljubezni] pri\u0161lo iz arabske poezije, bi bila Himena pa\u010d v dobrem polo\u017eaju, da se navzame teh drugoverskih novotarij.) "
+        },
+        {
+            "key": "_ <det _ <amod _ >nmod (_ <det _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Brez Hannawalda in Schmitta Nemci rezultatsko res niso bili tako na o\u010deh, med \u0161tevilnimi mladimi upi pa se bo zagotovo kmalu na\u0161el A[kak] B[uspe\u0161en] C[naslednik] D[obeh] E[velikih] F[asov]. \u00ab "
+        },
+        {
+            "key": "_ <det _ <amod _ >nmod (_ <det _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Toda \u0161e preden za\u010dnemo s tehni\u010dnim delom, je dobro analizirati A[vse] B[tehni\u010dne] C[elemente] D[na\u0161e] E[ekipe], \u0161e bolje pa je, \u010de analiziramo vsakega posameznika. "
+        },
+        {
+            "key": "_ <det _ <amod _ >nmod (_ >nmod (_ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Ob duhovni\u0161kem delu je du\u0161nemu pastirju ostalo \u0161e dovolj \u010dasa, da je v fari ustanovil nogometno ekipo in pripravil A[nekaj] B[ve\u010djih] C[sre\u010danj] D[ljubiteljev] E[te\u017ekih] F[motorjev]. "
+        },
+        {
+            "key": "_ <det _ <det _ >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "V tad\u017eikistansko glavno mesto je prihajalo vse ve\u010d kolegov, BBC je iskal poti, kako A[svojih] B[nekaj] C[ton] D[opreme] po kopnem prepeljati na sever dr\u017eave. "
+        },
+        {
+            "key": "_ <det _ <nmod _ <nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Potem ko se je prva petletka uspe\u0161no zaklju\u010dila z lansiranjem modela, kot je Frankie Knuckles, ki je A[svoje] B[acid] C[funk] D[onostranstvo] razmastil po akutno pleso\u010dem odru, bo letos \u0161e bolj vro\u010de, saj bodo v akciji ljubezen, groove in verjetno tudi sex pod posko\u010dno taktirko legende z imenom Danny Rampling. "
+        },
+        {
+            "key": "_ <det _ <nmod _ >amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Nazadne se obrne k Tommyju pa mu ful prjatlsk re\u010de, A[kak\u0161na] B[fejst] C[kurba] D[stara] da je. "
+        },
+        {
+            "key": "_ <det _ <nummod _ <det _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Vsi] B[trije] C[moji] D[celove\u010derci] imajo rahlo dokumentaristi\u010dno ozadje. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ <amod _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Kako so lahko vodilni marketin\u0161ki delavci perutninarskega vele podjetja, ki A[svojo] B[strategijo] C[uspe\u0161nega] D[nadaljnjega] E[poslovanja] gradijo menda prav na izpolnjevanju \u017eelja in sanj (ne le potreb) potro\u0161nikov, zagre\u0161ili tako veliko napako, \u0161e danes ni jasno nikomur, bilo pa je sli\u0161ati kar precej cini\u010dnih na ta ra\u010dun. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ <amod _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "\u010ce je jama globlja od petih metrov, narava, tudi \u010de se jo zasuje, potrebuje kar pet do deset let, da ponovno vzpostavi naravno ravnovesje, pravi Notar in dodaja, da vsak teden dobijo A[nekaj] B[prijav] C[nedovoljenega] D[izkopavanja] E[gramoza]. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ <nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Toda A[njen] B[voditelj] C[dr.] D[Rugova] je pred novim letom za pari\u0161ki Figaro dejal, da se o osamosvojitvi Kosova ni mogo\u010de pogajati. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ <nummod _ <amod _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Nekaj] B[\u0161tudentk] C[dveh] D[angle\u0161kih] E[\u017eenskih] F[kolid\u017eev] je zaprosilo Virginio Woolf za predavanje o \u017denskah in leposlovju. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ <nummod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Ob\u010dina Prevalje je za prenovo prispevala A[najve\u010d] B[denarja] C[67] D[milijonov], ministrstvo za zdravstvo 21,5 milijona, Zdravstveni dom Ravne pa 25 milijonov. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ >amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Odrasla sta na posestih, ki jih je A[njun] B[o\u010de] C[Gracijan] D[starej\u0161i] kupil v Afriki in Britaniji. "
+        },
+        {
+            "key": "_ <det _ >nmod (_ >nmod (_ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "V takih razmerah bi morale na\u0161e oblasti pri krojenju pogojev gospodarjenja, kjer je le mogo\u010de, spodbuditi sleherno mo\u017enost za pridobitev A[kake] B[desetinke] C[odstotka] D[dodatnega] E[BDP]. "
+        },
+        {
+            "key": "_ <nmod _ <amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Slovenske zahteve po meji na Mirni in enostranskem nadzoru spornih ozemelj bi bile po vsej verjetnosti ozna\u010dene kot neupravi\u010dena teritorialna pretenzija po delu A[sosednje] B[suverene] C[dr\u017eave]. "
+        },
+        {
+            "key": "_ <nmod _ >nmod (_ <amod _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Hitreje in bolj zanesljivo skozi ovinke: novi variabilni zaporni sistem odpravlja A[ve\u010dino] B[slabosti] C[klasi\u010dne] D[diferencialne] E[zapore], zato nudi ve\u010d voznih u\u017eitkov na razli\u010dnih cestnih podlagah. "
+        },
+        {
+            "key": "_ <nummod _ <amod _ <amod _ >nmod (_ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "V romanu Doktor \u017divago ruskega nobelovca Borisa Pasternaka je opisana A[ena] B[najlep\u0161ih] C[ljubezenskih] D[zgodb] E[svetovne] F[literature]... "
+        },
+        {
+            "key": "_ <nummod _ <amod _ >nmod (_ >nmod (_ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Je eden A[\u0161estih] B[uradnih] C[jezikov] D[Organizacije] E[zdru\u017eenih] F[narodov]. "
+        },
+        {
+            "key": "_ <nummod _ <nmod _ <nummod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Sprva so jih imeli zaprte v kletkah, ki so merile A[2,4] B[x] C[2,4] D[metra], ko so bili zgrajeni zapori Delta, pa so jih premestili v \u0161e manj\u0161e celice (2,03 x 2,44 metra). "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ <amod _ >nmod ((_ >nmod _) <nummod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Najbolj\u0161i ko\u0161arkarski klubi v Sloveniji pozabljajo, da je praznovanje sploh obstajalo, kajti drevi jih \u010daka A[17.] B[krog] C[doma\u010dega] D[prvenstva] E[1.] F[A] G[lige]. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ <det _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[En] B[sklop] C[njegovih] D[mo\u017enih] E[vsebin] predstavlja Jakobsonova Jakobson, 1963, 214. opredelitev konteksta v znamenitem delu o lingvistiki in poetiki, v katerem gradi nauk o \u0161estih temeljnih jezikovnih funkcijah, katere izhajajo iz \u0161estih elementov verige komunikacijskega procesa. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ <det _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Dve] B[\u0161tevilki] C[istega] D[reda] E[velikosti] sta pribli\u017eno enako veliki: ve\u010dja vrednost je manj kot desetkrat ve\u010dja od manj\u0161e vrednosti. "
+        },
+        {
+            "key": "_ <nummod _ >nmod (_ <nummod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Wham! je bil angle\u0161ki glasbeni duet, ki sta ga sestavljala George Michael in Andrew Ridgeley v za\u010detku A[80.] B[let] C[20.] D[stoletja]. "
+        },
+        {
+            "key": "_ <nummod _ >nmod _ >nmod (_ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Za nalo\u017ebo, ki predstavlja tudi prvo etapo gradnje najsodobnej\u0161e \u010distilne naprave, ki jo bodo kupili v ZDA in bo \u0161e po nedokon\u010dnih izra\u010dunih stala 600 milijonov tolarjev, bo KG Raki\u010dan porabil A[80] B[milijonov] C[tolarjev] D[lastnih] E[sredstev]. "
+        },
+        {
+            "key": "_ <nummod _ >nmod _ >nmod (_ >nmod (_ <amod _ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Vrednost odkupljenih paketov delnic zna\u0161a 68,6 milijarde tolarjev, neizkori\u0161\u010denih pa ostaja A[73,3] B[milijarde] C[tolarjev] D[certifikatov] E[poobla\u0161\u010denih] F[investicijskih] G[dru\u017eb], so sporo\u010dili iz zdru\u017eenja dru\u017eb za upravljanje investicijskih skladov. "
+        },
+        {
+            "key": "_ >amod (_ >nmod (_ <amod _ >nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Izprijenci bodo zanesljivo na\u0161li prilo\u017enost za nadlegovanje otrok, je menil predstavnik A[Mre\u017ee] B[pre\u017eivelih] C[spolnega] D[zlorabljanja] E[duhovnikov] Mark Serrano. "
+        },
+        {
+            "key": "_ >nmod ((_ <amod _) <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Toda A[entitete] B[poznega] C[dvajsetega] D[stoletja], ne glede na to, ali imajo strukturo in lastnosti retori\u010dnih objektov \u2013 infekcijski vektorji (mikrobi), elementarni delci (kvarki) in biomolekularne kode (geni) \u2013 niso romanti\u010dni ali modernisti\u010dni objekti z notranjimi zakoni koherence. "
+        },
+        {
+            "key": "_ >nmod ((_ <nmod _) <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Poleg ustaljenega na\u010dina poslovanja, uvajamo letos tudi koprodukcije z drugimi zalo\u017ebami in tako posku\u0161amo zni\u017eati A[ceno] B[\u0161tudentom] C[zanimivih] D[publikacij]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ <amod _ <amod _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[\u017dena] B[nekdanjega] C[kitajskega] D[voja\u0161kega] E[voditelja] F[\u010cankaj\u0161ka] razstavlja deset slik in kaligrafij na razstavi kitajske umetnosti 20. stoletja v newyor\u0161kem muzeju azijske umetnosti. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ <nummod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Domovanja] B[dobrih] C[400] D[prebivalcev] so raztresena na ve\u010d kilometrih in le redko se v \u010cepincih ve\u010d hi\u0161 dr\u017ei skupaj. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ <amod _ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Vr\u0161i\u010dki] B[resi\u010dastih] C[robov] D[posameznih] E[zvonastih] F[cvetkov] so lepo obarvani, izpod njih pa lahko \u0161trlijo kontrastno obarvani pra\u0161niki. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ <amod _ >nmod (_ >nmod _)))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "2 Zbirka A[odlo\u010db] B[civilnega] C[oddelka] D[Vrhovnega] E[sodi\u0161\u010da] F[Republike] G[Slovenije] 2000, GV, Ljubljana 2001, \u0161t. 37, str. 240. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ <amod _ >nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Badinterjeva arbitra\u017ena komisija je namre\u010d na\u010delo A[nedotakljivosti] B[administrativnih] C[meja] D[nekdanjih] E[republik] F[federacije] potrdila in na osnovi tega na\u010dela ugotovila, da Slovenija izpolnjuje pogoje, ki so nujni za priznavanje novih dr\u017eav. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ <det _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Hkrati se je prvo navdu\u0161enje nad tehnologijo navidezne resni\u010dnosti zmanj\u0161alo in za\u010delo se je A[obdobje] B[kriti\u010dnega] C[vrednotenja] D[njene] E[uporabe]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod (_ <nummod _ >nmod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Ta dolo\u010dba je podobna A[dolo\u010dbi] B[prvega] C[odstavka] D[28.] E[\u010dlena] F[ZUS], z edino razliko, da ZUS dolo\u010da, da je to\u017ebi treba prilo\u017eiti izpodbijani akt v izvirniku, prepisu ali kopiji. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _ >nmod _ >nmod (_ <amod _ >nmod (_ >nmod _)))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Prvi\u010d so na reviji sodelovali A[pevci] B[vokalne] C[skupine] D[Jurij] E[kulturnega] F[dru\u0161tva] G[Jurij] H[Mozirje]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _) >nmod (_ >amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Ustvarjalci pa so se tik pred premiero zna\u0161li pred veliko te\u017eavo, saj je zaradi bolezni oble\u017eala v postelji A[nosilka] B[naslovne] C[vloge] D[Olga] E[Andrejeva]. "
+        },
+        {
+            "key": "_ >nmod (_ <amod _) >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Lani je bila v tem tekmovanju najuspe\u0161nej\u0161a Mozambi\u010danka Maria Mutola, ki je s samimi zmagami v teku na 800 m dobila A[milijon] B[ameri\u0161kih] C[dolarjev] D[nagrade] in kot prva atletinja v zgodovini sama osvojila celoten zmagoviti dele\u017e lige. "
+        },
+        {
+            "key": "_ >nmod (_ <det _ >nmod (_ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Za vodenje zalog in ugotavljanja stro\u0161ka A[prodaje] B[teh] C[zalog] D[trgovskega] E[blaga] pa veljajo enaka dolo\u010dila, kot smo jih zapisali pri obravnavi razreda 3 za material. "
+        },
+        {
+            "key": "_ >nmod (_ <nummod _ <amod _ >nmod (_ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "V mo\u0161ki konkurenci je bil izid zelo tesen, saj so o \u0161portniku leta odlo\u010dili A[glasovi] B[enega] C[samega] D[\u010dlana] E[strokovne] F[komisije]. "
+        },
+        {
+            "key": "_ >nmod (_ <nummod _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Medtem ko je japonski premier D\u017euni\u010diro Koizumi v svojem uradu v Tokiu nedavno prisr\u010dno gostil A[voditelje] B[desetih] C[dr\u017eav] D[Aseana], se je moral zavedati, da vse milijarde dolarjev, ki jim jih je obljubil za izobra\u017eevanje strokovnjakov ali razvoj bazena reke Mekong, ne bodo dovolj za vzpostavitev prijetnega dru\u017einskega ozra\u010dja. "
+        },
+        {
+            "key": "_ >nmod (_ <nummod _) >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[\u010cas] B[enega] C[obrata] D[t0] izmerijo s pomo\u010djo sunkov iz merilne tuljavice, ki je pritrjena na vilice sprednjega kolesa. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <amod _ <amod _ <amod _))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Skrbno je treba na\u010drtovati prenos novih podatkov v skladi\u0161\u010de, da ne bi preve\u010d ohromili A[dela] B[uporabnikov] C[obstoje\u010dih] D[poslovnih] E[informacijskih] F[sistemov]. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <amod _ >nmod (_ <amod _ >nmod _)))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Badinterjeva arbitra\u017ena komisija je namre\u010d A[na\u010delo] B[nedotakljivosti] C[administrativnih] D[meja] E[nekdanjih] F[republik] G[federacije] potrdila in na osnovi tega na\u010dela ugotovila, da Slovenija izpolnjuje pogoje, ki so nujni za priznavanje novih dr\u017eav. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <amod _ >nmod _)) >nmod (_ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Na podlagi teh in drugih prou\u010devanih podatkov je hrva\u0161ki Jadran uvr\u0161\u010den med prednostna podro\u010dja za prou\u010devanje in za\u0161\u010dito glavatih \u017eelv v okviru A[na\u010drta] B[za\u0161\u010dite] C[morskih] D[\u017eelv] E[Mediterana] F[organizacije] G[UNEP]. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod (_ <det _ >nmod (_ <amod _)))",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Za vodenje zalog in ugotavljanja A[stro\u0161ka] B[prodaje] C[teh] D[zalog] E[trgovskega] F[blaga] pa veljajo enaka dolo\u010dila, kot smo jih zapisali pri obravnavi razreda 3 za material. "
+        },
+        {
+            "key": "_ >nmod (_ >nmod _) >nmod (_ <amod _ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Slovnica] B[NCSA] C[HTTP] D[zemljevidove] E[krmilne] F[datoteke] je naslednja: "
+        },
+        {
+            "key": "_ >nmod (_ >nmod _) >nmod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "A[Pevec] B[skupine] C[U2] D[Bono] je znan po humanitarni pomo\u010di \u017ertvam katastrof po vsem svetu. "
+        },
+        {
+            "key": "_ >nmod _ >amod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Te skupne prednostne naloge so potem povzete v Zaposlitvenih smernicah in vklju\u010dene v Nacionalne programe reform, ki jih izdelajo A[dr\u017eave] B[\u010dlanice] C[same]. "
+        },
+        {
+            "key": "_ >nmod _ >nmod (_ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "JAVNIH GOSPODARSKIH ZAVODIH TER PRI DRUGIH UPORABNIKIH A[PRORA\u010cUNA] B[I1] C[STROKOVNI] D[DELAVCI] "
+        },
+        {
+            "key": "_ >nmod _ >nmod (_ <det _ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "\u017de pred dobrim letom smo z operativnimi metodami in upravnimi ukrepi ugotavljali verodostojnost listin in upravi\u010denost A[no\u0161enja] B[oro\u017eja] C[vseh] D[imetnikov] E[oro\u017eja], pri \u010demer smo zajeli tudi biv\u0161e pripadnike JLA, ki so tako oro\u017eje oz. listine posedovali. "
+        },
+        {
+            "key": "_ >nmod _ >nmod (_ >nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Leta 1990 je ameri\u0161ka korporacija General motors kupila 51-% dele\u017e A[proizvajalca] B[avtomobilov] C[SAAB] D[Automobile], deset let pozneje pa \u0161e preostanek. "
+        },
+        {
+            "key": "_ >nmod _ >nummod _",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Lani, denimo, je v Rimu Johnson tekel A[rekord] B[mitinga] C[13,01]. "
+        },
+        {
+            "key": "_ >nummod (_ <amod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "Nisem imel prav veliko \u010dasa: v nasprotju z videokasetami je A[film] B[super] C[osem] trajal samo 3 minute in ni dopu\u0161\u010dal napak, ni\u010d nisi mogel popravljati, napake so bile nepopravljive. "
+        },
+        {
+            "key": "_ >nummod (_ <nmod _)",
+            "count": 1,
+            "example_sent_id": "",
+            "example_sent_text": "O\u010de mi je podaril A[kamero] B[super] C[osem]. "
         }
     ]
 }

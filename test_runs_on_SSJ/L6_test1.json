@@ -8,22 +8,22 @@
     "table": [
         {
             "key": "in",
-            "count": 6103,
+            "count": 6047,
             "example_sent_id": "ssj1.1.4"
         },
         {
             "key": "zato",
-            "count": 208,
+            "count": 206,
             "example_sent_id": "ssj2.3.13"
         },
         {
             "key": "ali",
-            "count": 731,
+            "count": 729,
             "example_sent_id": "ssj3.6.19"
         },
         {
             "key": "vendar",
-            "count": 254,
+            "count": 253,
             "example_sent_id": "ssj3.7.21"
         },
         {
@@ -42,33 +42,33 @@
             "example_sent_id": "ssj5.30.96"
         },
         {
-            "key": "tako",
-            "count": 109,
+            "key": "tako , da",
+            "count": 1,
             "example_sent_id": "ssj6.33.120"
         },
         {
             "key": "a",
-            "count": 215,
+            "count": 213,
             "example_sent_id": "ssj7.37.179"
         },
         {
             "key": "temve\u010d",
-            "count": 66,
+            "count": 53,
             "example_sent_id": "ssj7.37.179"
         },
         {
             "key": "ampak",
-            "count": 109,
+            "count": 95,
             "example_sent_id": "ssj12.47.213"
         },
         {
             "key": "pa",
-            "count": 138,
+            "count": 129,
             "example_sent_id": "ssj12.47.217"
         },
         {
             "key": "ne",
-            "count": 103,
+            "count": 56,
             "example_sent_id": "ssj12.47.219"
         },
         {
@@ -82,7 +82,7 @@
             "example_sent_id": "ssj15.64.262"
         },
         {
-            "key": "pa\u010d",
+            "key": "pa\u010d pa",
             "count": 8,
             "example_sent_id": "ssj18.77.303"
         },
@@ -92,23 +92,58 @@
             "example_sent_id": "ssj20.91.376"
         },
         {
+            "key": "tako da",
+            "count": 48,
+            "example_sent_id": "ssj20.94.404"
+        },
+        {
+            "key": "pa vendar",
+            "count": 9,
+            "example_sent_id": "ssj21.107.457"
+        },
+        {
+            "key": "ne le",
+            "count": 17,
+            "example_sent_id": "ssj24.115.484"
+        },
+        {
+            "key": "ampak tudi",
+            "count": 13,
+            "example_sent_id": "ssj24.115.484"
+        },
+        {
             "key": "torej",
             "count": 42,
             "example_sent_id": "ssj27.156.639"
         },
         {
-            "key": "ta",
-            "count": 4,
+            "key": "ta biti ,",
+            "count": 1,
             "example_sent_id": "ssj27.161.656"
         },
         {
             "key": "marve\u010d",
-            "count": 5,
+            "count": 3,
             "example_sent_id": "ssj29.178.718"
         },
         {
+            "key": "ne pa",
+            "count": 21,
+            "example_sent_id": "ssj29.178.720"
+        },
+        {
+            "key": "ne samo",
+            "count": 8,
+            "example_sent_id": "ssj30.184.740"
+        },
+        {
+            "key": "tako",
+            "count": 60,
+            "example_sent_id": "ssj30.184.741"
+        },
+        {
             "key": "kot",
-            "count": 53,
+            "count": 52,
             "example_sent_id": "ssj30.184.741"
         },
         {
@@ -117,9 +152,19 @@
             "example_sent_id": "ssj30.184.743"
         },
         {
-            "key": "na",
-            "count": 37,
+            "key": "na primer",
+            "count": 35,
             "example_sent_id": "ssj33.194.793"
+        },
+        {
+            "key": "in sicer",
+            "count": 32,
+            "example_sent_id": "ssj34.200.806"
+        },
+        {
+            "key": "in ta",
+            "count": 16,
+            "example_sent_id": "ssj35.206.819"
         },
         {
             "key": "samo",
@@ -127,24 +172,34 @@
             "example_sent_id": "ssj42.254.1014"
         },
         {
-            "key": "se",
+            "key": "se praviti",
             "count": 6,
             "example_sent_id": "ssj43.260.1037"
         },
         {
-            "key": "kaj",
+            "key": "kaj \u0161ele",
             "count": 4,
             "example_sent_id": "ssj44.263.1047"
         },
         {
-            "key": "\u010de",
+            "key": "\u010de ne",
             "count": 2,
             "example_sent_id": "ssj45.271.1086"
         },
         {
-            "key": "predvsem",
+            "key": "predvsem pa",
             "count": 1,
             "example_sent_id": "ssj46.285.1144"
+        },
+        {
+            "key": "temve\u010d tudi",
+            "count": 13,
+            "example_sent_id": "ssj46.286.1149"
+        },
+        {
+            "key": ", na primer ,",
+            "count": 1,
+            "example_sent_id": "ssj46.293.1184"
         },
         {
             "key": "razen",
@@ -157,9 +212,24 @@
             "example_sent_id": "ssj52.326.1329"
         },
         {
+            "key": "kot npr.",
+            "count": 1,
+            "example_sent_id": "ssj58.356.1431"
+        },
+        {
+            "key": "in vendar",
+            "count": 2,
+            "example_sent_id": "ssj59.361.1461"
+        },
+        {
             "key": "sicer",
-            "count": 21,
+            "count": 20,
             "example_sent_id": "ssj74.466.1751"
+        },
+        {
+            "key": "marve\u010d tudi",
+            "count": 2,
+            "example_sent_id": "ssj79.516.1950"
         },
         {
             "key": "bodisi",
@@ -167,14 +237,24 @@
             "example_sent_id": "ssj81.532.2019"
         },
         {
+            "key": "in / ali",
+            "count": 5,
+            "example_sent_id": "ssj86.571.2171"
+        },
+        {
             "key": "namre\u010d",
             "count": 6,
             "example_sent_id": "ssj100.644.2472"
         },
         {
-            "key": "t.",
+            "key": "t. j.",
             "count": 1,
             "example_sent_id": "ssj130.820.3079"
+        },
+        {
+            "key": "\" ali",
+            "count": 1,
+            "example_sent_id": "ssj131.825.3117"
         },
         {
             "key": "krat",
@@ -182,8 +262,13 @@
             "example_sent_id": "ssj131.831.3185"
         },
         {
-            "key": "+",
+            "key": "ta biti",
             "count": 3,
+            "example_sent_id": "ssj132.841.3223"
+        },
+        {
+            "key": "+",
+            "count": 2,
             "example_sent_id": "ssj133.868.3327"
         },
         {
@@ -212,14 +297,19 @@
             "example_sent_id": "ssj199.1334.4822"
         },
         {
-            "key": "med",
+            "key": "med drug",
             "count": 1,
             "example_sent_id": "ssj212.1401.5089"
         },
         {
-            "key": "le",
+            "key": "le da",
             "count": 5,
             "example_sent_id": "ssj222.1462.5304"
+        },
+        {
+            "key": "+ -",
+            "count": 1,
+            "example_sent_id": "ssj252.1621.5856"
         },
         {
             "key": "=",
@@ -227,14 +317,54 @@
             "example_sent_id": "ssj252.1621.5857"
         },
         {
+            "key": "\" in",
+            "count": 1,
+            "example_sent_id": "ssj284.1747.6217"
+        },
+        {
+            "key": "vendar ,",
+            "count": 1,
+            "example_sent_id": "ssj321.1910.6820"
+        },
+        {
             "key": "tj.",
             "count": 4,
             "example_sent_id": "ssj336.1982.7037"
         },
         {
-            "key": "po",
+            "key": "na pr.",
+            "count": 1,
+            "example_sent_id": "ssj353.2054.7263"
+        },
+        {
+            "key": "po navada",
             "count": 1,
             "example_sent_id": "ssj364.2092.7419"
+        },
+        {
+            "key": "a vendar",
+            "count": 2,
+            "example_sent_id": "ssj367.2100.7460"
+        },
+        {
+            "key": "( ne samo )",
+            "count": 1,
+            "example_sent_id": "ssj375.2156.7657"
+        },
+        {
+            "key": "ampak ,",
+            "count": 1,
+            "example_sent_id": "ssj413.2297.8101"
+        },
+        {
+            "key": "zato , da",
+            "count": 2,
+            "example_sent_id": "ssj421.2344.8249"
+        },
+        {
+            "key": "sicer pa",
+            "count": 1,
+            "example_sent_id": "ssj422.2346.8256"
         },
         {
             "key": "\u010deprav",
@@ -270,6 +400,11 @@
             "key": "\u00d7",
             "count": 3,
             "example_sent_id": "ssj590.3028.10718"
+        },
+        {
+            "key": "ali pa",
+            "count": 1,
+            "example_sent_id": "ssj598.3081.10914"
         }
     ]
 }

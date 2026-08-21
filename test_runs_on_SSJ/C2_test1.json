@@ -9,12 +9,14 @@
         {
             "key": "SV",
             "count": 3824,
-            "example_sent_id": "ssj1.1.3"
+            "example_sent_id": "ssj1.1.3",
+            "example_sent_text": ""
         },
         {
             "key": "VS",
             "count": 2054,
-            "example_sent_id": "ssj1.1.6"
+            "example_sent_id": "ssj1.1.6",
+            "example_sent_text": ""
         }
     ]
 }
