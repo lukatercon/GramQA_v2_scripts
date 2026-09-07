@@ -18,6 +18,9 @@ logger = logging.getLogger(__name__)
 na_dict = defaultdict(list)
 
 for script in tqdm(os.listdir(scripts_dir), desc="Progress through scripts"):
+    if not os.path.isfile(os.path.join(scripts_dir, script)) or not script.endswith(".py"):
+        continue
+
     script_path = os.path.join(scripts_dir, script)
 
     for treebank in os.listdir(treebanks_dir):
