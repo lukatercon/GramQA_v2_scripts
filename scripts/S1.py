@@ -14,6 +14,7 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 data_cont = DataContainer("S1", input_path)
+data_cont.set_non_open_ended(["advcl", "ccomp", "xcomp", "csubj", "acl"])
 
 for sent in data_cont.parsed_conllu_sents:
     for tok in sent:
@@ -22,6 +23,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if get_basic_deprel(tok["deprel"]) in ["advcl", "ccomp", "xcomp", "csubj", "acl"]:            
-            data_cont.add_to_results(get_basic_deprel(tok["deprel"]), 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(get_basic_deprel(tok["deprel"]), 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=advcl,ccomp,xcomp,csubj,acl")

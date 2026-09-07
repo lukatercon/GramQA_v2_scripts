@@ -26,6 +26,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if tok["deprel"].split(":")[0] == "cop":
-            data_cont.add_to_results(tok[field_to_check], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(tok[field_to_check], 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_cop_dependency_relations")

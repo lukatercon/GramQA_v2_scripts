@@ -21,6 +21,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if tok["upos"] == "ADJ" and tok["feats"].get("Degree"):
-            data_cont.add_to_results(tok["feats"]["Degree"], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(tok["feats"]["Degree"], 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=ADJ_and_Degree_feature")

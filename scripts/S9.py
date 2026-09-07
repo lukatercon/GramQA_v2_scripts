@@ -14,6 +14,7 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 data_cont = DataContainer("S9", input_path)
+data_cont.set_non_open_ended(["1 clause", "2 clauses", "3 clauses", "4 or more clauses"])
 clause_deprels = ["advcl", "ccomp", "xcomp", "csubj", "acl", "conj", "parataxis", "root"]
 
 for sent in data_cont.parsed_conllu_sents:
@@ -33,6 +34,6 @@ for sent in data_cont.parsed_conllu_sents:
         case _:
             result = "4 or more clauses"
 
-    data_cont.add_to_results(result, 1, sent.metadata["sent_id"])
+    data_cont.add_to_results(result, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_relevant_sentences")

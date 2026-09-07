@@ -21,6 +21,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if tok["upos"] == "PRON" and tok["feats"].get("PronType") == "Prs" and tok["feats"].get("Person") == "3" and tok["feats"].get("Gender"):
-            data_cont.add_to_results(tok["feats"]["Gender"], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(tok["feats"]["Gender"], 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=PRON_and_PronType=Prs_and_Person=3_and_Gender_feature")

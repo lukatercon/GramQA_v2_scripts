@@ -21,6 +21,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if tok["upos"] in ["VERB", "AUX"] and tok["feats"].get("Tense"):
-            data_cont.add_to_results(tok["feats"]["Tense"], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(tok["feats"]["Tense"], 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=VERB,AUX_and_Tense_feature")

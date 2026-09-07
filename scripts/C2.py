@@ -14,6 +14,7 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 data_cont = DataContainer("C2", input_path)
+data_cont.set_non_open_ended(["SV", "VS"])
 
 for sent in data_cont.parsed_conllu_sents:
     for tok in sent:
@@ -37,6 +38,6 @@ for sent in data_cont.parsed_conllu_sents:
                 elif dep["head"] == tok["id"] and get_basic_deprel(dep["deprel"])  == "nsubj":
                     dependents += "S"
 
-            data_cont.add_to_results(dependents, 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(dependents, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=VERB_and_dependent_with_upos=nsubj_and_no_dependent_with_upos=obj")

@@ -25,6 +25,6 @@ for sent in data_cont.parsed_conllu_sents:
     all_fixed = get_fixed_expressions([tok for tok in sent if type(tok["id"]) is int], field_to_check)
 
     for f_e in all_fixed:
-        data_cont.add_to_results(f_e, 1, sent.metadata["sent_id"])
+        data_cont.add_to_results(f_e, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=fixed")

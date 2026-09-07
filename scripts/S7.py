@@ -29,6 +29,6 @@ for sent in data_cont.parsed_conllu_sents:
         continue
 
     result = get_root_level_deprel(sent, first_tok_id)
-    data_cont.add_to_results(result, 1, sent.metadata["sent_id"])
+    data_cont.add_to_results(result, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_sentences_with_non-punctuation_tokens")

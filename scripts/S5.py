@@ -14,6 +14,7 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 data_cont = DataContainer("S5", input_path)
+data_cont.set_non_open_ended(["0", "1", "2", "3+ levels"])
 
 for sent in data_cont.parsed_conllu_sents:
     max_sent_depth = get_max_tree_depth([tok for tok in sent if type(tok["id"]) is int], 
@@ -24,6 +25,6 @@ for sent in data_cont.parsed_conllu_sents:
     else:
         result = "3+ levels"
 
-    data_cont.add_to_results(result, 1, sent.metadata["sent_id"])
+    data_cont.add_to_results(result, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_relevant_sentences_or_tokens_in_treebank")

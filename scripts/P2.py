@@ -14,6 +14,7 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 data_cont = DataContainer("P2", input_path)
+data_cont.set_non_open_ended(["demonstrative before noun", "noun before demonstrative"])
 
 for sent in data_cont.parsed_conllu_sents:
     for tok in sent:
@@ -28,6 +29,6 @@ for sent in data_cont.parsed_conllu_sents:
             elif tok["id"] > head_id:
                 order = "noun before demonstrative"
 
-            data_cont.add_to_results(order, 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(order, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_PronType=Dem_and_deprel=det_and_heads_with_UPOS=NOUN")

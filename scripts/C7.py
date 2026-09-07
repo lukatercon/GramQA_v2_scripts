@@ -22,6 +22,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if get_basic_deprel(tok["deprel"]) == "obj" and tok["feats"].get("Case"):
-            data_cont.add_to_results(tok["feats"]["Case"], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(tok["feats"]["Case"], 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=obj_and_Case_feature")

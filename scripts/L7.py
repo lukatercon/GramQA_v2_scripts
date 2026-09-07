@@ -28,6 +28,6 @@ for sent in data_cont.parsed_conllu_sents:
 
         if tok["deprel"].split(":")[0] == "mark":
             data_cont.add_to_results(get_token_subtree(sent, tok["id"], field_to_check),
-                                     1, sent.metadata["sent_id"])
+                                     1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=mark")

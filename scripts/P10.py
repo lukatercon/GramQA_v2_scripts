@@ -24,6 +24,6 @@ for sent in data_cont.parsed_conllu_sents:
         head_id = tok["head"]
         if tok["upos"] == "ADV" and get_basic_deprel(tok["deprel"]) == "advmod":
 
-            data_cont.add_to_results(sent[head_id - 1]["upos"], 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(sent[head_id - 1]["upos"], 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=ADV_and_deprel=adv")

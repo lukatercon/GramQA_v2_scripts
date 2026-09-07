@@ -16,6 +16,9 @@ class DataContainer:
         self.lang, self.treebank, self.ud_release = self.parse_filepath(filepath)
         self.treebank = "UD_" + self.treebank
 
+        # is question open ended? - initialized as True, can be changed to False if there is a set number of possible answers
+        self.is_open_ended = True
+
         # answer status - initialized as None, can be either "OK" or "N/A"
         self.status = None
 
@@ -53,15 +56,24 @@ class DataContainer:
         return lang_code, treebank_name, ud_version
 
 
+    # method for marking the question as non-open-ended
+    # the set of possible answers is given in the form of a list as one of the parameters
+    def set_non_open_ended(self, possible_answers):
+        self.is_open_ended = False
+
+        for possible_answer in possible_answers:
+            self.table[possible_answer] = [0, None, None]
+
+
     # method for adding an item to the result table.
     # In the actual scripts, this can be called on the level of an individual word (where the cound should only be incremented by one) 
     # or a whole sentence, where all occurrences of the item are added at once if several occurrences are found in the same sentence.
     def add_to_results(self, key_name, count, sent_id, example_sent=""):
         assert count > 0, "The count passed to the add_to_results function should be a nonzero positive integer."
 
-        if key_name not in self.table.keys():
+        if key_name not in self.table.keys() or self.table[key_name][0] == 0:         # first occurrence of a phenomenon
             self.table[key_name] = [count, sent_id, example_sent]
-        else:
+        else:                                                                         # phenomenon has already occurred
             self.table[key_name][0] += count
 
         self.total += count
@@ -81,6 +93,7 @@ class DataContainer:
             "lang": self.lang,
             "treebank": self.treebank,
             "ud_release": self.ud_release,
+            "question_is_open_ended": self.is_open_ended,
             "status": self.status,
             "total": self.total,
             "table": [

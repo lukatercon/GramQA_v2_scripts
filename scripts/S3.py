@@ -27,6 +27,6 @@ for sent in data_cont.parsed_conllu_sents:
             else:
                 result = f"{get_basic_deprel(tok["deprel"])}+unmarked"
 
-            data_cont.add_to_results(result, 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(result, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=advcl,ccomp,xcomp,csubj,acl")

@@ -14,6 +14,7 @@ input_path = sys.argv[1]
 output_path = sys.argv[2]
 
 data_cont = DataContainer("S8", input_path)
+data_cont.set_non_open_ended(["DEPENDENT-HEAD", "HEAD-DEPENDENT"])
 
 for sent in data_cont.parsed_conllu_sents:
     for tok in sent:
@@ -26,6 +27,6 @@ for sent in data_cont.parsed_conllu_sents:
         elif tok["id"] > tok["head"]:
             result = "HEAD-DEPENDENT"
 
-        data_cont.add_to_results(result, 1, sent.metadata["sent_id"])
+        data_cont.add_to_results(result, 1, sent.metadata["sent_id"], sent.metadata["text"])
     
 data_cont.export_json(output_path, "no_non-punctuation_or_non-root_tokens")

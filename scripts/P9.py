@@ -27,6 +27,6 @@ for sent in data_cont.parsed_conllu_sents:
             # regardless of which one is the head and which one the dependent
             upos_pair = sorted([tok["upos"], sent[head_id - 1]["upos"]])
 
-            data_cont.add_to_results(str(upos_pair), 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(str(upos_pair), 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_deprel=conj")

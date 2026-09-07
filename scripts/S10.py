@@ -22,6 +22,6 @@ for sent in data_cont.parsed_conllu_sents:
             continue
 
         if not is_projective(sent, tok["id"]):
-            data_cont.add_to_results(get_basic_deprel(tok["deprel"]), 1, sent.metadata["sent_id"])
+            data_cont.add_to_results(get_basic_deprel(tok["deprel"]), 1, sent.metadata["sent_id"], sent.metadata["text"])
     
 data_cont.export_json(output_path, "no_non-projective_tokens")
