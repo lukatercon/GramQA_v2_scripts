@@ -1,3 +1,5 @@
+from tqdm import tqdm
+
 import subprocess
 import os
 import logging
@@ -10,12 +12,12 @@ output_dir = os.path.join("output")
 if not os.path.isdir(os.path.join(output_dir, "log")):
     os.mkdir(os.path.join(output_dir, "log"))
 
-logging.basicConfig(pathname=os.path.join(output_dir, "run_on_ud_2-18.log"), level=logging.INFO)
+logging.basicConfig(filename=os.path.join(output_dir, "log", "run_on_ud_2-18.log"), level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 na_dict = defaultdict(list)
 
-for script in os.listdir(scripts_dir):
+for script in tqdm(os.listdir(scripts_dir), desc="Progress through scripts"):
     script_path = os.path.join(scripts_dir, script)
 
     for treebank in os.listdir(treebanks_dir):
@@ -26,7 +28,7 @@ for script in os.listdir(scripts_dir):
             if file.endswith("2.18.conllu"):
                 input_file_path = os.path.join(treebanks_dir, treebank, file)
 
-                output_file_path = os.path.join(output_dir, treebank, file.split(".conllu")[0] + "_results.conllu")
+                output_file_path = os.path.join(output_dir, treebank, script.split(".py")[0] + "_results.json")
 
                 try:
                     subprocess.run(["python", script_path, input_file_path, output_file_path])

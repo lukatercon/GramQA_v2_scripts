@@ -48,10 +48,10 @@ class DataContainer:
 
 
     # parse various info from the filename .
-    # the scripts expect filenames in the form: "sl_Slovenian-SSJ_2.18.conllu", which stands for lang-code_treebank-name_UD-version.conllu
+    # the scripts expect filenames in the form: "sl~Slovenian-SSJ~2.18.conllu", which stands for lang-code~treebank-name~UD-version.conllu
     # the treebank name is the name of the github repository without the initial "UD_"
     def parse_filepath(self, filepath):
-        lang_code, treebank_name, ud_version = ".".join(os.path.split(filepath)[-1].split(".")[:-1]).split("_")
+        lang_code, treebank_name, ud_version = ".".join(os.path.split(filepath)[-1].split(".")[:-1]).split("~")
 
         return lang_code, treebank_name, ud_version
 
