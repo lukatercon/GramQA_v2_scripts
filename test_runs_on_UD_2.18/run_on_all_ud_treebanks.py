@@ -34,9 +34,10 @@ for script in tqdm(os.listdir(scripts_dir), desc="Progress through scripts"):
                 output_file_path = os.path.join(output_dir, treebank, script.split(".py")[0] + "_results.json")
 
                 try:
-                    subprocess.run(["python", script_path, input_file_path, output_file_path])
-                except Exception as e:
-                    logger.error(f"Error while running {script} with {treebank}: {e}\n\n\n")
+                    subprocess.run(["python", script_path, input_file_path, output_file_path], 
+                                   check=True, capture_output=True, text=True)
+                except subprocess.CalledProcessError as e:
+                    logger.error(f"Error while running {script} with {treebank}: {e.stderr}\n\n\n")
                 else:
                     with open(output_file_path, "r", encoding="utf-8") as rf_output:
                         if '"status": "N/A",' in rf_output.read():
