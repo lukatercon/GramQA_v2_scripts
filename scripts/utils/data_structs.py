@@ -82,7 +82,7 @@ class DataContainer:
     # method for exporting a json-formatted file - called at the end of each script
     def export_json(self, outpath, na_reason_str):
         # first add the status
-        if len(self.table) > 0:
+        if self.is_open_ended and len(self.table) > 0:
             self.status = "OK"
         else:
             self.status = "N/A"
