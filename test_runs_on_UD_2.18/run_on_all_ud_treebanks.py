@@ -43,5 +43,5 @@ for script in tqdm(os.listdir(scripts_dir), desc="Progress through scripts"):
                         if '"status": "N/A",' in rf_output.read():
                             na_dict[script].append(treebank)
 
-logger.info("Scripts returned N/A in the following cases:\n")
-logger.info("\n".join([f"{k}: {v}" for k, v in na_dict.items()]))
+logger.info("\nScripts returned N/A in the following cases:\n")
+logger.info("\n".join([f"{k}: No. of langs with N/A: {len(v)}. Langs list: {v}" for k, v in na_dict.items()]))
