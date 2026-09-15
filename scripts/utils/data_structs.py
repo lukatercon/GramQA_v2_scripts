@@ -84,7 +84,7 @@ class DataContainer:
         # first add the status
         if self.is_open_ended and len(self.table) > 0:
             self.status = "OK"
-        if not self.is_open_ended and any([val[0] > 0 for val in self.table.values()]):
+        elif not self.is_open_ended and any([val[0] > 0 for val in self.table.values()]):
             self.status = "OK"
         else:
             self.status = "N/A"
