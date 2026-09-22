@@ -16,7 +16,6 @@ the scripts expect filenames in the following form:
 
 ```
 lang-code~treebank-name_UD~version.conllu
-
 ```
 (the tilde sign separates parts of the filename). For example, in the case of the 2.15 version of the Slovenian SSJ treebank this will be: 
 
