@@ -1,6 +1,7 @@
 import sys
 
 from utils.data_structs import DataContainer
+from utils.feature_analysis import has_feature_starting_with, get_features_starting_with
 
 """
 ID: M5
@@ -20,7 +21,8 @@ for sent in data_cont.parsed_conllu_sents:
         if type(tok["id"]) is not int or not tok["feats"]:
             continue
 
-        if tok["feats"].get("VerbForm"):
-            data_cont.add_to_results(tok["feats"]["VerbForm"], 1, sent.metadata["sent_id"], sent.metadata["text"])
+        if has_feature_starting_with(tok, "VerbForm"):
+            for pair in get_features_starting_with(tok, "VerbForm"):
+                data_cont.add_to_results(pair, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_VerbForm_feature")

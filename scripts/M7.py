@@ -1,6 +1,7 @@
 import sys
 
 from utils.data_structs import DataContainer
+from utils.feature_analysis import has_feature_starting_with, get_features_starting_with
 
 """
 ID: M7
@@ -20,7 +21,8 @@ for sent in data_cont.parsed_conllu_sents:
         if type(tok["id"]) is not int or tok["upos"] == "_" or not tok["feats"]:
             continue
 
-        if tok["upos"] in ["VERB", "AUX"] and tok["feats"].get("Mood"):
-            data_cont.add_to_results(tok["feats"]["Mood"], 1, sent.metadata["sent_id"], sent.metadata["text"])
+        if tok["upos"] in ["VERB", "AUX"] and has_feature_starting_with(tok, "Mood"):
+            for pair in get_features_starting_with(tok, "Mood"):
+                data_cont.add_to_results(pair, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=VERB,AUX_and_Mood_feature")

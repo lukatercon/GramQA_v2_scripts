@@ -1,6 +1,7 @@
 import sys
 
 from utils.data_structs import DataContainer
+from utils.feature_analysis import has_feature_starting_with, get_features_starting_with
 
 """
 ID: M10
@@ -20,7 +21,8 @@ for sent in data_cont.parsed_conllu_sents:
         if type(tok["id"]) is not int or tok["upos"] == "_" or not tok["feats"]:
             continue
 
-        if tok["upos"] == "ADJ" and tok["feats"].get("Degree"):
-            data_cont.add_to_results(tok["feats"]["Degree"], 1, sent.metadata["sent_id"], sent.metadata["text"])
+        if tok["upos"] == "ADJ" and has_feature_starting_with(tok, "Degree"):
+            for pair in get_features_starting_with(tok, "Degree"):
+                data_cont.add_to_results(pair, 1, sent.metadata["sent_id"], sent.metadata["text"])
 
 data_cont.export_json(output_path, "no_tokens_with_UPOS=ADJ_and_Degree_feature")

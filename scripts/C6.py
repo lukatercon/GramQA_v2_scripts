@@ -1,4 +1,5 @@
 import sys
+import re
 
 from utils.data_structs import DataContainer
 from utils.tree_analysis import get_basic_deprel
@@ -24,7 +25,7 @@ stark_config = build_stark_config({
     "fixed": "yes",
     "size": "2-1000",
     "head": "upos=VERB",
-    "allowed_labels": "nsubj|csubj|obj|iobj|ccomp|xcomp",
+    "ignored_labels": "flat|cop|root|punct|det|advcl|dep|cc|clf|expl|discourse|fixed|conj|dislocated|nmod|advmod|appos|orphan|goeswith|list|case|vocative|obl|aux|acl|amod|parataxis|reparandum|nummod|mark|compound",
     "association_measures": "yes",
     "example": "yes",
     "grew_match": "no",
@@ -39,28 +40,6 @@ results = get_stark_results(stark_config)
 
 if len(results) > 1:
     for tree in results[1:]:
-        data_cont.add_to_results(tree[0], int(tree[1]), "", tree[6])
-
-"""
-for sent in data_cont.parsed_conllu_sents:
-    for tok in sent:
-        # ignore MW tokens
-        if type(tok["id"]) is not int:
-            continue
-
-        if tok["upos"] == "VERB":
-            dependents = ""
-            for dep in sent:
-                if dep["id"] == tok["id"]:
-                    dependents += "-VERB-"
-                elif dep["head"] == tok["id"] and dep["deprel"] in ["nsubj", "csubj", "obj", "iobj", "ccomp", "xcomp"]:
-                    dependents += f"-{dep['deprel']}-"
-
-            dependents = dependents.strip("-")
-            if dependents == "HEAD":
-                dependents = "none"
-
-            data_cont.add_to_results(dependents, 1, sent.metadata["sent_id"])
-"""
+        data_cont.add_to_results(re.sub(r"\(.*\)", "_", tree[0]), int(tree[1]), "", tree[6])  # the regex substitution makes sure the trees only go one layer deep
             
-data_cont.export_json(output_path, "no_tokens_with_UPOS=VERB")
+data_cont.export_json(output_path, "no_tokens_with_UPOS=VERB_with_relevant_dependents")

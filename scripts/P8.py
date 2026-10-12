@@ -1,4 +1,5 @@
 import sys
+import re
 
 from utils.data_structs import DataContainer
 from utils.tree_analysis import get_basic_deprel
@@ -24,7 +25,7 @@ stark_config = build_stark_config({
     "fixed": "yes",
     "size": "2-1000",
     "head": "upos=NOUN",
-    "allowed_labels": "det|clf|amod|nummod|nmod|appos|acl",
+    "ignored_labels": "flat|cop|root|punct|ccomp|advcl|dep|cc|expl|xcomp|discourse|fixed|conj|iobj|dislocated|advmod|orphan|nsubj|goeswith|list|case|obj|vocative|obl|aux|csubj|parataxis|reparandum|mark|compound",
     "association_measures": "yes",
     "example": "yes",
     "grew_match": "no",
@@ -39,6 +40,6 @@ results = get_stark_results(stark_config)
 
 if len(results) > 1:
     for tree in results[1:]:
-        data_cont.add_to_results(tree[0], int(tree[1]), "", tree[6])
+        data_cont.add_to_results(re.sub(r"\(.*\)", "_", tree[0]), int(tree[1]), "", tree[6])  # the regex substitution makes sure the trees only go one layer deep
             
-data_cont.export_json(output_path, "no_tokens_with_UPOS=NOUN")
+data_cont.export_json(output_path, "no_tokens_with_UPOS=NOUN_with_relevant_dependents")
